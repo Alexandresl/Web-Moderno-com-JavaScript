@@ -14,6 +14,7 @@ function area(largura, altura) {
 
 }
 
+
 console.log(area(2, 2))
 console.log(area(2))
 console.log(area())
