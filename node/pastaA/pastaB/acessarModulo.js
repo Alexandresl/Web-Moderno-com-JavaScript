@@ -10,8 +10,8 @@ console.log(c.ola2)
 console.log(moduloA.ola)
 console.log(saudacao.ola)
 
-/* const http = require('http')
+const http = require('http')
 http.createServer((req, res) => {
     res.write('Bom dia!')
     res.end()
-}).listen(8080) */
+}).listen(8080)
