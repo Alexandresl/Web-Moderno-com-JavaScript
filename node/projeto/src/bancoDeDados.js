@@ -29,4 +29,14 @@ function getProdutos() {
 
 }
 
-module.exports = {salvarProduto, getProduto, getProdutos}
+function excluirProduto(id) {
+
+    const produto = produtos[id]
+
+    delete produtos[id]
+
+    return produto
+
+}
+
+module.exports = {salvarProduto, getProduto, getProdutos, excluirProduto}
