@@ -22,7 +22,9 @@ console.log(pessoa.nome)
 class Animal{}
 class Cachorro extends Animal {
     falar() {
+
         return 'Au au!'
+        
     }
 }
 
