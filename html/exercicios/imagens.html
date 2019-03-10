@@ -71,7 +71,7 @@
         if (novoInicio >= fim) {
 
             el.style.left = novoInicio + 'px'
-            setTimeout(() => mover(el, novoInicio, fim, passo, callback), 7)
+            setTimeout(() => mover(el, novoInicio, fim, passo, callback), 1)
 
         } else {
 
@@ -81,14 +81,43 @@
 
     }
 
-    const p = document.querySelector('[wm-slider] > p')
+    function slider() {
+        
+        const elementos =document.querySelectorAll('[wm-slider] > p')
 
-    p.style.display = 'block'
+        const slides = Array.from(elementos)
 
-    mover(p, 1500, -520, 5, () => {
+        exibirSlide(slides, slides[0])
 
-        console.log('terminou')
+    }
 
-    })
+    function exibirSlide(slides, slide) {
+
+        slide.style.display = 'block'
+
+        const inicio = innerWidth
+        const fim = -slide.clientWidth
+
+        slide.style.left = `${inicio}px`
+
+        mover(slide, inicio, fim, 1, () => {
+
+            slide.style.display = 'none'
+
+            exibirSlide(slides, getProximo(slides, slide))
+
+        })
+        
+    }
+
+    function getProximo(lista, atual) {
+
+        const i = lista.indexOf(atual) + 1
+
+        return i < lista.length ? lista[i] : lista[0]
+        
+    }
+
+    slider()
 
 </script>
