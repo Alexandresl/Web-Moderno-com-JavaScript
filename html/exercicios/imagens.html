@@ -64,25 +64,31 @@
 
 <script>
 
-    let slider = function() {
+    function mover (el, inicio, fim, passo, callback) {
 
-        let imagens = document.querySelectorAll('p')
+        const novoInicio = inicio - passo
 
-        imagens.forEach(img => {
+        if (novoInicio >= fim) {
 
-            setTimeout(() => {
-            
-                img.style.left = -400
-                img.style.display = 'block'
-                img.style.left = 0
-                img.style.transition = 'easy-in-out'
+            el.style.left = novoInicio + 'px'
+            setTimeout(() => mover(el, novoInicio, fim, passo, callback), 7)
 
-            }, 2000)
+        } else {
 
-        })
+            callback()
+
+        }
 
     }
 
-    slider();
+    const p = document.querySelector('[wm-slider] > p')
+
+    p.style.display = 'block'
+
+    mover(p, 1500, -520, 5, () => {
+
+        console.log('terminou')
+
+    })
 
 </script>
