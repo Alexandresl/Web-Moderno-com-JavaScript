@@ -6,7 +6,28 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        /* * - universal */
+        /* .tag - classe tag */
+        /* #aprovados - id aprovados*/
+        /* #aninhado > div - a div que é filha direta de #aninhado */
+        /* #aninhado > section - não seleciona nada */
+        /* #aninhado section - qualquer section descendente de aninhado */
+        /* p + ul - seleciona a ul que é irmã direta (adjacente) de p */
+        /* p ~ ol - qualquer ol que tenha um irmão p (adjacente ou não) */
+        /* [feira] - todos os elementos que tenham a propriedade feira */
+        /* [feira=casa] - elemento com propriedade feira e valor casa */
+        /* [feira~=escritorio] - elemento cuja valor da propriedade contenha escritorio separado por espaço */
+        /* [feira*=sa] - elemento cujo valor da propriedade tenha sa*/
+        /* span:nth-child(1) - primeiro filho de algum elemento que seja span */
+        /* section > :nth-child(odd) - seleciona os filhos ímpares de uma section */
+        /* section > :nth-child(even) - seleciona os filhos pares de uma section */
+        /* section > :nth-child(even), ul - separando por virgula ele aplica a mais de um elemento */
+        /* section > span:nth-of-type(2) - segundo elemento na section do tipo span */
+
+        section > span:nth-of-type(2) {
+            color: #ff0;
+            background-color: #f77;
+        }
     </style>
 </head>
 
@@ -29,7 +50,7 @@
             </ol>
             <div id='aninhado' class='tag'>
                 <div class="tag">
-                    <section class='tag'>
+                    <section class='tag nolabel'>
                         <span class='tag'>1</span>
                         <p class='tag'>2</p>
                         <span class='tag'>3</span>
