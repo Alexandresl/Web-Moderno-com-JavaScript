@@ -1,1 +1,0 @@
-{"nome":"Celular","preco":1249.99,"desconto":0.15}
