@@ -16,10 +16,26 @@ O algorítmo também permite que você tome decisão. Assim eu tenho um passo A 
 
 Para termos uma visão geral do algoritmo. teremos dados de entrada, que servirão para alimentar o nosso algoritmo, que irá processar conforme as instruções contidas e irão produzir uma saída.
 
+#### 11. Visão Geral de Estruturas de Dados
+
+As estruturas de dados visam organizar e administrar os dados. Por exemplo, se temos uma lista de aprovados, a lista seria o que estrutura os meus dados, que neste caso são de aprovados.
+
+Além da lista, temos como exemplo a fila como estrutura de dados. Nela temos como regra o FIFO (First In First Out). 
+
+Outra estrutura comum é a pilha, que usa como regra o LIFO (Last In First Out).
+
+Temos a estrutura de árvore. como exemplo o sistema de arquivos dos sistemas operacionais. tabelas
+
+Como estruturas básicas temos os tipos. Por exemplo: int, real, letra, boolean. Assim como você pode criar estruturas personalizadas, como uma para representar o cliente, o carrinho de compras ou um produto. Estas poderão ter outras estruturas de dados internamente.
+
+Outro conceito importante é o de variáveis e constantes. Assim se quisermos guardar o resultado de um cálculo, iremos criar uma variável. Agora, se quisermos guardar o valor do &pi;, que não irá ser alterado, iremos declará-lo em uma constante.
+
+Iremos utilizar os dados também para realizar operações. Estas poderáo ser de atribuição, aritmética, relacional ou lógica. poderemos realizar operações com estruturas de dados também. Por exemplo, unificarmos duas listas de dados.
+
 
 
 <!-- 
-11. Visão Geral de Estruturas de Dados
+
 12. Organização Básica de um Código JS
 13. Configuração do Projeto
 14. Executando JavaScript
