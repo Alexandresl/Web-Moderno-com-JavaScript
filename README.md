@@ -35,7 +35,10 @@
     27. Conclusão
 
 
-<!-- ### 2. Assine o Nosso Canal
-### 3. Canal Youtube & Repositório do Curso
+### 2. Assine o Nosso Canal
+
+[Canal no YouTube](https://youtube.com/cod3rcursos)
+
+<!--### 3. Canal Youtube & Repositório do Curso
 ### 4. Importância dos Fundamentos
 ### 5. Por que aprender Javascript? -->
