@@ -1,48 +1,38 @@
 # WebModerno-Leonardo-Leitao
 
-## Seção 1: introdução
+## Índice
 
-### 1. Visão geral do curso
+* [Seção 1: Introdução](Secao_1_introducao.md)
+* Seção 2: Configuração do Ambiente
+* Seção 3: Javascript: Fundamentos
+* Seção 4: Javascript: Estruturas de Controle
+* Seção 5: Javascript: Função
+* Seção 6: Javascript: Objeto
+* Seção 7: Javascript: Array
+* Seção 8: Node
+* Seção 9: ESNext
+* Seção 10: Conceitos sobre Web
+* Seção 11: HTML
+* Seção 12: CSS
+* Seção 13: Integrando HTML, CSS e JS
+* Seção 14: Ajax
+* Seção 15: Gulp
+* Seção 16: Webpack
+* Seção 17: jQuery
+* Seção 18: Bootstrap
+* Seção 19: Projeto Galeria (Bootstrap/jQuery/Webpack)
+* Seção 20: React
+* Seção 21: Projeto Calculadora
+* Seção 22: Projeto Cadastro de Usuário
+* Seção 23: VueJS
+* Seção 24: Projetos VueJS
+* Seção 25: Projeto Calculadora (Vue)
+* Seção 26: Projeto Monty Hall (Vue)
+* Seção 27: Banco Relacional
+* Seção 28: Banco Não Relacional
+* Seção 29: Express
+* Seção 30: Projeto Base de Conhecimento • Backend
+* Seção 31: Projeto Base de Conhecimento • Frontend
+* Seção 32: Publicando uma Aplicação VueJS na Amazon
+* Seção 33: Conclusão
 
-    Conteúdo do curso
-
-    1. Visão geral
-    2. Configuração do ambiente
-    3. Fundamentos
-    4. Estruturas de controle
-    5. Funções
-    6. Objetos e OO
-    7. Array
-    8. Node
-    9. ES Next 6, 7, 8
-    10. Fundamentos da Web
-    11. HTML
-    12. CSS
-    13. DOM
-    14. Ajax
-    15. Gulp
-    16. Webpack
-    17. JQuery
-    18. Bootstrap
-    19. React
-    20. Vue
-    21. Banco de dados relacionais
-    22. Banco de dados não-relacionais
-    23. Express
-    24. Integrando banco de dados com o backend
-    25. Projetos
-    26. Outros tópicos
-    27. Conclusão
-
-
-### 2. Assine o Nosso Canal
-
-[Canal no YouTube](https://youtube.com/cod3rcursos)
-
-### 3. Canal Youtube & Repositório do Curso
-
-Todos os exercícios e projetos estão no [Github](https://github.com/cod3rcursos/web-moderno)
-
-<!--
-### 4. Importância dos Fundamentos
-### 5. Por que aprender Javascript? -->
