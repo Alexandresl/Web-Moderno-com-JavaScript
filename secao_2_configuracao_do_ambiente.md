@@ -28,8 +28,8 @@ Nem sempre o comando **node** estará disponível no terminal. No Windows, por e
 
 Caso isso ocorra, basta, estando com o software digitar Ctrl + Shift + p, no Windows ou Linux, ou Command + Shift + p no Mac. abrirá uma janela e você deverá digitar **code** e escolher a opção "Shell Command: Install 'code' command in PATH". Basta fechar e abrir o prompt para que o commando esteja disponível. 
 
-<!-- #### 9. Instalação do VSCode (Windows)
+#### 9. Instalação do VSCode (Windows)
 
-É mostrado a instalação do VSCode para Windows. -->
+É mostrado a instalação do VSCode para Windows. Para isso, basta seguir o wizard de instalação. Apenas no momento de seleção dos "Additional Tasks", que devemos confirmar a seleção das opções: "Add to PATH" para termos acesso ao comando code no terminal. Eu também costumo deixar marcado todas as outras opções a fim de disponibilizar também as opções "Open with Code" em arquivos e pastas e também registrar os tipos de arquivos suportados para abrir automaticamente pelo VSCode.
 
 [<< Voltar ao índice](README.md)
