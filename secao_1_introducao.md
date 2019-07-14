@@ -35,11 +35,11 @@
 
 #### 2. Assine o Nosso Canal
 
-[Canal no YouTube](https://youtube.com/cod3rcursos)
+<a href="https://youtube.com/cod3rcursos" target="_blank">Canal no YouTube</a>
 
 #### 3. Canal Youtube & Repositório do Curso
 
-Todos os exercícios e projetos estão no [Github](https://github.com/cod3rcursos/web-moderno)
+Todos os exercícios e projetos estão no <a href="https://github.com/cod3rcursos/web-moderno" target="_blank">Github</a>
 
 #### 4. Importância dos Fundamentos
 
