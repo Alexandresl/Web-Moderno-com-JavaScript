@@ -39,6 +39,10 @@
 
 [Canal no YouTube](https://youtube.com/cod3rcursos)
 
-<!--### 3. Canal Youtube & Repositório do Curso
+### 3. Canal Youtube & Repositório do Curso
+
+Todos os exercícios e projetos estão no [Github](https://github.com/cod3rcursos/web-moderno)
+
+<!--
 ### 4. Importância dos Fundamentos
 ### 5. Por que aprender Javascript? -->
