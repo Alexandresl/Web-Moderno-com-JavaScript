@@ -22,8 +22,14 @@ Você poderá abrir o editor a partir do terminal. Basta entrar na pasta desejad
 
 Após a instalação do VSCode, você deverá instalar um plugin chamado **Code Runner**. Com ele poderemos testar os scripts diretamente no VSCode utilizando o atalho **Ctrl + Alt + N** ou no próprio pronpt do editor utilizando o comando **node nomedoarquivo.js**. Por trás dos panos ele irá utilizar o Node para executar o script.
 
-<!-- #### 8. Configuração do Comando 'code'
+#### 8. Configuração do Comando 'code'
 
-#### 9. Instalação do VSCode (Windows) -->
+Nem sempre o comando **node** estará disponível no terminal. No Windows, por exemplo, dependendo da forma como o software foi instalado, o comando não estará disponível.
+
+Caso isso ocorra, basta, estando com o software digitar Ctrl + Shift + p, no Windows ou Linux, ou Command + Shift + p no Mac. abrirá uma janela e você deverá digitar **code** e escolher a opção "Shell Command: Install 'code' command in PATH". Basta fechar e abrir o prompt para que o commando esteja disponível. 
+
+<!-- #### 9. Instalação do VSCode (Windows)
+
+É mostrado a instalação do VSCode para Windows. -->
 
 [<< Voltar ao índice](README.md)
