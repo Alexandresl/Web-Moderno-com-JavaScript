@@ -69,6 +69,8 @@ Nosso curso será estruturado com uma pasta para cada capítulo e um arquivo jav
 
 
 
+
+
 <!-- 
 14. Executando JavaScript
 15. Comentários de Código
