@@ -32,11 +32,38 @@ Outro conceito importante é o de variáveis e constantes. Assim se quisermos gu
 
 Iremos utilizar os dados também para realizar operações. Estas poderáo ser de atribuição, aritmética, relacional ou lógica. poderemos realizar operações com estruturas de dados também. Por exemplo, unificarmos duas listas de dados.
 
+#### 12. Organização Básica de um Código JS
 
+Uma das primeiras perguntas que eu faço ao aprender uma nova linguagem de programação é como ela é, de forma mais básica. Assim, depois poderemos nos preocupar com como é estruturada uma aplicação completa, que muitas vezes poderá ter várias respostas, dependendo do programador que é questionado.
+
+O **JavaScript** é uma linguagem derivada da linguagem **C**. Do ponto de vista de organização básica, ela é organizada em blocos de código, que são agrupamentos de sentenças de código.
+
+Devemos ter claro que uma sentença não necessáriamente é uma linha de código. Assim como no português uma sentença termina com um ponto e não necessáriamente está contida em apenas uma linha, a sentença no javascript também pode ocupar uma ou mais linhas de código.
+
+Por exemplo, a seguir temos uma sentença de código em Javascript
+
+[Arquivo](fundamentos\organizacao.js)
+
+```javascript
+    console.log("Sentença de código")
+```
+Podemos ter também um bloco de código, que são delimitados por chaves, e que poderá conter várias sentenças de código ou mesmo outros blocos de código conforme exemplo abaixo:
+
+```javascript
+{
+    {
+        console.log("Olá ") // 1ª sentença
+        console.log(
+            'Mundo!'
+        ) // 2ª sentença
+    } // bloco de código interno a outro bloco
+} // bloco de código
+```
+No bloco acima eu tenho duas sentenças de código e dois blocos de códigos.
+
+Assim, podemos, de forma básica, definir que o JavaScript é composto por sentenças de código que podem ou não terminar com ponto e vírgula e por blocos de código de códigos que são delimitados por chaves.
 
 <!-- 
-
-12. Organização Básica de um Código JS
 13. Configuração do Projeto
 14. Executando JavaScript
 15. Comentários de Código
