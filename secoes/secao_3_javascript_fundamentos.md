@@ -42,7 +42,7 @@ Devemos ter claro que uma sentença não necessáriamente é uma linha de códig
 
 Por exemplo, a seguir temos uma sentença de código em Javascript
 
-[Arquivo](fundamentos\organizacao.js)
+Arquivo: [organizacao.js](..\fundamentos\organizacao.js)
 
 ```javascript
     console.log("Sentença de código")
@@ -79,8 +79,41 @@ No VSCode podemos utilizar o comando Ctrl + Shift + ' para abrir o terminal ou n
 
 podemos também utilizando o comando node nomedoarquivo.js executar no próprio terminal do sistema operacional
 
+#### 15. Comentários de Código
+
+Arquivo: [comentario.js](..\fundamentos\comentario.js)
+
+Os comentários em JavaScript são os mesmos da linguagem C e Java (apesar de java possuir um a mais). Os comentários são importantes para explicar partes do código ou por que o código executa determinada função. Todos estes textos serão ignorados na hora da execução do programa.
+
+Segue abaixo a forma de criar comentários em **JavaScript**:
+
+```javascript
+// Comentários de uma linha
+console.log("linha 1")
+
+/*
+    Comentário de 
+    múltiplas linhas
+*/
+console.log("linha 2")
+
+/**
+ * Outra forma
+ * de criar 
+ * comentários de
+ * múltiplas linhas
+ */
+console.log("linha 3");
+```
+
+É importante salientar, que os comentários deverão ser adotados de forma consiente. Evitando comentar coisas óbvias do código. Nestes casos, é fundamental que o código seja suficientemente legível, no que refere-se a nome de variáveis, nome de funções, a se utilizar comentário para especificar o que faz uma função x ou uma linha de código y.
+
+Neste curso, porém, abriremos uma excessão, e para fim didático, utilizaremos bastante comentário, mesmo os óbvios :-).
+
+
+
+
 <!-- 
-15. Comentários de Código
 16. O Básico de Var, Let e Const
 17. Tipagem Fraca
 18. Tipos em JavaScript: Number
