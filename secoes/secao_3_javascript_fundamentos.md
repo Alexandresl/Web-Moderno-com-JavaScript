@@ -42,7 +42,7 @@ Devemos ter claro que uma sentença não necessáriamente é uma linha de códig
 
 Por exemplo, a seguir temos uma sentença de código em Javascript
 
-Arquivo: [organizacao.js](..\fundamentos\organizacao.js)
+Arquivo: [organizacao.js](../fundamentos/organizacao.js)
 
 ```javascript
     console.log("Sentença de código")
@@ -81,7 +81,7 @@ podemos também utilizando o comando node nomedoarquivo.js executar no próprio 
 
 #### 15. Comentários de Código
 
-Arquivo: [comentario.js](..\fundamentos\comentario.js)
+Arquivo: [comentario.js](../fundamentos/comentario.js)
 
 Os comentários em JavaScript são os mesmos da linguagem C e Java (apesar de java possuir um a mais). Os comentários são importantes para explicar partes do código ou por que o código executa determinada função. Todos estes textos serão ignorados na hora da execução do programa.
 
@@ -112,7 +112,7 @@ Neste curso, porém, abriremos uma excessão, e para fim didático, utilizaremos
 
 #### 16. O Básico de Var, Let e Const
 
-Arquivo: [variaveisEConstantes.js](..\fundamentos\variaveisEConstantes.js)
+Arquivo: [variaveisEConstantes.js](../fundamentos/variaveisEConstantes.js)
 
 Neste capítulo iremos falar sobre variáveis e constantes. O mundo da programação pode ser dividido, de forma bem simplista assim: você tem dados que são processados e geram mais dados. Então temos os algoritmos que são utilizados para realizar o processamento que na maioria das vezes utilizam dados armazenados em variáveis e constantes e os dados que são organizados em estruturas de dados. Cabe à estrutura de dados definir as regras que os dados vão seguir.
 
