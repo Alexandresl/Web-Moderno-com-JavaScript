@@ -67,12 +67,19 @@ Assim, podemos, de forma básica, definir que o JavaScript é composto por sente
 
 Nosso curso será estruturado com uma pasta para cada capítulo e um arquivo javascript por aula. Em alguns exemplos mais complexos poderemos criar vários arquivos e algumas subpastas, mas, em geral, esta será a estrutura.
 
+#### 14. Executando JavaScript
 
+Vamos conhecer as várias formas de executar o javascript. Você pode utilizar ferramentas online, o console do browser, o node, ou mesmos os editores de códigos como o Sublime, Atom e o VSCode, possuem terminais para execução do javascript (em conjunto com o node).
 
+Como alternativas online temos: <https://repl.it/languages/nodejs> e o <https://jsfiddle.net/>
 
+Para utilizar o console do Chrome por exemplo, basta digitar Ctrl + Shift + i ou para Mac Command + Shift + i.
+
+No VSCode podemos utilizar o comando Ctrl + Shift + ' para abrir o terminal ou no Mac Command + ', ou com a utilização do plugin Code Runner, executar o script com o comando Ctrl (ou no mac Command) + Alt + n.
+
+podemos também utilizando o comando node nomedoarquivo.js executar no próprio terminal do sistema operacional
 
 <!-- 
-14. Executando JavaScript
 15. Comentários de Código
 16. O Básico de Var, Let e Const
 17. Tipagem Fraca
