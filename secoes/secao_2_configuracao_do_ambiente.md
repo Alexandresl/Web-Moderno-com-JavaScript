@@ -32,4 +32,4 @@ Caso isso ocorra, basta, estando com o software digitar Ctrl + Shift + p, no Win
 
 É mostrado a instalação do VSCode para Windows. Para isso, basta seguir o wizard de instalação. Apenas no momento de seleção dos "Additional Tasks", que devemos confirmar a seleção das opções: "Add to PATH" para termos acesso ao comando code no terminal. Eu também costumo deixar marcado todas as outras opções a fim de disponibilizar também as opções "Open with Code" em arquivos e pastas e também registrar os tipos de arquivos suportados para abrir automaticamente pelo VSCode.
 
-[<< Voltar ao índice](README.md)
+[<< Voltar ao índice](../README.md)
