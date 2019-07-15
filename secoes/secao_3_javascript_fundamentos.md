@@ -108,13 +108,58 @@ console.log("linha 3");
 
 É importante salientar, que os comentários deverão ser adotados de forma consiente. Evitando comentar coisas óbvias do código. Nestes casos, é fundamental que o código seja suficientemente legível, no que refere-se a nome de variáveis, nome de funções, a se utilizar comentário para especificar o que faz uma função x ou uma linha de código y.
 
-Neste curso, porém, abriremos uma excessão, e para fim didático, utilizaremos bastante comentário, mesmo os óbvios 😃 .
+Neste curso, porém, abriremos uma excessão, e para fim didático, utilizaremos bastante comentário, mesmo os óbvios 😃.
 
+#### 16. O Básico de Var, Let e Const
 
+Arquivo: [variaveisEConstantes.js](..\fundamentos\variaveisEConstantes.js)
+
+Neste capítulo iremos falar sobre variáveis e constantes. O mundo da programação pode ser dividido, de forma bem simplista assim: você tem dados que são processados e geram mais dados. Então temos os algoritmos que são utilizados para realizar o processamento que na maioria das vezes utilizam dados armazenados em variáveis e constantes e os dados que são organizados em estruturas de dados. Cabe à estrutura de dados definir as regras que os dados vão seguir.
+
+Aqui vamos aprender como criar variáveis e constantes em JavaScript. Nesta aula não iremos nos aprofundar nas diferenças entre var, let e const.
+
+Históricamente, no javascript, sempre se utilizou a palavra *var* para criar variáveis. Recentemente, com ECMAScript 2015, foram introduzidas as palavras *let* e *const*, que iremos detalhar futuramente.
+
+```javascript
+/**
+ * var - palavra reservada que usamos
+ * para a declaração da variável;
+ * let - outra palavra reservada para
+ * declaração de variável;
+ * a, b - é o nome (identificador)
+ * destas variáveis;
+ * = - é um comando de atribuição
+ * assim o 3 está sendo atribuído
+ * a variável a.
+ */
+var a = 3
+let b = 4
+
+var a = 30
+b = 40
+
+console.log(a, b)
+
+a = 300
+b = 400
+
+console.log(a, b)
+
+const c = 5
+// c = 50 - Isso gera erro!
+
+console.log(c);
+```
+
+*Obs.: Mesmo não sendo o foco neste momento, é importante já ter em mente, que a escolha do nome é um ponto muito importante para a legibilidade de seu código. Prefira nomear variáveis com nomes que facilmente identifiquem o conteúdo que é armazenado.*
+
+Após declararmos uma variável, nós não precisamos utilizar as palavras reservadas *var* ou *let* novamente. Podemo apenas utilizar a variável lendo ou gravando novos valores nela. Apesar disso, no exemplo é redefinido o valor da variável *a* utilizando o var. Por mais estranho que possa parecer, não irá gerar um erro. Já no caso do let, caso tentássemos redeclará-lo, o interpretador acusaria um erro de sintaxe.
+
+No exemplo, vimos que o const, também serve para armazenar valores, só que neste caso, nós não podemos redeclará-lo.
 
 
 <!-- 
-16. O Básico de Var, Let e Const
+
 17. Tipagem Fraca
 18. Tipos em JavaScript: Number
 19. Number: Alguns Cuidados
