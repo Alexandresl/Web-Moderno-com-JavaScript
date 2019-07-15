@@ -63,8 +63,13 @@ No bloco acima eu tenho duas sentenças de código e dois blocos de códigos.
 
 Assim, podemos, de forma básica, definir que o JavaScript é composto por sentenças de código que podem ou não terminar com ponto e vírgula e por blocos de código de códigos que são delimitados por chaves.
 
+#### 13. Configuração do Projeto
+
+Nosso curso será estruturado com uma pasta para cada capítulo e um arquivo javascript por aula. Em alguns exemplos mais complexos poderemos criar vários arquivos e algumas subpastas, mas, em geral, esta será a estrutura.
+
+
+
 <!-- 
-13. Configuração do Projeto
 14. Executando JavaScript
 15. Comentários de Código
 16. O Básico de Var, Let e Const
