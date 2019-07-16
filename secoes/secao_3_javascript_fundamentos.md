@@ -157,10 +157,36 @@ Após declararmos uma variável, nós não precisamos utilizar as palavras reser
 
 No exemplo, vimos que o const, também serve para armazenar valores, só que neste caso, nós não podemos redeclará-lo. É sempre aconselhavel que quando formos declarar valores que não vão ser alterados durante a execução do programa que utilizemos o *const* ao invés do *let*.
 
+#### 17. Tipagem Fraca
 
-<!-- 
+Quando uma nova linguagem é desenvolvida, uma das decisões fundamentais de quem está desenvolvendo tal linguagem, é como ela vai lidar com os tipos dos dados. Isso significa que na construção de um algoritmo, nós trabalhamos com vários tipos de dados: números inteiros, números de ponto flutuante, um caractere, um conjunto de caracteres, entre outros. Algumas linguagens precisam que você defina na hora da declaração que tipo de dado você irá armazenar em determinada variável, outras, permite que o tipo de dado possa ser alterado durante a execução do programa.
 
-17. Tipagem Fraca
+O *JavaScript* é uma linguagem fracamenete tipada ou de tipagem dinâmica. Isso significa que não precisamos definir que tipo de dado cada variável irá armazenar no momento de sua declaração. Esta característica, por um lado, permite ao programador uma maior liberdade na hora de programar, contudo, pode ser difícil detectar determinados erros por conta desta mesma característica da linguagem.
+
+No exemplo abaixo, vamos ver como funciona a questão da tipagem fraca em JavaScript.
+
+Arquivo: [tipagemFraca.js](../fundamentos/tipagemFraca.js)
+
+```javascript
+let qualquer = 'legal'
+console.log(qualquer);
+console.log(typeof qualquer);
+
+qualquer = 3.1516
+console.log(qualquer);
+console.log(typeof qualquer);
+
+// Evitar nome genérico e siglas
+let valor = ''
+let numero = 1
+let pqp = false // Produto Químico Perigoso... kkk
+```
+
+Podemos observar com o exemplo que, embora a tipagem do JavaScript seja fraco, isso não significa que ela não possua tipo. Ao utilizarmos o comando **typeof**, temos como retorno o tipo de dado que a variável está armazenando.
+
+Salientamos novamente o cuidado de colocar bons nomes para variáveis, evitando nomes genéricos e siglas.
+
+<!--
 18. Tipos em JavaScript: Number
 19. Number: Alguns Cuidados
 20. Usando Math
