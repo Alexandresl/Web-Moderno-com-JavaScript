@@ -155,7 +155,7 @@ console.log(c);
 
 Após declararmos uma variável, nós não precisamos utilizar as palavras reservadas *var* ou *let* novamente. Podemo apenas utilizar a variável lendo ou gravando novos valores nela. Apesar disso, no exemplo é redefinido o valor da variável *a* utilizando o var. Por mais estranho que possa parecer, não irá gerar um erro. Já no caso do let, caso tentássemos redeclará-lo, o interpretador acusaria um erro de sintaxe.
 
-No exemplo, vimos que o const, também serve para armazenar valores, só que neste caso, nós não podemos redeclará-lo.
+No exemplo, vimos que o const, também serve para armazenar valores, só que neste caso, nós não podemos redeclará-lo. É sempre aconselhavel que quando formos declarar valores que não vão ser alterados durante a execução do programa que utilizemos o *const* ao invés do *let*.
 
 
 <!-- 
