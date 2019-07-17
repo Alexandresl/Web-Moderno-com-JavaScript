@@ -2,7 +2,7 @@
 
 #### 10. Visão Geral de Algoritmo
 
-O conseito de algoritmo é importante independente da linguagem de programação que se pretenda usar. Além disso, temoas a estrutura de dados, que junto com o algoritmo formam o fundamento para qualquer linguagem.
+O conceito de algoritmo é importante independente da linguagem de programação que se pretenda usar. Além disso, temoas a estrutura de dados, que junto com o algoritmo formam o fundamento para qualquer linguagem.
 
 O algoritmo seria o verbo, ação, o processar de um programa. A estrutura de dados é o que vai organizar os dados.
 
@@ -30,7 +30,7 @@ Como estruturas básicas temos os tipos. Por exemplo: int, real, letra, boolean.
 
 Outro conceito importante é o de variáveis e constantes. Assim se quisermos guardar o resultado de um cálculo, iremos criar uma variável. Agora, se quisermos guardar o valor do &pi;, que não irá ser alterado, iremos declará-lo em uma constante.
 
-Iremos utilizar os dados também para realizar operações. Estas poderáo ser de atribuição, aritmética, relacional ou lógica. poderemos realizar operações com estruturas de dados também. Por exemplo, unificarmos duas listas de dados.
+Iremos utilizar os dados também para realizar operações. Estas poderão ser de atribuição, aritmética, relacional ou lógica. poderemos realizar operações com estruturas de dados também. Por exemplo, unificarmos duas listas de dados.
 
 #### 12. Organização Básica de um Código JS
 
@@ -77,7 +77,7 @@ Para utilizar o console do Chrome por exemplo, basta digitar Ctrl + Shift + i ou
 
 No VSCode podemos utilizar o comando Ctrl + Shift + ' para abrir o terminal ou no Mac Command + ', ou com a utilização do plugin Code Runner, executar o script com o comando Ctrl (ou no mac Command) + Alt + n.
 
-podemos também utilizando o comando node nomedoarquivo.js executar no próprio terminal do sistema operacional
+Podemos também utilizando o comando node nomedoarquivo.js executar no próprio terminal do sistema operacional
 
 #### 15. Comentários de Código
 
@@ -106,9 +106,9 @@ console.log("linha 2")
 console.log("linha 3");
 ```
 
-É importante salientar, que os comentários deverão ser adotados de forma consiente. Evitando comentar coisas óbvias do código. Nestes casos, é fundamental que o código seja suficientemente legível, no que refere-se a nome de variáveis, nome de funções, a se utilizar comentário para especificar o que faz uma função x ou uma linha de código y.
+É importante salientar, que os comentários deverão ser adotados de forma consciente. Evitando comentar coisas óbvias do código. Nestes casos, é fundamental que o código seja suficientemente legível, no que refere-se a nome de variáveis, nome de funções, a se utilizar comentário para especificar o que faz uma função x ou uma linha de código y.
 
-Neste curso, porém, abriremos uma excessão, e para fim didático, utilizaremos bastante comentário, mesmo os óbvios 😃.
+Neste curso, porém, abriremos uma exceção, e para fim didático, utilizaremos bastante comentário, mesmo os óbvios 😃.
 
 #### 16. O Básico de Var, Let e Const
 
@@ -155,13 +155,13 @@ console.log(c);
 
 Após declararmos uma variável, nós não precisamos utilizar as palavras reservadas *var* ou *let* novamente. Podemo apenas utilizar a variável lendo ou gravando novos valores nela. Apesar disso, no exemplo é redefinido o valor da variável *a* utilizando o var. Por mais estranho que possa parecer, não irá gerar um erro. Já no caso do let, caso tentássemos redeclará-lo, o interpretador acusaria um erro de sintaxe.
 
-No exemplo, vimos que o const, também serve para armazenar valores, só que neste caso, nós não podemos redeclará-lo. É sempre aconselhavel que quando formos declarar valores que não vão ser alterados durante a execução do programa que utilizemos o *const* ao invés do *let*.
+No exemplo, vimos que o const, também serve para armazenar valores, só que neste caso, nós não podemos redeclará-lo. É sempre aconselhável que quando formos declarar valores que não vão ser alterados durante a execução do programa que utilizemos o *const* ao invés do *let*.
 
 #### 17. Tipagem Fraca
 
 Quando uma nova linguagem é desenvolvida, uma das decisões fundamentais de quem está desenvolvendo tal linguagem, é como ela vai lidar com os tipos dos dados. Isso significa que na construção de um algoritmo, nós trabalhamos com vários tipos de dados: números inteiros, números de ponto flutuante, um caractere, um conjunto de caracteres, entre outros. Algumas linguagens precisam que você defina na hora da declaração que tipo de dado você irá armazenar em determinada variável, outras, permite que o tipo de dado possa ser alterado durante a execução do programa.
 
-O *JavaScript* é uma linguagem fracamenete tipada ou de tipagem dinâmica. Isso significa que não precisamos definir que tipo de dado cada variável irá armazenar no momento de sua declaração. Esta característica, por um lado, permite ao programador uma maior liberdade na hora de programar, contudo, pode ser difícil detectar determinados erros por conta desta mesma característica da linguagem.
+O *JavaScript* é uma linguagem fracamente tipada ou de tipagem dinâmica. Isso significa que não precisamos definir que tipo de dado cada variável irá armazenar no momento de sua declaração. Esta característica, por um lado, permite ao programador uma maior liberdade na hora de programar, contudo, pode ser difícil detectar determinados erros por conta desta mesma característica da linguagem.
 
 No exemplo abaixo, vamos ver como funciona a questão da tipagem fraca em JavaScript.
 
