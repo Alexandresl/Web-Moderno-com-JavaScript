@@ -268,8 +268,64 @@ Vimos também como realizar alguns cálculos simples utilizando estas constantes
 
 E por fim, vimos a diferença entre o tipo de dado *number*, que pode ser tanto um inteiro quanto um número de ponto flutuante e a Função *Number*
 
+#### 19. Number: Alguns Cuidados
+
+Antes de nós passarmos para outro tipo, vamos ver alguns cuidados que você precisa ter com relação aos valores numéricos.
+
+Arquivo: [numerosAlgunsCuidados.js](../fundamentos\numerosAlgunsCuidados.js)
+
+```javascript
+// Exemplo 1
+console.log(7 / 0)
+```
+
+No exemplo 1 nós temos o resultaedo de 7 dividido por 0. Isso na matemática pode ser representado pelo infinito, já que quanto mais se aproxima de 0 o número pelo qual eu estou dividindo maior este número fica. Exemplos:
+
+```javascript
+console.log(7 / 0.0001) // resultado 70.000
+console.log(7 / 0.000000000001) // resultado 7.000.000.000.000
+```
+No JavaScript o resultado de **7 / 0** retorna o tipo Infinity. Isso é uma peculiaridade, já que em grande parte das linguagens isso geraria um erro.
+
+Outra operação estranha em decorrência de que o JavaScript é uma linguagem fracamente tipada é o que vemos no exemplo 2:
+
+```javascript
+// Exemplo 2
+console.log("10" / 2)
+```
+
+Temos um valor que é uma string sendo dividido por 2. Essa situação também seria um problema em grande parte das linguagens geraria um erro. Porém, JavaScript, por ser fracamente tipada, essa operação retorna 5.
+
+É importante observar que tal situação só retorna um número, em razão de que o conteúdo da string, pode ser convertido para um *number*. Caso contrário, se tivéssemos uma letra na string por exemplo. A operação retornaria NaN (Not A Number).
+
+O exemplo 3 ilustra o que comentamos no parágrafo anterior. caso tenhamos uma string multiplicada por dois, ao invés de retornar a string duas vezes, no JavaScript, essa operação retorna NaN.
+
+```javascript
+// Exemplo 3
+console.log("Show! " * 2)
+```
+O exemplo 4 mostra uma soma de números com ponto flutuante. Nela eu somo 0.1 + 0.7 o que deveria retornar 0.8. Isso, porém, gera o número 0.7999999999999999. Tal resultado ocorre em razão da especificação do javascript ANSI/IEEE, que para conseguir realizar o cálculo mais rapidamente, assim, a possibilidade de apresentar estes tipos de inconsistências.
+
+```javascript
+// Exemplo 4
+console.log(0.1 + 0.7)
+```
+
+No exemplo 5, ao tentar realizar a conversão de um inteiro para string utilizando o método *toString()*, temos como resultado um erro:
+
+```javascript
+// Exemplo 5
+console.log(10.toString());
+```
+
+Issa acontece por não conseguirmos, realizar a conversão de um inteiro literal. Para podermos realizar tal operação poderíamos utilizar o dez entre parênteses:
+
+```javascript
+// Exemplo 5
+console.log((10).toString());
+```
+
 <!--
-19. Number: Alguns Cuidados
 20. Usando Math
 21. Tipos em JavaScript: String
 22. Usando Template Strings
