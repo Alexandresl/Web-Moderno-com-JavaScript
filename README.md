@@ -1,4 +1,4 @@
-# WebModerno-Leonardo-Leitao
+# Web Moderno com JavaScript
 
 ## Índice
 
