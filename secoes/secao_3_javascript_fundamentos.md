@@ -318,15 +318,39 @@ No exemplo 5, ao tentar realizar a conversão de um inteiro para string utilizan
 console.log(10.toString());
 ```
 
-Issa acontece por não conseguirmos, realizar a conversão de um inteiro literal. Para podermos realizar tal operação poderíamos utilizar o dez entre parênteses:
+Issa acontece por não conseguirmos, realizar a conversão de um inteiro literal. Para podermos realizar tal operação poderíamos utilizar o dez entre parênteses. Isso evita também termos que armazenar o valor em uma variável apenas para conseguirmos manipular o *number*.
 
 ```javascript
 // Exemplo 5
 console.log((10).toString());
 ```
+#### 20. Usando Math
+
+Agora vamos falar do Math, que é um Objeto dentro da API do JavaScript que nos ajuda na realização de alguns tipos de cálculos, como, por exemplo, a exponenciação.
+
+Arquivo: [math.js](../fundamentos/math.js)
+
+```javascript
+// Imprime o tipo do Math (objeto)
+console.log(typeof Math);
+
+const raio = 5.6
+
+/*
+Math.PI - é uma constante do objeto Math 
+Math.pow() - é uma função que retorna o 
+primeiro parâmetro elevado ao número 
+que está no segundo parâmetro.
+*/ 
+const area = Math.PI * Math.pow(raio, 2);
+
+// Imprime a área da circunferência
+console.log(area); // retorna 98.5203456165759
+```
+
+No exemplo declaramos uma constante chamada raio e em seguida calcumamos sua área utilizando a constante PI e a função pow() que retorna o resultado de uma exponenciação. Ambos os recursos são do objeto *Math*
 
 <!--
-20. Usando Math
 21. Tipos em JavaScript: String
 22. Usando Template Strings
 23. Tipos em JavaScript: Boolean
