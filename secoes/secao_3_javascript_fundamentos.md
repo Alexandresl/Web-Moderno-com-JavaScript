@@ -315,7 +315,7 @@ No exemplo 5, ao tentar realizar a conversão de um inteiro para string utilizan
 
 ```javascript
 // Exemplo 5
-console.log(10.toString());
+console.log( 10.toString() );
 ```
 
 Issa acontece por não conseguirmos, realizar a conversão de um inteiro literal. Para podermos realizar tal operação poderíamos utilizar o dez entre parênteses. Isso evita também termos que armazenar o valor em uma variável apenas para conseguirmos manipular o *number*.
