@@ -350,8 +350,88 @@ console.log(area); // retorna 98.5203456165759
 
 No exemplo declaramos uma constante chamada raio e em seguida calcumamos sua área utilizando a constante PI e a função pow() que retorna o resultado de uma exponenciação. Ambos os recursos são do objeto *Math*
 
+#### 21. Tipos em JavaScript: String
+
+Agora, vamos conhecer como javascript lida com as strings. As Strings são uma cadeia de caracteres que podem ser delimitados por três símbolos. as aspas duplas (""), as aspas simples e também com a crase (``). Este último delimitador possue características especiais que iremos detalhar na aula de template string.
+
+```javascript
+// declara uma constante chamada escola
+const escola = "IFRS"
+
+/**
+ * Vamos conhecer uma série de funções para
+ * manipularmos as strings.
+ */
+
+/**
+ * charAt(x) - retorna a letra que está no
+ * índice x. Iniciando no índice 0 (zero).
+ * Caso seja passado um índice que não existe,
+ * ele apenas retorna vazio.
+ */
+console.log(escola.charAt(2)) 
+// resultado R
+
+/**
+ * charCodeAt(x) - retorna o código HTML da letra 
+ * que está no índice passado como parâmetro.
+ */
+console.log(escola.charCodeAt(2)) 
+// resultado 82
+
+/**
+ * indexOf(x) - Retorna o índice onde está o caractere
+ * passado por parâmetro
+ */
+console.log(escola.indexOf('R')) 
+// Resultado 2
+
+/**
+ * substring() - retorna a variável a partir do
+ * índice passado por parâmetro ou caso seja passado
+ * 2 parâmetros é a partir do primeiro até um antes do 
+ * segundo parâmetro
+ */
+console.log(escola.substring(1)) 
+// Resultado FRS
+
+console.log(escola.substring(2, 4)) 
+// Resultado FR
+
+/**
+ * concat("") - Concatena variáveis. A string passada
+ * por parâmetro poderá ser literal, ou seja, passada
+ * utilizando algum simbolo para escrevermos as strings
+ * ou através de string armazenada em variáveis.
+ */
+console.log('Estude no '.concat(escola).concat("!"))
+// Retorna Estude no IFRS!
+/**
+ * Podemos também utilizar o operador mais (+) para realizar
+ * o recurso de concatenação.
+ */
+console.log('Estude no ' + escola + '!')
+// Retorna Estude no IFRS!
+
+
+/**
+ * replace() - Substitui dentro de uma string
+ * uma string por outra.
+ */
+console.log(escola.replace("I", "U"))
+// Retorna UFRS
+
+/**
+ * split() - converte uma string em array a partir
+ * do separador passado por parâmetro.
+ */
+console.log("Ana,Maria,Pedro".split(','))
+// Retorna ['Ana', 'Maria', 'Pedro']
+```
+
+Nos exemplos abaixo temos algumas das funções úteis para manipulação de strings
+
 <!--
-21. Tipos em JavaScript: String
 22. Usando Template Strings
 23. Tipos em JavaScript: Boolean
 24. Tipos em JavaScript: Array
