@@ -324,6 +324,14 @@ Issa acontece por não conseguirmos, realizar a conversão de um inteiro literal
 // Exemplo 5
 console.log((10).toString());
 ```
+
+No exemplo 6 vemos que ao contrário do que ocorre no exemplo 2, onde temos uma string e utilizamos o operador de divisão para realizar um cálculo. No caso da soma o resultado é uma concatenação da string com o number.
+
+```javascript
+// Exemplo 6
+console.log('3' + 2);
+```
+
 #### 20. Usando Math
 
 Agora vamos falar do Math, que é um Objeto dentro da API do JavaScript que nos ajuda na realização de alguns tipos de cálculos, como, por exemplo, a exponenciação.

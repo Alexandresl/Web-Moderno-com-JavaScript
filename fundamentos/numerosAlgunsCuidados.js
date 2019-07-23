@@ -16,3 +16,7 @@ console.log(0.1 + 0.7)
 // Exemplo 5
 console.log((10).toString());
 
+// Exemplo 6
+console.log('3' + 2);
+
+
