@@ -28,7 +28,7 @@ Temos a estrutura de árvore. como exemplo o sistema de arquivos dos sistemas op
 
 Como estruturas básicas temos os tipos. Por exemplo: int, real, letra, boolean. Assim como você pode criar estruturas personalizadas, como uma para representar o cliente, o carrinho de compras ou um produto. Estas poderão ter outras estruturas de dados internamente.
 
-Outro conceito importante é o de variáveis e constantes. Assim se quisermos guardar o resultado de um cálculo, iremos criar uma variável. Agora, se quisermos guardar o valor do &pi;, que não irá ser alterado, iremos declará-lo em uma constante.
+Outro conceito importante é o de variáveis e constantes. Assim se quisermos guardar o resultado de um cálculo, iremos criar uma variável. Agora, se quisermos guardar o valor do &pi, que não irá ser alterado, iremos declará-lo em uma constante.
 
 Iremos utilizar os dados também para realizar operações. Estas poderão ser de atribuição, aritmética, relacional ou lógica. poderemos realizar operações com estruturas de dados também. Por exemplo, unificarmos duas listas de dados.
 
@@ -103,7 +103,7 @@ console.log("linha 2")
  * comentários de
  * múltiplas linhas
  */
-console.log("linha 3");
+console.log("linha 3")
 ```
 
 É importante salientar, que os comentários deverão ser adotados de forma consciente. Evitando comentar coisas óbvias do código. Nestes casos, é fundamental que o código seja suficientemente legível, no que refere-se a nome de variáveis, nome de funções, a se utilizar comentário para especificar o que faz uma função x ou uma linha de código y.
@@ -123,11 +123,11 @@ Históricamente, no javascript, sempre se utilizou a palavra *var* para criar va
 ```javascript
 /**
  * var - palavra reservada que usamos
- * para a declaração da variável;
+ * para a declaração da variável
  * let - outra palavra reservada para
- * declaração de variável;
+ * declaração de variável
  * a, b - é o nome (identificador)
- * destas variáveis;
+ * destas variáveis
  * = - é um comando de atribuição
  * assim o 3 está sendo atribuído
  * a variável a.
@@ -148,7 +148,7 @@ console.log(a, b)
 const c = 5
 // c = 50 - Isso gera erro!
 
-console.log(c);
+console.log(c)
 ```
 
 *Obs.: Mesmo não sendo o foco neste momento, é importante já ter em mente, que a escolha do nome é um ponto muito importante para a legibilidade de seu código. Prefira nomear variáveis com nomes que facilmente identifiquem o conteúdo que é armazenado.*
@@ -169,12 +169,12 @@ Arquivo: [tipagemFraca.js](../fundamentos/tipagemFraca.js)
 
 ```javascript
 let qualquer = 'legal'
-console.log(qualquer);
-console.log(typeof qualquer);
+console.log(qualquer)
+console.log(typeof qualquer)
 
 qualquer = 3.1516
-console.log(qualquer);
-console.log(typeof qualquer);
+console.log(qualquer)
+console.log(typeof qualquer)
 
 // Evitar nome genérico e siglas
 let valor = ''
@@ -259,7 +259,7 @@ console.log(typeof media)
  * com letra maiúscula é uma função,
  * conforme retorno abaixo.
  */
-console.log(typeof Number);
+console.log(typeof Number)
 ```
 
 No exemplo acima, embora as constantes 1.0 e 2.0 tenham o ponto, elas são consideradas um number do tipo inteiro. Isso pode ser verificado utilizando a função Number.isInteger().
@@ -315,21 +315,21 @@ No exemplo 5, ao tentar realizar a conversão de um inteiro para string utilizan
 
 ```javascript
 // Exemplo 5
-console.log(10.toString());
+console.log(10.toString())
 ```
 
 Issa acontece por não conseguirmos, realizar a conversão de um inteiro literal. Para podermos realizar tal operação poderíamos utilizar o dez entre parênteses. Isso evita também termos que armazenar o valor em uma variável apenas para conseguirmos manipular o *number*.
 
 ```javascript
 // Exemplo 5
-console.log((10).toString());
+console.log((10).toString())
 ```
 
 No exemplo 6 vemos que ao contrário do que ocorre no exemplo 2, onde temos uma string e utilizamos o operador de divisão para realizar um cálculo. No caso da soma o resultado é uma concatenação da string com o number.
 
 ```javascript
 // Exemplo 6
-console.log('3' + 2);
+console.log('3' + 2)
 ```
 
 #### 20. Usando Math
@@ -340,7 +340,7 @@ Arquivo: [math.js](../fundamentos/math.js)
 
 ```javascript
 // Imprime o tipo do Math (objeto)
-console.log(typeof Math);
+console.log(typeof Math)
 
 const raio = 5.6
 
@@ -350,10 +350,10 @@ Math.pow() - é uma função que retorna o
 primeiro parâmetro elevado ao número 
 que está no segundo parâmetro.
 */ 
-const area = Math.PI * Math.pow(raio, 2);
+const area = Math.PI * Math.pow(raio, 2)
 
 // Imprime a área da circunferência
-console.log(area); // retorna 98.5203456165759
+console.log(area) // retorna 98.5203456165759
 ```
 
 No exemplo declaramos uma constante chamada raio e em seguida calcumamos sua área utilizando a constante PI e a função pow() que retorna o resultado de uma exponenciação. Ambos os recursos são do objeto *Math*
@@ -467,7 +467,7 @@ const template = `
     Olá
     ${nome}`
 
-console.log(concatenacao, template);
+console.log(concatenacao, template)
 ```
 O resultado da execução é:
 
@@ -484,7 +484,7 @@ Podemos utilizar também com expressões matemáticas. No exemplo abaixo a expre
 ```javascript
 // expressões matemáticas
 
-console.log(`1 + 1 = ${1 + 1}`);
+console.log(`1 + 1 = ${1 + 1}`)
 ```
 
 resultado:
@@ -499,7 +499,7 @@ Podemos também usar em funções. Veremos *MUITO* de função posteriormente, a
 // A variável up recebe uma função.
 const up = texto => texto.toUpperCase()
 // Executamos a função recebida pela variável up.
-console.log(`Ei... ${up('cuidado')}`);
+console.log(`Ei... ${up('cuidado')}`)
 ```
 
 Resultado
@@ -516,7 +516,63 @@ Em algumas linguagens, os tipos booleanos podem assumir apenas os valores *true*
 
 *JavaScript* aceita *true* e *false*, além de outros padrões que iremos ver. Nesta aula nós não iremos aprender operações lógicas que será um tema de uma aula futura. Aqui, iremos focar nos valores possíveis que retornaram verdadeiro ou falso.
 
+Arquivo: [booleano.js](../fundamentos/booleano.js)
 
+```javascript
+// Variável recebe o valor literal falso
+let isAtivo = false
+console.log(isAtivo) // Retorna false  
+
+isAtivo = true
+console.log(isAtivo) // retorna true
+```
+Neste primeiro exemplo, temos apenas uma variável que recebe o valor literal para falso que depois é alterada para verdadeira.
+
+```javascript
+// Variável recebe o valor 1
+isAtivo = 1
+console.log(!!isAtivo) // retorna true
+```
+
+Agora, a variável *isAtivo* recebe o valor 1. Seu eu utilizar o console.log() e pedir para ele imprimir a variável, o retorno será "1". Assim, no exemplo, eu utilizei duas vezes o sinal de exclamação, que em JavaScript significa *negação* (*NOT*), assim ao negar duas vezes eu retorno à variável o valor booleano original.
+
+Agora vamos ver algumas situações que nos retornam *true*:
+
+```javascript
+console.log('Vamos conhecer os tipos que retornam verdadeiro:')
+console.log(!!3) 
+console.log(!!-1)  
+console.log(!!' ')
+console.log(!![])
+console.log(!!{})
+console.log(!!Infinity)
+console.log(!!(isAtivo = true))
+```
+
+Uma observação importante é que qualquer número, positivo ou negativo retorna true, **exceto o 0 (zero)**.
+
+Agora vamos ver alguns valore que retornam *false*:
+
+```javascript
+console.log('Vamos conhecer os tipos que retornam falso:')
+console.log(!!0)
+console.log(!!'')
+console.log(!!null)
+console.log(!!NaN)
+console.log(!!undefined)
+console.log(!!(isAtivo = false))
+```
+
+Os valores *null*, *NaN* e *undefined* serão tratados posteriormente.
+
+Para finalizar, vamos ver como funcionaria uma expressão lógica:
+
+```javascript
+console.log('Para finalizar');
+console.log(!!('' || null || 0 || ' ')); // retorna true
+```
+
+Acima, a expressão retorna true, isso porque apesar de termos três valores que são falsos, o '', o *null* e o *0*, a string com um espaço, ' ', como vimos é *true* de forma que toda a expressão retornará true. Este exemplo ficará mais claro em aulas posteriores, onde estudaremos expressões lógicas.
 
 <!--
 24. Tipos em JavaScript: Array
