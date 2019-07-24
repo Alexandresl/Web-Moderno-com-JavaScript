@@ -437,11 +437,88 @@ console.log("Ana,Maria,Pedro".split(','))
 // Retorna ['Ana', 'Maria', 'Pedro']
 ```
 
-Nos exemplos abaixo temos algumas das funções úteis para manipulação de strings
+Nos exemplos acima temos algumas das funções úteis para manipulação de strings
+
+#### 22. Usando Template Strings
+
+Além da utilização de aspas simples e duplas, podemos também utilizar as strings utilizando um recurso incluído na linguagem no ES6, a Template String.
+
+Ao contrário do uso das aspas, que não possue diferença entre a utilização de uma ou de outra. Com a *template string* o JavaScript ganhou um recurso poderoso para a utilização de strings.
+
+Se você é programador de alguma linguagem, já deve ter passado pela dificuldade de concatenar strings e variáveis. Você precisa abrir e fechar aspas colocar o operador de concatenação (+) no início e final da variável, abrir novamente aspas e assim sucessivamente conforme o exemplo abaixo.
+
+```javascript
+'Parte de texto' + variavel + 'outra parte do texto' + variavel + '.'
+```
+
+Com templete string você poderá ter um código mais elegante e prático para realizar este tipo de tarefa. Além disso, ele adiciona um recurso que antes não existia na linguagem, que é a possibilidade de utilizar quebra de linha, tabs e outros elementos de formatação dentro da string. 
+
+
+O templete string é representado pela crase - *backtick* - ( ` ) no início e no final da string. As variáveis deveráo estar entre chaves com o dólar no início ($). Veja exemplos abaixo:
+
+Arquivo: [templateString.js](../fundamentos/templateString.js)
+
+```javascript
+const nome = 'Alexandre'
+
+const concatenacao = 'Olá ' + nome + '!'
+
+const template = `
+    Olá
+    ${nome}`
+
+console.log(concatenacao, template);
+```
+O resultado da execução é:
+
+```
+Olá Alexandre! 
+    Olá
+    Alexandre
+```
+
+Note que ao contrário da concatenação utilizando o operador +, ao usar o template string, ele realiza a interpolação da variável respeitando as quebras de linha e tabulação.
+
+Podemos utilizar também com expressões matemáticas. No exemplo abaixo a expressão ${1 + 1} será calculada ao passo que o que está fora será executado como string:
+
+```javascript
+// expressões matemáticas
+
+console.log(`1 + 1 = ${1 + 1}`);
+```
+
+resultado:
+
+```
+1 + 1 = 2
+```
+
+Podemos também usar em funções. Veremos *MUITO* de função posteriormente, aqui é apenas para entender o contexto.
+
+```javascript
+// A variável up recebe uma função.
+const up = texto => texto.toUpperCase()
+// Executamos a função recebida pela variável up.
+console.log(`Ei... ${up('cuidado')}`);
+```
+
+Resultado
+
+```
+Ei... CUIDADO
+```
+
+#### 23. Tipos em JavaScript: Boolean
+
+Continuando com os tipos de dados em JavaScript. Vamos conhecer o tipo *boolean*.
+
+Em algumas linguagens, os tipos booleanos podem assumir apenas os valores *true* ou *false*, em outras,  *0* para falso e *1* para verdadeiro ou, em outras, *0* é falso e qualquer outro valor é verdadeiro.
+
+*JavaScript* aceita *true* e *false*, além de outros padrões que iremos ver. Nesta aula nós não iremos aprender operações lógicas que será um tema de uma aula futura. Aqui, iremos focar nos valores possíveis que retornaram verdadeiro ou falso.
+
+
 
 <!--
-22. Usando Template Strings
-23. Tipos em JavaScript: Boolean
 24. Tipos em JavaScript: Array
 25. Tipos em JavaScript: Object
 26. Entendendo o Null & Undefined
