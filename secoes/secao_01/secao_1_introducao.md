@@ -70,4 +70,4 @@ Assim, é necessário entender os princípios por trás da linguagem e os padrõ
 
 Tudo isso será aprendido no curso.
 
-[<< Voltar ao índice](../README.md)
+[<< Voltar ao índice](../../README.md)

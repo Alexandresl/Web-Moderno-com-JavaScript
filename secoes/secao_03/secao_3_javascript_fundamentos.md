@@ -604,4 +604,4 @@ Acima, a expressão retorna true, isso porque apesar de termos três valores que
 50. Operadores: Ternário
 51. Contexto de Execução: Browser vs Node
 52. Tratamento de Erro (Try/Catch/Throw) -->
-[<< Voltar ao índice](../README.md)
+[<< Voltar ao índice](../../README.md)
