@@ -1,16 +1,16 @@
-### 2. Configuração do ambiente
+### Seção 2. Configuração do ambiente
 
 #### 6. Instalação Node (Windows/Mac)
 
 Download do executável a partir do <https://nodejs.org/en/>
 
-Instalada a mesma versão do curso - 8.9.1 LTS.
+Neste momento estou instalando a versão - 12.13.1 LTS.
 
 Para instalar basta seguir o wizard do executável.
 
 Para testar basta digitar no terminal **node --version** que deverá retornar a versão instalada. Você poderá também verificar a versão do NPM, que é instalado junto com o Node. Para isso basta digitar no terminal **npm --version**.
 
-No caso da versão **8.9.1** do node, é instalada a versão **5.5.1** do NPM.
+No caso da versão **12.13.1** do node, é instalada a versão **6.12.1** do NPM.
 
 #### 7. Configuração do Editor (VSCode)
 
@@ -26,7 +26,7 @@ Após a instalação do VSCode, você deverá instalar um plugin chamado **Code 
 
 Nem sempre o comando **node** estará disponível no terminal. No Windows, por exemplo, dependendo da forma como o software foi instalado, o comando não estará disponível.
 
-Caso isso ocorra, basta, estando com o software digitar Ctrl + Shift + p, no Windows ou Linux, ou Command + Shift + p no Mac. abrirá uma janela e você deverá digitar **code** e escolher a opção "Shell Command: Install 'code' command in PATH". Basta fechar e abrir o prompt para que o commando esteja disponível. 
+Caso isso ocorra, basta, estando com o software digitar Ctrl + Shift + p, no Windows ou Linux, ou Command + Shift + p no Mac. abrirá uma janela e você deverá digitar **code** e escolher a opção "Shell Command: Install 'code' command in PATH". Basta fechar e abrir o prompt para que o commando esteja disponível.
 
 #### 9. Instalação do VSCode (Windows)
 
