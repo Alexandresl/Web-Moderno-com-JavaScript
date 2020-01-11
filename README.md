@@ -2,7 +2,7 @@
 
 ## Índice
 
-- [Seção 1: Introdução](/secoes/secao_01/secao_1_introducao.md)
+- [Seção 1: Introdução](./secoes/secao_01/secao_1_introducao.md)
 - [Seção 2: Configuração do Ambiente](/secoes/secao_02/secao_2_configuracao_do_ambiente.md)
 - [Seção 3: Javascript: Fundamentos](secoes/secao_03/secao_3_javascript_fundamentos.md)
 - [Seção 4: Javascript: Estruturas de Controle](secoes/secao_04/secao_4_javascript_estruturas_de_controle.md)
