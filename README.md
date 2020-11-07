@@ -47,4 +47,4 @@
 
 ### 5. Instalação Node (Windows/Mac)
 
-[Site do Node](https://nodejs.org/en/)
+Instalação apartir do [Site do Node](https://nodejs.org/en/)
