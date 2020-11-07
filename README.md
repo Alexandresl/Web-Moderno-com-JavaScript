@@ -52,3 +52,14 @@ Instalação a partir do [Site do Node](https://nodejs.org/en/)
 ### 6. Configuração do Editor (VSCode)
 
 Instalação a partir do [Site do VSCode](https://code.visualstudio.com/)
+
+### 7. Configuração do Comando 'code'
+
+Caso não funcione o comando 'code' na , configurar no VSCode:
+
+* Ctrl + Shift + P - Para mostrar todos os comandos
+* Pesquisar por "code"
+* Selecionar: shell command: install 'code' command in PATH
+
+### 8. Instalação do VSCode (Windows)
+
