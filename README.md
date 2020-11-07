@@ -47,4 +47,8 @@
 
 ### 5. Instalação Node (Windows/Mac)
 
-Instalação apartir do [Site do Node](https://nodejs.org/en/)
+Instalação a partir do [Site do Node](https://nodejs.org/en/)
+
+### 6. Configuração do Editor (VSCode)
+
+Instalação a partir do [Site do VSCode](https://code.visualstudio.com/)
