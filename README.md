@@ -37,4 +37,4 @@
 
 ### 2. Repositório do Curso
 
-https://github.com/cod3rcursos/web-moderno
+[https://github.com/cod3rcursos/web-moderno](https://github.com/cod3rcursos/web-moderno)
