@@ -42,3 +42,9 @@
 ### 3. Importância dos Fundamentos
 
 ### 4. Por que aprender JavaScript?
+
+## Seção 2: Configuração do ambiente
+
+### 5. Instalação Node (Windows/Mac)
+
+[Site do Node](https://nodejs.org/en/)
