@@ -30,7 +30,7 @@
 22. Bando de Dados Relacionais
 23. Banco de dados Não Relacionais
 24. Express
-25. Mongoose
+25. Integrando Banco de Dados com o Backend
 26. Projetos
 27. Outros Tópicos
 28. Conclusão
