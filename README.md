@@ -254,3 +254,30 @@ console.log('Escola '.concat(escola).concat("!")); // conseguimos concatenar mes
 console.log(escola.replace(3, 'e')); // primeiro argumento é o indice que será substituido e o segundo é a string
 console.log('Ana,Maria,Pedro'.split(',')); // transforma a string em Array, utilizando o separdor passado por parâmetro
 ```
+
+### 21. Usando Template String
+
+* Recurso adicionado no ES2015.
+* Visa facilitar a concatenação de strings e variáveis.
+* Permite a utilização de quebra de linha
+
+[Arquivo](Fundamentos/templateString.js)
+```javascript
+const nome = 'Rebeca';
+const concatenacao = 'Olá ' + nome + '!';
+
+console.log(concatenacao);
+
+const template = `
+Olá
+${nome}!
+`;
+console.log(template);
+
+// Suporta expressões
+
+console.log(`1 + 1 = ${1 + 1}`);
+
+const up = texto => texto.toUpperCase();
+console.log(`Ei... ${up('cuidado')}!`);
+```
