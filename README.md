@@ -539,3 +539,18 @@ for (let i = 0; i < 10; i++) {
 }
 // console.log('i =', i); // gera erro pois a variável i não estará definida
 ```
+
+### 34. Usando Var em Loop #02
+
+[Arquivo](Fundamentos/usandoVarEmLoop2.js)
+```javascript
+const funcs = [];
+
+for (var i = 0; i < 10; i++) {
+    funcs.push(function() {
+        console.log(i);
+    })
+}
+funcs[2](); // Imprime 10
+funcs[8](); // Imprime 10
+```
