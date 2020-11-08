@@ -321,3 +321,33 @@ console.log(!!(isAtivo = false));
 console.log('para finalizar...');
 console.log(!!('' || null || 0 || ' ')); // retorna true
 ```
+
+### 23. Tipos em JavaScript: Array
+
+* Estrutura unidirecional para agrupar vários valores dentro de uma estrutura de dados.
+* Seus valores são acessados através do índice, iniciando sempre no 0 (zero).
+* Em JavaScript o array **não** possui tamanho fixo e seus dados podem ser **heterogêneos** (de tipos diferentes).
+
+[Arquivo](Fundamentos/array.js)
+```javascript
+const valores = [7.7, 8.9, 6.3, 9.2];
+
+console.log(valores[0], valores[3]);
+console.log(valores[4]); // Indice não existe, retorna undefined
+
+valores[4] = 10;
+console.log(valores);
+
+console.log(valores.length); // retorna a quantidade de itens do array
+
+valores.push({id: 3}, false, null, 'teste'); // função push adiciona elementos ao array
+
+console.log(valores);
+
+console.log(valores.pop()); // retira último elemento do array e retorna elemento retirado
+
+delete valores[0] // deleta o elemento do array, preservando o índice dos demais elementos
+console.log(valores);
+
+console.log(typeof valores); // Array em JavaScript é um Objeto
+```
