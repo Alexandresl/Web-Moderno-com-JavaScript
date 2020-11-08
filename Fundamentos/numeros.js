@@ -20,4 +20,4 @@ console.log(media.toString());
 // toString(2) transforma um númerico em binário
 console.log(media.toString(2));
 console.log(typeof media);
-console.log(typeof Number);
+console.log(typeof Number); // Isto é uma função!
