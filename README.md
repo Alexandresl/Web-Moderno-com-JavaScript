@@ -214,3 +214,24 @@ console.log(0.1 + 0.7); // Não retorna 0.8 e sim 0.7999999999999999
 // console.log(10.toString()); retorna um erro ao usar o número literal
 console.log((10).toString()); // Desta forma funciona sem precisar armazenar o número em uma variável
 ```
+
+### 19. Usando Math
+
+* Objeto nativo da API do JavaScriupt que ajuda na realização de alguns cálculos
+
+[Arquivo](Fundamentos/math.js)
+```javascript
+console.log(typeof Math); // Retorna objeto
+
+/**
+ * Apesar de anteriormente ser necessário utilizar o objeto Math
+ * para realizar operações envolvendo potenciação, hoje pode-se
+ * utilizar o "**" para realizar estes cálculos mais facilmente
+ */
+console.log(2**3);
+
+const raio = 5.6;
+const area = Math.PI * Math.pow(raio, 2);
+console.log(area);
+
+```
