@@ -471,6 +471,7 @@ console.log(subtracao(8, 3)); // Imprime 5
 ### 29. Declaração de Variáveis Com Var #01
 
 * Uma variável declarada com Var fica visível para todo o módulo (Node) ou no objeto Window (Browser), mesmo declarado dentro de um bloco de código interno. Porém em uma **função** o mesmo não acontece e a variável ficará visível apenas dentro da função em que ela foi decarada.
+* Variáveis definidas com a palavra **var** têm escopo *global* e escopo *de função*.
 
 [Arquivo](Fundamentos/usandoVar1.js)
 ```javascript
@@ -503,4 +504,18 @@ var numero = 1;
     console.log('Dentro =', numero); // Imprime 2
 }
 console.log('fora =', numero);  // Imprime 2
+```
+
+### 31. Declaração de Variáveis com Let
+
+* Variáveis definidas com a palavra **let** têm escopo *global*, escopo *de função* e escopo *de bloco*.
+
+[Arquivo](Fundamentos/usandoLet1.js)
+```javascript
+var numero = 1
+{
+    let numero = 2
+    console.log('dentro =', numero); // Imprime 2
+}
+console.log('fora =', numero); // Imprime 1
 ```
