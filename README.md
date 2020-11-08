@@ -86,4 +86,4 @@ Caso não funcione o comando 'code' na , configurar no VSCode:
 
 ### 12. Organização Básica de um Código JS
 
-[Arquivo](Fundamentos\organizacao.js)
+[Arquivo](Fundamentos/organizacao.js)
