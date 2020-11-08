@@ -74,3 +74,10 @@ Caso não funcione o comando 'code' na , configurar no VSCode:
     * Para um Algoritmo estar correto e otimizado, a ordem dos passos deve estar corretas. Os mesmos passos porém em ordem diferente pode trazer ou resultados errados ou ineficientes.
     * O Algoritmo em um programa pode ser visto como o verbo, a ação que será realizada com um conjunto de dados. Assim o Algoritmo recebe uma quantidade de entradas e pode ou não gerar outro dado de saída.
     * Algoritmos podem ser representados através de fluxograma, linguagem natural (português, inglês, etc...), linguagem artificial (as linguagens de programação) e por pseudo-linguagens (Portugues estruturado, por exemplo).
+
+### 10. Visão Geral de Estrutura de dados
+
+* **Estrutura de Dados** - Visa organizar e administrar os dados.
+    * **Estruturas de dados básicas (primitivas)** - Int, Real, Letra, Boolean e lista (Dependendo da linguagem)
+    * **Variáveis e constantes** - são "espaços" da memória para armazenar dados. No caso das variáveis estes dados podem ser alterados no decorrer da execução do programa e no caso das constantes não.
+    * **Operações** - Os dados poderão ser alterados através das operações, por exemplo: atribuição, aritméticas, relacional ou lógicas.
