@@ -86,4 +86,21 @@ Caso não funcione o comando 'code' na , configurar no VSCode:
 
 ### 12. Organização Básica de um Código JS
 
-[Arquivo](Fundamentos/organizacao.js)
+
+* Um código JavaScript é composto por sentenças de códigos, blocos de código (composto por sentenças).
+
+* [Arquivo](Fundamentos/organizacao.js)
+
+```javascript
+// Sentenças de código
+console.log("sentença de código");
+
+// Bloco de código
+{
+    {
+        console.log("Olá");
+        console.log("Mundo!");
+    }
+
+}
+```
