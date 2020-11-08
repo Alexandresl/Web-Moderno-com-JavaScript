@@ -107,3 +107,10 @@ console.log("sentença de código");
 
 ### 13. Executando JavaScript
 
+### 14. Comentários de Código
+
+* Os comentários servem para "Explicar" determinado trecho de código. Os comentários são ignorados no momento da execução do programa.
+* No caso específico do JavaScript, estes textos são acessíveis ao usuário caso ele utilize alguma ferramenta para desenvolvedor.
+* Evitar comentários óbvios e irrelevantes.
+
+[Arquivo](Fundamentos/comentario.js)
