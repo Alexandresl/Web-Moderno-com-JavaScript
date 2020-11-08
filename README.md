@@ -63,3 +63,14 @@ Caso não funcione o comando 'code' na , configurar no VSCode:
 
 ### 8. Instalação do VSCode (Windows)
 
+## Seção 3: JavaScript: Fundamentos
+
+### 9. Visão geral de Algoritmo
+
+* **Algoritmo** - Sequência de passos finitos que desempenha uma função específica.
+    * Pode conter repetição de algum passo ou conjunto de passos.
+    * As repetições podem ser determinadas por um número definido de vezes ou no momento que uma condição deixar de ser verdadeira, por exemplo.
+    * O Fluxo de um algoritmo também pode ser alterado a partir de uma condição, ou seja, podem haver dois conjuntos de códigos onde um será executado se a condição for verdadeira e outra se for falsa.
+    * Para um Algoritmo estar correto e otimizado, a ordem dos passos deve estar corretas. Os mesmos passos porém em ordem diferente pode trazer ou resultados errados ou ineficientes.
+    * O Algoritmo em um programa pode ser visto como o verbo, a ação que será realizada com um conjunto de dados. Assim o Algoritmo recebe uma quantidade de entradas e pode ou não gerar outro dado de saída.
+    * Algoritmos podem ser representados através de fluxograma, linguagem natural (português, inglês, etc...), linguagem artificial (as linguagens de programação) e por pseudo-linguagens (Portugues estruturado, por exemplo).
