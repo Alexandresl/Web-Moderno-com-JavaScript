@@ -405,3 +405,12 @@ console.log(!!produto.preco); // retorna false
 
 console.log(produto);
 ```
+
+### 26. Quase tudo é Função!!!
+
+```javascript
+console.log(typeof Object); // returna function
+
+class Produto {}
+console.log(typeof Produto); // returna function
+```
