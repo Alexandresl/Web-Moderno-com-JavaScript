@@ -29,4 +29,4 @@ console.log(!!undefined);
 console.log(!!(isAtivo = false));
 
 console.log('para finalizar...');
-console.log(!!('' || null || 0 || ' '));
+console.log(!!('' || null || 0 || ' ')); // returna true
