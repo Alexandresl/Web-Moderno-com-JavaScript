@@ -81,3 +81,5 @@ Caso não funcione o comando 'code' na , configurar no VSCode:
     * **Estruturas de dados básicas (primitivas)** - Int, Real, Letra, Boolean e lista (Dependendo da linguagem)
     * **Variáveis e constantes** - são "espaços" da memória para armazenar dados. No caso das variáveis estes dados podem ser alterados no decorrer da execução do programa e no caso das constantes não.
     * **Operações** - Os dados poderão ser alterados através das operações, por exemplo: atribuição, aritméticas, relacional ou lógicas.
+
+### 11. Configuração do Projeto
