@@ -300,7 +300,7 @@ console.log(!!isAtivo);
 isAtivo = 0; // representa o false
 console.log(!!isAtivo);
 
-console.log("\nOs valores verdadeiros...");
+console.log("/nOs valores verdadeiros...");
 console.log(!!3);
 console.log(!!-1);
 console.log(!!' ');
@@ -310,7 +310,7 @@ console.log(!!{});
 console.log(!!Infinity);
 console.log(!!(isAtivo = true));
 
-console.log("\nOs valores falsos...");
+console.log("/nOs valores falsos...");
 console.log(!!0);
 console.log(!!'');
 console.log(!!null);
@@ -623,4 +623,33 @@ console.log(typeof new Object()); // retorna object
 
   console.log(typeof Produto); // retorna function
   console.log(typeof new Produto()); // retorna object
+```
+
+### 38. Par Nome/Valor
+
+[Arquivo](Fundamentos/parNomeValor.js)
+```javascript
+// par Nome/Valor
+const saudacao = 'Opa'; // Contexto léxico 1
+
+function exec() {
+    const saudacao = 'Falaa'; // Contexto léxico 2
+    return saudacao;
+}
+
+// Objetos são grupos aninhados de pares chave/valor
+
+const cliente = {
+    nome: 'Pedro',
+    idade: 32,
+    peso: 90,
+    endereco: {
+        logradouro: 'Rua Muito Legal',
+        numero: 123
+    }
+}
+
+console.log(saudacao);
+console.log(exec());
+console.log(cliente);
 ```
