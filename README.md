@@ -408,9 +408,36 @@ console.log(produto);
 
 ### 26. Quase tudo é Função!!!
 
+[Arquivo](Fundamentos/funcaoEmQuaseTudo.js)
 ```javascript
 console.log(typeof Object); // returna function
 
 class Produto {}
 console.log(typeof Produto); // returna function
+```
+
+### 27. Exemplos básicos de Funções #01
+
+[Arquivo](Fundamentos/funcao1.js)
+```javascript
+// Função sem retorno
+
+function imprimirSoma(a, b) {
+    console.log(a + b);
+}
+
+imprimirSoma(2, 3); // Imprime 5
+imprimirSoma(2); // Imprime NaN
+imprimirSoma(2, 10, 4, 5, 6, 7, 8); // Imprime 12
+imprimirSoma(); // Imprime NaN
+
+// Função com retorno
+
+function soma(a, b = 1) {
+    return a + b;
+}
+
+console.log(soma(2, 3)); // Retorna 5
+console.log(soma(2)); // Retorna 2
+console.log(soma()); // Retorna NaN
 ```
