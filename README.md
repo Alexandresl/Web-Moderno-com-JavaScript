@@ -467,3 +467,28 @@ const subtracao = (a, b) => a - b;
 
 console.log(subtracao(8, 3)); // Imprime 5
 ```
+
+### 29. Declaração de Variáveis Com Var #01
+
+* Uma variável declarada com Var fica visível para todo o módulo (Node) ou no objeto Window (Browser), mesmo declarado dentro de um bloco de código interno. Porém em uma **função** o mesmo não acontece e a variável ficará visível apenas dentro da função em que ela foi decarada.
+
+[Arquivo](Fundamentos/usandoVar1.js)
+```javascript
+{
+    {
+        {
+            {
+                var sera = 'Será???';
+            }
+        }
+    }
+}
+console.log(sera); // Imprime o valor da variável
+
+function teste() {
+    var local = 123;
+}
+
+teste();
+// console.log(local); // Gera erro
+```
