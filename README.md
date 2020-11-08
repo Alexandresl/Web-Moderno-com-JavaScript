@@ -519,3 +519,13 @@ var numero = 1
 }
 console.log('fora =', numero); // Imprime 1
 ```
+
+### 32. Usando var em Loop #1
+
+[Arquivo](Fundamentos/usandoVarEmLoop.js)
+```javascript
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+}
+console.log('i =', i); // Imprime 10
+```
