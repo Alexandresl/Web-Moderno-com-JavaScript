@@ -83,3 +83,7 @@ Caso não funcione o comando 'code' na , configurar no VSCode:
     * **Operações** - Os dados poderão ser alterados através das operações, por exemplo: atribuição, aritméticas, relacional ou lógicas.
 
 ### 11. Configuração do Projeto
+
+### 12. Organização Básica de um Código JS
+
+[Arquivo](Fundamentos\organizacao.js)
