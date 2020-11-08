@@ -351,3 +351,25 @@ console.log(valores);
 
 console.log(typeof valores); // Array em JavaScript é um Objeto
 ```
+
+### 24. Tipos em JavaScript: Object
+
+* JavaScript é uma linguagem multiparadigma, podendo ser usada para programar procedural, orientada à objetos, funcional. Porém o objeto é muito importante para a linguagem.
+* De forma resumido objeto é um conjunto de chave e valor e é representada por abre e fecha chaves "{}".
+
+[Arquivo](Fundamentos/objeto.js)
+```javascript
+const prod1 = {};
+prod1.nome = 'Celular Ultra Mega';
+prod1.preco = 4988.90;
+prod1['desconto legal'] = 0.4; // Evitar atributos com espaço
+
+console.log(prod1);
+
+const prod2 = {
+    nome: 'Camisa Polo',
+    preco: 79.90,
+}
+
+console.log(prod2);
+```
