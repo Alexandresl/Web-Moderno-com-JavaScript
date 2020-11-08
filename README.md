@@ -492,3 +492,15 @@ function teste() {
 teste();
 // console.log(local); // Gera erro
 ```
+
+### 30. Declaração de Variáveis com Var #02
+
+[Arquivo](Fundamentos/usandoVar2.js)
+```javascript
+var numero = 1;
+{
+    var numero = 2;
+    console.log('Dentro =', numero); // Imprime 2
+}
+console.log('fora =', numero);  // Imprime 2
+```
