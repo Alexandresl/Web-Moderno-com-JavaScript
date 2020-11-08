@@ -441,3 +441,29 @@ console.log(soma(2, 3)); // Retorna 5
 console.log(soma(2)); // Retorna 2
 console.log(soma()); // Retorna NaN
 ```
+
+### 28. Exemplos Básicos de Funções #02
+
+[Arquivo](Fundamentos/funcao2.js)
+```javascript
+// Armazenando uma função em uma variável
+const imprimirSoma = function (a, b) {
+    console.log(a + b);
+}
+
+imprimirSoma(2, 3); // Imprime 5
+
+// Armazenando uma função arrow em uma variável com retorno implícito
+
+const soma = (a, b) => {
+    return a + b;
+};
+
+console.log(soma(2, 3)); // Imprime 5
+
+// Arrow function com retorno implícito
+
+const subtracao = (a, b) => a - b;
+
+console.log(subtracao(8, 3)); // Imprime 5
+```
