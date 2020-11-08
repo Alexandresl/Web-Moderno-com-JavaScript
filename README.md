@@ -373,3 +373,35 @@ const prod2 = {
 
 console.log(prod2);
 ```
+
+### 25. Entendendo o Null & Undefined
+
+* Atribuição por valor, ocorre em tipos básicos (number, string, boolean), ou seja, a variável passará a possui uma cópia do valor atribuído.
+* Atribuição por referência, Ocorre com os objetos e funções. Neste caso, a variável recebe o endereço de memória onde o valor enconstra-se armazenado, assim, duas variáveis podem apontar para um mesmo endereço de memória e compartilharem o seu valor.
+* O **Undefined** é atribuído pela linguagem quando uma variável é declarada, porém ainda não foi definido nenhum valor. Deve-se evitar atribuir o valor **undefined** de forma explícita. Neste caso deve-se optar pelo **null**.
+* O **null** significa que a variável não aponta para nenhum endereço de memória.
+
+[Arquivo](Fundamentos/nullUndefined.js)
+```javascript
+let valor; // sem nenhuma atribuição
+
+console.log(valor); // retorna undefined pois não possui nenhuma valor atribuido
+
+valor = null; // null significa que a variável não está apontando para nenhum endereço de memória
+
+console.log(valor); // retorna null
+//console.log(valor.toString); // retorna erro!
+
+const produto = {};
+console.log(produto.preco);
+produto.preco = 3.5;
+
+console.log(produto);
+
+produto.preco = undefined; // Evitar!! não é boa prática
+console.log(!!produto.preco); // retorna false
+produto.preco = null; // sem preço!! Melhor prática
+console.log(!!produto.preco); // retorna false
+
+console.log(produto);
+```
