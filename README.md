@@ -736,7 +736,7 @@ const { endereco: { logradouro, numero, cep} } = pessoa;
 console.log(logradouro, numero, cep);
 ```
 
-### 42. Operadores Destructuring #02
+### 42. Operadores: Destructuring #02
 
 [Arquivo](Fundamentos/destructuring2.js)
 ```javascript
@@ -748,4 +748,19 @@ console.log(n1, n3, n5, n6);
 
 const [ , [ , nota]] = [ [ , 8, 8], [ 9, 6, 8]]
 console.log(nota);
+```
+
+### 43. Operadores: Destructuring #03
+
+[Arquivo](Fundamentos/destructuring3.js)
+```javascript
+function rand({ min = 0, max = 1000}) {
+    const valor = Math.random() * (max - min) + min;
+    return Math.floor(valor);
+}
+
+const obj = { max: 50, min: 40};
+console.log(rand(obj));
+console.log(rand({ min: 955}));
+console.log(rand({}));
 ```
