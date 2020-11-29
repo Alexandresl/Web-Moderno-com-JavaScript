@@ -45,7 +45,7 @@
 
 ## Seção 2: Configuração do Ambiente
 
-### 5. Instalação Node ( Windows / Mac )
+### 5. Instalação Node ( Mac )
 
 [Download node](https://nodejs.org/pt-br/)
 
@@ -59,3 +59,4 @@
 
 * É possível abilitar o comando clicando: Ctrl + Shift + P e selecionando "Shell Command: Install 'code' command in PATH"
 
+### 8. Instalação do VSCode (Windows)
