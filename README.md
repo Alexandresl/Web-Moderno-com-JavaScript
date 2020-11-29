@@ -41,3 +41,4 @@
 
 ### 3. Importância dos Fundamentos
 
+### 4. Por que aprender javascript?
