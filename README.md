@@ -35,3 +35,6 @@
 27. Outros Tópicos
 28. Conclusão
 
+### 2. Repositório do curso
+
+[Github do curso](https://github.com/cod3rcursos/web-moderno)
