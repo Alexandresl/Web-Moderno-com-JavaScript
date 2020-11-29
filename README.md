@@ -48,3 +48,9 @@
 ### 5. Instalação Node ( Windows / Mac )
 
 [Download node](https://nodejs.org/pt-br/)
+
+### 6. Configuração do Editor (VSCode)
+
+[Download VSCode](https://code.visualstudio.com/)
+
+* Instalado o plugin Code Renner
