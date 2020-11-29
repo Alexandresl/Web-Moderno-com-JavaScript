@@ -38,3 +38,6 @@
 ### 2. Repositório do curso
 
 [Github do curso](https://github.com/cod3rcursos/web-moderno)
+
+### 3. Importância dos Fundamentos
+
