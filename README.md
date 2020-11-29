@@ -54,3 +54,8 @@
 [Download VSCode](https://code.visualstudio.com/)
 
 * Instalado o plugin Code Renner
+
+### 7. Configuração do Comando 'code'
+
+* É possível abilitar o comando clicando: Ctrl + Shift + P e selecionando "Shell Command: Install 'code' command in PATH"
+
