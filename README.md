@@ -73,3 +73,6 @@
 ### 10. Visão geral da Estrutura de Dados
 
 * As estruturas de dados visam organizar, administrar ou manipular os dados de uma aplicação.
+
+### 11. Configuração do projeto
+
