@@ -63,8 +63,9 @@
 
 ## Seção 3: JavaScript: Fundamento
 
-### 9. Visãoi geral de Algoritmo
+### 9. Visão geral de Algoritmo
 
 * Sequência de passos finitos que executa uma ação, pode ter repetições.
 * As repetições poderão ser por uma quantidade definida de vezes, ou então, até que uma condição seja satisfeita.
 * Os algoritmos permitem também que um passo, ou uma quantidade finita de passos, seja realizado, em detrimento de outro passo, ou quantidade de passos, dependendo de alguma condição.
+* O algoritmo é o verbo, as ações que serão processadas a partir dos dados fornecidos.
