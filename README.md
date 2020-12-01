@@ -69,3 +69,7 @@
 * As repetições poderão ser por uma quantidade definida de vezes, ou então, até que uma condição seja satisfeita.
 * Os algoritmos permitem também que um passo, ou uma quantidade finita de passos, seja realizado, em detrimento de outro passo, ou quantidade de passos, dependendo de alguma condição.
 * O algoritmo é o verbo, as ações que serão processadas a partir dos dados fornecidos.
+
+### 10. Visão geral da Estrutura de Dados
+
+* As estruturas de dados visam organizar, administrar ou manipular os dados de uma aplicação.
