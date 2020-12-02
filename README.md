@@ -95,3 +95,12 @@ console.log("Sentença de código");
     console.log("Mundo!");
 }
 ```
+
+13. Executando JavaScript
+
+* Algumas alternativas para executar JavaScript:
+    * [repl](https://repl.it/) - Editor on-line
+    * [JSFIDDLE](https://jsfiddle.net/) - Editor on-line
+    * Console do Browser - F12 para o Chrome
+    * Terminal do VSCode - Ctrl + Shift + '
+    * Plugin Code Runner do VSCode - Ctrl + Alt + N
