@@ -125,6 +125,8 @@ console.log("Linha 2");
 * De forma resumido e simplista, a programação pode ser resumida em processamento e dados. Você tem dados que são processados e geram outros dados. O processamento ocorre por meio de algorítmos e os dados são organizados em estruturas de dados.
 * Em JavaScript podemos declarar variáveis com ```var``` ou ```let``` e constantes com a palavra reservada ```const```
 
+[Arquivo](Fundamentos/variaveisEConstantes.js)
+
 ```javascript
 var a = 3;
 let b = 4;
@@ -150,4 +152,28 @@ console.log(a, b); // Saída: 300 400
 const c = 5; // Neste caso não é permitido modificar o valor
 
 console.log(c); // Saída: 5
+```
+
+### 16. Tipagem Fraca
+
+* **JavaScript** é uma linguagem de **tipagem dinâmica** ou **fracamente tipada**. Isso significa que não é preciso especificar que tipo de dado a variável vai conter. Além disso uma variável poderá conter dados de tipos diferentes ao longo da execução de um programa.
+* Importante atentar para que, apesar de não ser fortemente tipada, as variáveis em JavaScript possuem tipos. Esses tipos podem ser verificados usando o comando ```tipeof```.
+
+[Arquivo](Fundamentos/tipagemFraca.js)
+
+```javascript
+let qualquer = 'legal';
+
+console.log(qualquer);
+console.log(typeof qualquer);
+
+qualquer = 3.1516;
+console.log(qualquer);
+console.log(typeof qualquer);
+
+// Evitar nome genéricos e siglas
+
+let valor = '';
+let numero = 1;
+let pqp = false; // Produto Quimico Perigoso... kkk
 ```
