@@ -119,3 +119,35 @@ console.log("Linha 1");
  */
 console.log("Linha 2");
 ```
+
+### 15. O Básico de Var, Let e Const
+
+* De forma resumido e simplista, a programação pode ser resumida em processamento e dados. Você tem dados que são processados e geram outros dados. O processamento ocorre por meio de algorítmos e os dados são organizados em estruturas de dados.
+* Em JavaScript podemos declarar variáveis com ```var``` ou ```let``` e constantes com a palavra reservada ```const```
+
+```javascript
+var a = 3;
+let b = 4;
+
+/**
+ * Redeclarar a "var a", embora
+ * não gere erro, não é uma boa 
+ * prática.
+ * 
+ * Já o let não permite ser 
+ * redeclarado.
+ */
+var a = 30;
+b = 40;
+
+console.log(a, b);
+
+a = 300;
+b = 400;
+
+console.log(a, b);
+
+const c = 5; // Neste caso não é permitido modificar o valor
+
+console.log(c);
+```
