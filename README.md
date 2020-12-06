@@ -202,3 +202,15 @@ console.log(media.toString(2)); // retorna o valor em binário - 111.11011110111
 console.log(typeof media); // number
 console.log(typeof Number); // function
 ```
+
+### 18. Number: Alguns cuidados
+
+[Arquivo](Fundamentos/numerosAlgunsCuidados.js)
+
+```javascript
+console.log(7 / 0); // Infinity
+console.log("10" / 2); // 5
+console.log("Show!" * 2); // NaN
+console.log(0.1 + 0.7); // 0.7999999999999999
+console.log((10.345).toFixed(2)); // 10.35
+```
