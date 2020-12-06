@@ -233,3 +233,27 @@ console.log(typeof Math); // object
  */
 console.log((Math.PI * raio ** 2).toFixed(2)); // 98.52
 ```
+
+### 20. Tipos em JavaScript: String
+
+* Uma String em JavaScript pode ser limitada por três símbolos:
+    * ```'Aspas Simples'```
+    * ```"Aspas Duplas```
+    * ````Backtick````
+
+[Arquivo](Fundamentos/strings.js)
+
+```javascript
+const escola = "Cod3r";
+
+console.log(escola.charAt(4)); // r
+console.log(escola.charAt(5)); // 
+console.log(escola.charCodeAt(3)); // 51
+console.log(escola.indexOf(3)); // 3
+console.log(escola.substring(1)); // od3r
+console.log(escola.substring(0, 3)); // Cod
+console.log("Escola ".concat(escola).concat("!")); // Escola Cod3r!
+console.log("Escola " + escola + "!"); // Escola Cod3r!
+console.log(escola.replace(3,"e")); // Coder
+console.log('Ana,Maria,Pedro'.split(",")); // [ 'Ana', 'Maria', 'Pedro' ]
+```
