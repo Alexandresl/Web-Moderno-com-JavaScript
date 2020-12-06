@@ -238,8 +238,8 @@ console.log((Math.PI * raio ** 2).toFixed(2)); // 98.52
 
 * Uma String em JavaScript pode ser limitada por três símbolos:
     * ```'Aspas Simples'```
-    * ```"Aspas Duplas```
-    * ````Backtick````
+    * ```"Aspas Duplas"```
+    * ``` \`Backtick\` ```
 
 [Arquivo](Fundamentos/strings.js)
 
