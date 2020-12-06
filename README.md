@@ -214,3 +214,22 @@ console.log("Show!" * 2); // NaN
 console.log(0.1 + 0.7); // 0.7999999999999999
 console.log((10.345).toFixed(2)); // 10.35
 ```
+
+### 19. Usando Math
+
+[Arquivo](Fundamentos/math.js)
+
+```javascript
+const raio = 5.6;
+const area = Math.PI * Math.pow(raio, 2);
+
+console.log(area.toFixed(2)); // 98.52
+console.log(typeof Math); // object
+
+/**
+ * A partir do ecmaScript 2016 ganhamos o
+ * operador de exponenciação (**), simplificando
+ * este tipo de operação
+ */
+console.log((Math.PI * raio ** 2).toFixed(2)); // 98.52
+```
