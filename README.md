@@ -257,3 +257,30 @@ console.log("Escola " + escola + "!"); // Escola Cod3r!
 console.log(escola.replace(3,"e")); // Coder
 console.log('Ana,Maria,Pedro'.split(",")); // [ 'Ana', 'Maria', 'Pedro' ]
 ```
+
+### 21. Usando Template String
+
+* Recurso disponível a partir do EcmaScript 2015.
+* O Template String converte a variável dentro do texto, recurso que chama-se interpolação.
+
+[Arquivo](Fundamentos/templateString.js)
+
+```javascript
+const nome = 'Rebeca';
+const concatenacao = 'Olá ' + nome + '!';
+
+console.log(concatenacao);
+
+const template = `Olá
+${nome}!`
+
+console.log(template);
+
+// Expressões...
+
+console.log(`1 + 1 = ${1 + 1}`);
+
+const up = texto => texto.toUpperCase();
+
+console.log(`Ei... ${up("Cuidado")}!`);
+```
