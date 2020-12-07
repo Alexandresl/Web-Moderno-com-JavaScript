@@ -351,7 +351,7 @@ console.log(typeof valores); // object
 
 ### 24. Tipos em JavaScript: Object
 
-* Objetos em java é um conjunto de chave / valor
+* Objetos em JavaScript é um conjunto de chave / valor
 
 [Arquivo](Fundamentos/objeto.js)
 
@@ -371,4 +371,31 @@ const prod2 = {
 }
 
 console.log(prod2); // { nome: 'Camisa Polo', preco: 79.9, 'Desconto Legal': 0.3 }
+```
+
+### 25. Entendendo o Null e Undefined
+
+*  No JavaScript, atribuições de tipos primitivos são feitos por valor, e de objetos é por referência, neste caso a variável armazena o endereço de memória onde encontra-se armazenado o objeto.
+* uma variável não inicializada, apenas declarada, recebe o valor de ```undefined```.
+* Já o ```null```significa ausência de valor. A variável não contêm nenhum valor e não aponta para nenhum endereço de memória.
+* Evitar setar diretamente o ```undefined```, deixe este valor apenas para as variáveis que não tiveram seu valor ainda definido, utilizar o ```null``` para o caso de querer "limpar" o valor de uma variável.
+
+[Arquivo](Fundamentos/nullUndefined.js)
+
+```javascript
+let valor; // variável não inicializada
+console.log(valor); // undefined
+
+valor = null; // ausência de valor
+console.log(valor); // null
+
+const produto = {};
+console.log(produto.preco); // undefined
+console.log(produto);
+produto.preco = 3.50;
+console.log(produto);
+
+produto.preco = null; // utilizar o null
+console.log(!!produto.preco); // false
+console.log(produto); // { preco: null }
 ```
