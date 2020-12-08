@@ -399,3 +399,16 @@ produto.preco = null; // utilizar o null
 console.log(!!produto.preco); // false
 console.log(produto); // { preco: null }
 ```
+
+### 26. Quase tudo é função
+
+* As funções exercem um papel central no JavaScript.
+
+[Arquivo](Fundamentos/funcaoEmQuaseTudo.js)
+
+```javascript
+console.log(typeof Object); // function
+
+class Produto {}
+console.log(typeof Produto); // function
+```
