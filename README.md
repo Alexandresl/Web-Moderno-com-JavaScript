@@ -556,3 +556,18 @@ for (let i = 0; i < 10; i++) {
 
 console.log("i = ", i); // Gera erro pois o i só estará disponível no laço
 ```
+
+### 34. Usando Var em Loop #02
+
+[Arquivo](Fundamentos/usandoVarEmLoop2.js)
+
+```javascript
+const funcs = [];
+
+for (var i = 0; i < 10; i++) {
+    funcs.push(function(){ console.log(i); });
+}
+
+funcs[2](); // 10
+funcs[8](); // 10
+```
