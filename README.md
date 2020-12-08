@@ -586,3 +586,14 @@ for (let i = 0; i < 10; i++) {
 funcs[2](); // 2
 funcs[8](); // 8
 ```
+
+### 36. Entendendo o Hoisting
+
+* Quando declaramos uma variável com a palavra ```var```ela sofre o *hoisting* ou *içamento*. Na prática, esta variável ela será declarada no início da execução (seja na função ou global) embora a atribuição ocorra na ordem sequencial do programa.
+* O ```let``` não sofre este efeito!
+
+```javascript
+console.log('a = ', a); // a =  undefined
+var a = 2; // a atribuição ocorre aqui!
+console.log('a = ', a); // a =  2
+```
