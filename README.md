@@ -473,3 +473,34 @@ console.log(soma(3, 5)); // 8
 const subtracao = (a, b) => a - b;
 console.log(subtracao(10, 4)); // 6
 ```
+
+### 29. Declaração de variáveis com Var #01
+
+* As variáceis declaradas com var ficam visíveis fora do bloco em que foram declaradas, exceto se for em funções.
+* Em resumo as variáveis declaradas com var possuem apenas dois escopos, o escopo global e o escopo de função.
+
+[Arquivo](Fundamentos/usandoVar1.js)
+
+```javascript
+{
+    {
+        {
+            {
+                var sera = 'Será???';
+            }
+        }
+    }
+}
+/**
+ * A variável mesmo estando dentro de um bloco poderá ser acessada fora dele
+ */
+console.log(sera); // Será???
+
+function teste() {
+    var local = 123;
+}
+/**
+ * A variavel declarada dentro da função estará visível apenas na função
+ */
+// console.log(local); // Gera erro
+```
