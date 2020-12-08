@@ -517,3 +517,18 @@ var numero = 1;
 }
 console.log("Fora: ", numero); // Fora:  2
 ```
+
+### 31. Declaração de Variáveis Com Let
+
+* As variáveis declaradas com ```let``` e as constantes declaradas com ```const``` possuem escopo global, escopo de bloco e escopo de função.
+
+[Arquivo](Fundamentos/usandoLet1.js)
+
+```javascript
+var numero = 1;
+{
+    let numero = 2;
+    console.log("Dentro: ", numero); // Dentro:  2
+}
+console.log("Fora: ", numero); // Fora:  1
+```
