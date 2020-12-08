@@ -532,3 +532,15 @@ var numero = 1;
 }
 console.log("Fora: ", numero); // Fora:  1
 ```
+
+### 32. Usando Var em Loop #01
+
+[Arquivo](Fundamentos/usandoVarEmLoop1.js)
+
+```javascript
+for (var i = 0; i < 10; i++) {
+    console.log(i); // imprime de 0 a 9
+}
+
+console.log("i = ", i); // i =  10
+```
