@@ -603,3 +603,21 @@ console.log('a2 = ', a2); // a2 =  undefined
 a2 = 2; // a atribuição ocorre aqui!
 console.log('a2 = ', a2); // a2 =  2
 ```
+
+### 37. Função Vs Objeto
+
+[Arquivo](Fundamentos/objeto2.js)
+
+```javascript
+console.log(typeof Object); // function
+console.log(typeof new Object); // object
+
+const Cliente = function () {};
+console.log(typeof Cliente); // function
+console.log(typeof new Cliente); // object
+
+class Produto {} // ES 2015 (ES6)
+console.log(typeof Produto); // function
+console.log(typeof new Produto); // object
+```
+
