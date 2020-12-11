@@ -650,3 +650,4 @@ console.log(saudacao); // Opa
 console.log(exec()); // Falaaa
 console.log(cliente); // { nome: 'Pedro', idade: 32, peso: 90, endereco: { logradouro: 'Rua Muito Legtal', numero: 123 } }
 ```
+
