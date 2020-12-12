@@ -675,3 +675,27 @@ console.log(obj2.nome); // Cadeira
 console.log(obj3.nome); // Mesa
 obj3.exec(); // Exec...
 ```
+
+### 40. Operadores: Atribuição
+
+[Arquivo](Fundamentos/atribuicao.js)
+
+```javascript
+const a = 7;
+let b = 3;
+
+b += a; // b = b + a
+console.log(b); // 10
+
+b -=4; // b = b - 4
+console.log(b); // 6
+
+b *= 2; // b = b * 2
+console.log(b); // 12
+
+b /= 2; // b = b / 2
+console.log(b); // 6
+
+b %= 2 // b = b % 2
+console.log(b); // 0
+```
