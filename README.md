@@ -699,3 +699,33 @@ console.log(b); // 6
 b %= 2 // b = b % 2
 console.log(b); // 0
 ```
+
+### 41. Operadores: Destructuring #01
+
+* Introduzido no JavaScript no ES2015 (ES6), o Destructuring é um operador de desestruturação.
+* utilizado para Objetos com a utilização de parênteses "{}" e arrays com a utilização do colchete "[]". 
+
+[Arquivo](Fundamentos/destructuring1.js)
+
+```javascript
+const pessoa = {
+    nome: 'Ana',
+    idade: 5,
+    endereço: {
+        logradouro: 'Rua ABC',
+        numero: 1000
+    }
+}
+
+const { nome, idade } = pessoa;
+console.log(nome, idade); // Ana 5
+
+const { nome: n, idade: i } = pessoa;
+console.log(n, i); // Ana 5
+
+const { sobrenome, bemHumorada  = true} = pessoa;
+console.log(sobrenome, bemHumorada); // undefined true
+
+const { endereço: { logradouro, numero, cep } } = pessoa;
+console.log(logradouro, numero, cep); // Rua ABC 1000 undefined
+```
