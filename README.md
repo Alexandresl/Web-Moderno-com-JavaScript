@@ -723,9 +723,24 @@ console.log(nome, idade); // Ana 5
 const { nome: n, idade: i } = pessoa;
 console.log(n, i); // Ana 5
 
-const { sobrenome, bemHumorada  = true} = pessoa;
+const { sobrenome, bemHumorada  = true } = pessoa;
 console.log(sobrenome, bemHumorada); // undefined true
 
 const { endereço: { logradouro, numero, cep } } = pessoa;
 console.log(logradouro, numero, cep); // Rua ABC 1000 undefined
+```
+
+### 42. Operadores: Destructuring #02
+
+[Arquivo](Fundamentos/destructuring2.js)
+
+```javascript
+const [ a ] = [10];
+console.log(a); // 10
+
+const [ n1, , n3, , n5, n6 = 0] = [10, 7, 9, 8];
+console.log(n1, n3, n5, n6); // 10 9 undefined 0
+
+const [ , [ , nota]] = [ [ , 8, 8 ], [9, 6, 8] ];
+console.log(nota); // 6
 ```
