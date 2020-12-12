@@ -828,9 +828,28 @@ console.log('13)', undefined === null); // 13) false
 
 ## tabelas verdades
 
-P | Q | P **E** Q
+P | Q | P *E* Q
 --|---|----------
 V | V | V
 V | F | F
 F | V | F
 F | F | f
+
+P | Q | P *ou* Q
+--|---|----------
+V | V | V
+V | F | V
+F | V | V
+F | F | f
+
+P | Q | P *XOR* Q
+--|---|----------
+V | V | F
+V | F | V
+F | V | V
+F | F | f
+
+P | *~*P 
+--|---
+V | F 
+F | V 
