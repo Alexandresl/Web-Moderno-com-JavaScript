@@ -744,3 +744,21 @@ console.log(n1, n3, n5, n6); // 10 9 undefined 0
 const [ , [ , nota]] = [ [ , 8, 8 ], [9, 6, 8] ];
 console.log(nota); // 6
 ```
+
+### 43. Operadores: Destructuring #03
+
+* Podemos usar o destructuring já nos parâmetros de uma função.
+
+[Arquivo]()
+
+```javascript
+function rand({ min = 0, max = 1000}) {
+    const valor = Math.random() * (max - min) + min;
+    return Math.floor(valor);
+}
+
+const obj = { max: 50, min: 40 };
+console.log(rand(obj)); // número randomico entre 40 e 50
+console.log(rand({ min: 955 })); // número randomico entre 955 e 1000
+console.log(rand({})); // número randomico entre 0 e 1000
+```
