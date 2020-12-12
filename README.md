@@ -779,3 +779,21 @@ console.log(rand([992])); // Retorno números entre 992 e 1000
 console.log(rand([, 10])); // Retorno números entre 0 e 10
 console.log(rand([])); // Retorno números entre 0 e 1000
 ```
+
+### 45. Operadores: Aritméticos
+
+* Os operadores aritméticos são operadores binários.
+
+[Arquivo](Fundamentos/aritmeticos.js)
+
+```javascript
+const [a, b, c, d] = [3, 5, 1, 15];
+
+const soma = a + b + c + d;
+const subtracao = d - b;
+const multiplicacao = a * b;
+const divisao = d / a;
+const modulo = a % 2;
+
+console.log(soma, subtracao, multiplicacao, divisao, modulo); // 24 10 15 5 1
+```
