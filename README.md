@@ -823,3 +823,14 @@ console.log('12)', undefined == null); // 12) true
 console.log('13)', undefined === null); // 13) false
 
 ```
+
+### 47. Operadores: Lógicos
+
+## tabelas verdades
+
+P | Q | P **E** Q
+--|---|----------
+V | V | V
+V | F | F
+F | V | F
+F | F | f
