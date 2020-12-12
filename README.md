@@ -828,14 +828,14 @@ console.log('13)', undefined === null); // 13) false
 
 ## tabelas verdades
 
-P | Q | P *E* Q
+P | Q | P *E (&&)* Q
 --|---|----------
 V | V | V
 V | F | F
 F | V | F
 F | F | f
 
-P | Q | P *ou* Q
+P | Q | P *ou (||)* Q
 --|---|----------
 V | V | V
 V | F | V
@@ -849,7 +849,28 @@ V | F | V
 F | V | V
 F | F | f
 
-P | *~*P 
+P | ~P *(!)*
 --|---
 V | F 
 F | V 
+
+* O **OU exclusivo** pode ser simulado com o operador de diferente ```!=``` apesar de existir o operador bitwise (^) - Operador bit a bit, este é mais indicado para situações de comparação entre valores numéricos.
+
+[Arquivo]()
+
+```javascript
+function compras(trabalho1, trabalho2) {
+    const comprarSorvete = trabalho1 || trabalho2;
+    const comprarTV50 = trabalho1 && trabalho2;
+    // const comprarTV32 = !!(trabalho1 ^ trabalho2); // Não recomendado
+    const comprarTV32 = trabalho1 != trabalho2; // Não recomendado
+    const manterSaudável = !comprarSorvete;
+
+    return { comprarSorvete, comprarTV50, comprarTV32, manterSaudável }
+}
+
+console.log(compras(true, true)); // { comprarSorvete: true, comprarTV50: true, comprarTV32: false, 'manterSaudável': false }
+console.log(compras(true, false)); // { comprarSorvete: true, comprarTV50: false, comprarTV32: true, 'manterSaudável': false }
+console.log(compras(false, true)); // { comprarSorvete: true, comprarTV50: false, comprarTV32: true, 'manterSaudável': false }
+console.log(compras(false, false)); // { comprarSorvete: false, comprarTV50: false, comprarTV32: false, 'manterSaudável': true }
+```
