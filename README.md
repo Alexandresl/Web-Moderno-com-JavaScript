@@ -874,3 +874,22 @@ console.log(compras(true, false)); // { comprarSorvete: true, comprarTV50: false
 console.log(compras(false, true)); // { comprarSorvete: true, comprarTV50: false, comprarTV32: true, 'manterSaudável': false }
 console.log(compras(false, false)); // { comprarSorvete: false, comprarTV50: false, comprarTV32: false, 'manterSaudável': true }
 ```
+
+### 48. Operadores: Unários
+
+[Arquivo](Fundamentos/unarios.js)
+
+```javascript
+let num1 = 1;
+let num2 = 2;
+
+// pós-fixada
+num1++;
+console.log(num1); // 2
+// pré-fixada
+--num1;
+console.log(num1); // 1
+
+console.log(++num1 === num2--); // true
+console.log(num1 === num2); // false
+```
