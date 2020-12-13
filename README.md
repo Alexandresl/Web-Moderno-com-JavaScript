@@ -909,3 +909,41 @@ const resultado = (nota) => {
 
 console.log(resultado(7.1)); // Aprovado
 console.log(resultado(6.1)); // Reprovado
+```
+
+### 50. Contexto de Execução: Browser vs Node
+
+* É importante ter conciência ao programarmos com JavaScript sobre o Runtime, ou seja, se estaremos executando o JavaScript no Browser ou no Node, por exemplo.
+* No Browser nós temos um objeto global neste runtime que é chamado de ```window```. Outra forma de acessarmos este objeto no contexto do Browser é com a palavra reservada ```this```.
+* Variáveis globais declaradas com a palavra reservada ```var```, podem ser acessadas pelo objeto ```window```. Variáveis globais declaradas com o ```let``` ou com o ```const``` não estarão acessíveis a partir do objeto ```window```.
+```javascript
+// Exemplo no contexto do browser
+var a = "Texto";
+window.a; // Texto
+this.a // Texto
+
+let b = 123;
+window.b; // undefined
+this.b; // undefined
+b; // 123
+```
+* funções nomeadas declaradas globalmente poderão ser acessadas a partir do objeto ```window```, assim como funções atribuídas a uma variável declarada com a palavra reservada ```var```. funções atribuídas a variáveis (```let``` ou ```const```) não estarão acessíveis pelo objeto ```window```
+
+```javascript
+function f1 () {
+    return this === window
+}
+
+var f2 = () => console.log(this === window);
+
+let f3 = () => console.log(this === window);
+
+window.f1; // true
+this.f1(); // true
+
+window.f2; // true
+this.f2(); // true
+
+window.f3; // undefined
+this.j3(); // undefined
+```
