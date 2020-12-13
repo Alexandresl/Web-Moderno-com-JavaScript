@@ -893,3 +893,19 @@ console.log(num1); // 1
 console.log(++num1 === num2--); // true
 console.log(num1 === num2); // false
 ```
+
+### 48. Operadores: Ternários
+
+[Arquivo](Fundamentos/ternario.js)
+
+```javascript
+// Fora mais reduzida com arrow function
+// const resultado2 = nota => nota >= 7 ? 'Aprovvado' : 'Reprovado';
+
+// Forma mais completa com arrow function
+const resultado = (nota) => {
+    return nota >= 7 ? 'Aprovado' : 'Reprovado';
+}
+
+console.log(resultado(7.1)); // Aprovado
+console.log(resultado(6.1)); // Reprovado
