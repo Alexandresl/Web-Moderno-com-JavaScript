@@ -877,6 +877,8 @@ console.log(compras(false, false)); // { comprarSorvete: false, comprarTV50: fal
 
 ### 48. Operadores: Unários
 
+[Recurso adicional](assets/pdf/O+operador+de+exponenciação..pdf)
+
 [Arquivo](Fundamentos/unarios.js)
 
 ```javascript
@@ -987,3 +989,7 @@ imprimirNomeGritado(obj);
  * }
  */
 ```
+
+### 52. Recursos
+
+[Arquivo](assets/pdf/Note+Jun+13,+2018.pdf)
