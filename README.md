@@ -947,7 +947,7 @@ window.f2; // true
 this.f2(); // true
 
 window.f3; // undefined
-this.j3(); // undefined
+this.f3(); // undefined
 ```
 
 ### 51. Tratamento de Erro (Try / Catch / Throw)
@@ -993,3 +993,8 @@ imprimirNomeGritado(obj);
 ### 52. Recursos
 
 [Arquivo](assets/pdf/Note+Jun+13,+2018.pdf)
+
+## Seção 4: Javascript: Estruturas de Controle
+
+### 53. Visão Geral do Capítulo
+
