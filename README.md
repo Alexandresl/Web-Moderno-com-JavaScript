@@ -1032,3 +1032,17 @@ seForVerdadeEuFalo([1, 2]); // É verdade... 1,2
 seForVerdadeEuFalo({}); // É verdade... [object Object]
 ```
 
+### 55. Usando a Estrutura IF #02
+
+[Arquivo](Controle/if2.js)
+
+```javascript
+function teste1(num) {
+    if (num > 7)
+        console.log(num);
+        console.log("Final");
+}
+
+teste1(6); // Final
+teste1(8); // 8 Final
+```
