@@ -1055,3 +1055,21 @@ function teste2(num) {
 teste2(6); // 6
 teste2(8); // 8
 ```
+
+### 56. Usando a Estrutura IF/ELSE
+
+[Arquivo](Controle/ifElse.js)
+
+```javascript
+const imprimirResultado = function(nota) {
+    if (nota >=7) {
+        console.log('Aprovado!');
+    } else {
+        console.log("Reprovado!");
+    }
+}
+
+imprimirResultado(10); // Aprovado
+imprimirResultado(4); // Reprovado
+imprimirResultado("Epa!"); // Reprovado - Cuidado!!!
+```
