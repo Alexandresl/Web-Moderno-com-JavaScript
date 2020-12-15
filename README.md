@@ -1412,3 +1412,25 @@ console.log(area()); // NaN
 console.log(area(2, 3, 17, 22, 44)); // 6
 console.log(area(5, 5,)); // imprime "Valor acima do permitido: 25m2" e retorna undefined
 ```
+
+### 66. Parâmetros variáveis
+
+* Em JavaScript, mesmo em funções sem declaração de parâmetros, podemos invocar passando parâmetros e recuperar estes valores através da palavra reservada ```arguments```.
+
+[Arquivo](funcao/paramsVariaveis.js)
+
+```javascript
+function soma() {
+    let soma = 0;
+    for (i in arguments) {
+        soma += arguments[i];
+    }
+    return soma;
+}
+
+console.log(soma()); // 0
+console.log(soma(1)); // 1
+console.log(soma(1.1, 2.2, 3.3)); // 6.6
+console.log(soma(1.1, 2.2, 'teste')); // 3.3000000000000003teste
+console.log(soma('a', 'b', 'c')); // 0abc
+```
