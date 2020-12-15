@@ -1388,3 +1388,27 @@ soma(2, 3)(4); // 9
 const duasParcelas = soma(2, 3);
 duasParcelas(4); // 9
 ```
+
+### 65. Parâmetros e Retorno São Opcionais
+
+* Os parâmetros em uma função no JavaScript são opcionais. Mesmo que esteja definido que uma função espera uma quantidade de parâmetros, você poderá invocar a função sem passar nenhum parâmetro, ou passando um número maior de parâmetros.
+* Os retornos também são opcionais. Na declaração de uma função não é necessário definir se haverá ou não retorno, então uma mesma função poderá ora retornar algum valor especificado e ora não retornar (conforme dito anteriormente, não havendo valor definido, irá retornar o ```undefined```).
+
+[Arquivo](funcao/paramsERetornoSaoOpcionais.js)
+
+```javascript
+function area(largura, altura) {
+    const area = largura * altura;
+    if (area > 20) {
+        console.log(`Valor acima do permitido: ${area}m2`);
+    } else {
+        return area;
+    }
+}
+
+console.log(area(2, 2)); // 4
+console.log(area(2)); // NaN
+console.log(area()); // NaN
+console.log(area(2, 3, 17, 22, 44)); // 6
+console.log(area(5, 5,)); // imprime "Valor acima do permitido: 25m2" e retorna undefined
+```
