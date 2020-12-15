@@ -1332,3 +1332,59 @@ for (let y in nums){
   * Par: 2 - 2
   */
 ```
+
+## Seção 5: Javascript: Função
+
+### 64. Cidadão de Primeira Linha
+
+* As funções são muito importantes para o JavaScript. A linguagem permite utilizar as funções de muitas formas, tornando este recurso estremamente poderoso.
+* Em JavaScript, podemos tratar função como dado, assim podemos passar uma função como parâmetro, armazenar em uma variável, retornar uma função em outra função. Isto quebra um pouco o que tínhamos como separado, dados e algorítmos para tratar estes dados.
+* Em JavaScript, toda a função retorna um valor, caso não seja declarada de forma explicita um valor a ser retornado, será returnado o valor ```undefined```.
+
+[Arquivo](funcao/cidadaoPrimeiraClasse.js)
+
+```javascript
+// Função em JS é First-Class Object (Citizens)
+// Higher-order function
+
+// Criar função de forma literal
+function fun1() {
+
+}
+
+// Armazenar função em uma variável
+const fun2 = function () {
+
+}
+
+// Armazenar função em um array
+const array = [function (a,b) { return a + b}, fun1, fun2];
+console.log(array[0](2, 3)); // 5
+
+// Armazenar em atributo de objetos
+const obj = {};
+obj.falar = function () { return 'Opa!' }
+console.log(obj.falar()); // Opa!
+
+// Passar função como parâmetro
+function run(fun) {
+    fun();
+}
+
+run(function() { console.log('Executando...'); }); // Executando
+
+// uma função pode retornar/conter uma função
+function soma(a, b) {
+    return function (c) {
+        console.log(a + b + c);
+    }
+}
+
+soma(2, 3)(4); // 9
+/**
+ * A função soma também poderá ser executada 
+ * armazenando em uma variável
+ */
+const duasParcelas = soma(2, 3);
+duasParcelas(4); // 9
+```
