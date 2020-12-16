@@ -1491,3 +1491,35 @@ console.log(soma3(0, 0, 0)); // 0
 ### 68. "this" pode variar
 
 * Quando utilizada em uma função literal, a palavra ```this``` pode variar. No contesto de uma função Arrow ele não muda, e é definido no momento em que a função é criada, conhecido como "**this léxico**".
+
+### 69. "this" e a Função bind #01
+
+[Arquivo](funcao/thisEBind.js)
+
+```javascript
+const pessoa = {
+    saudacao: 'Bom dia',
+    falar: function () {
+        console.log(this.saudacao);
+    }
+}
+
+pessoa.falar();
+
+const falar = pessoa.falar;
+/**
+ * Ao chamar a função a partir da constante falar
+ * o this, perde a referência do objeto pessoa
+ * returnando undefined
+ */
+falar() // undefined
+
+/**
+ * Para que o this utilizado na função falar do objeto
+ * pessoa não perca a referência, podemos utilizar a 
+ * função bind, que receberá como parâmetro o objeto
+ * que o this está referenciando.
+ */
+const falarDePessoa = pessoa.falar.bind(pessoa);
+falarDePessoa(); // Bom dia
+```
