@@ -1439,7 +1439,7 @@ console.log(soma('a', 'b', 'c')); // 0abc
 
 * O recurso de parâmetro padrão foi adicionado ao JavaScript na versão ES2015.
 
-[Arquivo]()
+[Arquivo](funcao/paramPadrao.js)
 
 ```javascript
 // estrategia 1 para gerar valor padrão
@@ -1487,3 +1487,7 @@ console.log(soma3(3)); // 5
 console.log(soma3(1, 2, 3)); // 6
 console.log(soma3(0, 0, 0)); // 0
 ```
+
+### 68. "this" pode variar
+
+* Quando utilizada em uma função literal, a palavra ```this``` pode variar. No contesto de uma função Arrow ele não muda, e é definido no momento em que a função é criada, conhecido como "**this léxico**".
