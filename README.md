@@ -1548,3 +1548,32 @@ function Pessoa() {
 
 new Pessoa;
 ```
+
+### 71. Funções Arrow #01
+
+* Introduzido no ES2015 (ES6). A função Arrow traz além de uma sintaxe mais reduzida, alguns comportamentos que diferem das funções tradicionais no JavaScript.
+* Uma das principais diferentes é que na função arrow, a palavra ```this``` está associada ao contexto em que a função foi declarada.
+* As funções arrow sempre são funções anonimas, para que elas possam ser chamadas após sua declaração, podemos armazenálas em uma variável.
+
+[Arquivo](funcao/arrowFunction1.js)
+
+```javascript
+let dobro = function (a) {
+    return 2 * a;
+}
+
+dobro = (a) => {
+    return 2 * a;
+}
+
+dobro = a => 2 * a;
+console.log(dobro(Math.PI));
+
+let ola = function () {
+    return 'Olá';
+}
+
+ola = () => 'Olá';
+ola = _ => 'Olá'; // possui um parâmetro
+console.log(ola());
+```
