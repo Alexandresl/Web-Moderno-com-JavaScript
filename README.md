@@ -1641,3 +1641,33 @@ comparaComThisArrow = comparaComThisArrow.bind(obj);
 comparaComThisArrow('obj', obj);
 comparaComThisArrow('module.exports', module.exports);
 ```
+
+### 74. Funções Anônimas
+
+[Arquivo]()
+
+```javascript
+const soma = function (x, y) {
+    return x + y;
+}
+
+const imprimirResultado =  function (a, b, operacao = soma) {
+    console.log(operacao(a, b));
+}
+
+imprimirResultado(3, 4);
+imprimirResultado(3, 4, soma);
+imprimirResultado(3, 4, function (x, y) {
+    return x - y;
+});
+imprimirResultado(3, 4, (x, y) => {
+    return x * y;
+});
+const pessoa = {
+    falar: function () {
+        console.log('Opa!');
+    }
+}
+
+pessoa.falar();
+```
