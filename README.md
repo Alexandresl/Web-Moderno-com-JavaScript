@@ -1674,7 +1674,13 @@ pessoa.falar();
 
 ### 75. Funções Callback #01
 
-* O for
+* O forEach passa para a função callback, que neste caso é a função imprimir, três parâmetros: 
+    * o **valor** que neste caso será cada um dos fabricantes
+    * o **indice** por isso conseguimos imprimir cada item e seu respectivo índice
+    * o **array** por último ele envia o próprio array
+* Como nossa função imprimir não possui um terceiro atributo, o array é apenas ignorado no momento da execução.
+
+[Arquivo](funcao/callback1.js)
 
 ```javascript
 const fabricantes = ["Mercedes", "Audi", "BMW"];
@@ -1685,4 +1691,36 @@ function imprimir(nome, indice) {
 
 fabricantes.forEach(imprimir);
 fabricantes.forEach((fabricante) => console.log(fabricante))
+```
+
+### 76. Funções Callback #02
+
+[Arquivo]()
+
+```javascript
+const notas = [7.7, 6.5, 5.2, 8.9, 3.6, 7.1, 9.0];
+
+// Sem callback
+const notasBaixas1 = [];
+
+for (let i in notas) {
+    if (notas[i] < 7) {
+        notasBaixas1.push(notas[i]);
+    }
+}
+
+console.log(notasBaixas1);
+
+// Com callback
+
+const notasBaixas2 = notas.filter(function (nota) {
+    return nota < 7;
+});
+
+console.log(notasBaixas2);
+
+// com callback e arrow function
+
+const notasBaixas3 = notas.filter(nota => nota < 7);
+console.log(notasBaixas3);
 ```
