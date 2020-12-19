@@ -1671,3 +1671,18 @@ const pessoa = {
 
 pessoa.falar();
 ```
+
+### 75. Funções Callback #01
+
+* O for
+
+```javascript
+const fabricantes = ["Mercedes", "Audi", "BMW"];
+
+function imprimir(nome, indice) {
+    console.log(`${indice + 1}. ${nome}`);
+}
+
+fabricantes.forEach(imprimir);
+fabricantes.forEach((fabricante) => console.log(fabricante))
+```
