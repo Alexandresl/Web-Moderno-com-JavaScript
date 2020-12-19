@@ -1825,6 +1825,8 @@ console.log(mult(3, 4));
 
 * Contexto léxico é o contexto no qual as coisas foram declaradas na linguagem.
 
+[Arquivo](funcao/contextoLexico.js)
+
 ```javascript
 const valor = 'Global';
 
@@ -1847,7 +1849,7 @@ exec(); // Global
 * **closure** é o escopo criado quando uma função é declarada.
 * Este escopo permite a função acessar e minipular variáveis externas à função.
 
-[Arquivo](funcao\closures.js)
+[Arquivo](funcao/closures.js)
 
 ```javascript
  // Contexto léxico em ação!
@@ -1864,4 +1866,22 @@ function fora() {
 
 const minhaFuncao = fora();
 console.log(minhaFuncao()); // Local
+```
+
+### 82. Function Factory #01
+
+* **function Factory** são funções que retornam um objeto.
+
+[Arquivo](funcao/factory1.js)
+
+```javascript
+// Factory simples
+function criarPessoa() {
+    return {
+        nome: 'Ana',
+        sobrenome: 'Silva'
+    }
+}
+
+console.log(criarPessoa()); // { nome: 'Ana', sobrenome: 'Silva' }
 ```
