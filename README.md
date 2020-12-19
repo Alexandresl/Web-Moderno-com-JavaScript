@@ -1724,3 +1724,16 @@ console.log(notasBaixas2);
 const notasBaixas3 = notas.filter(nota => nota < 7);
 console.log(notasBaixas3);
 ```
+
+### 77. Funções Callback #03
+
+* Exemplo para ser executado no Browser.
+
+[Arquivo](funcao/callback3.js)
+
+```javascript
+// Exemplo de callback no browser
+document.getElementsByTagName('body')[0].onclick = function (e) {
+    console.log('O evento ocorreu!');
+}
+```
