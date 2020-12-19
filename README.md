@@ -1820,3 +1820,48 @@ const mult = function mult(x, y) {
 }
 console.log(mult(3, 4));
 ```
+
+### 80. Contexto Léxico
+
+* Contexto léxico é o contexto no qual as coisas foram declaradas na linguagem.
+
+```javascript
+const valor = 'Global';
+
+function minhaFuncao() {
+    console.log(valor);
+}
+minhaFuncao(); // Global
+
+function exec() {
+    const valor = 'Local';
+    minhaFuncao();
+}
+
+exec(); // Global
+```
+
+### 81. Closures
+
+* **Closure** - "Fechamento"
+* **closure** é o escopo criado quando uma função é declarada.
+* Este escopo permite a função acessar e minipular variáveis externas à função.
+
+[Arquivo](funcao\closures.js)
+
+```javascript
+ // Contexto léxico em ação!
+
+const x = "Global";
+
+function fora() {
+    const x = "Local";
+    function dentro() {
+        return x;
+    }
+    return dentro;
+}
+
+const minhaFuncao = fora();
+console.log(minhaFuncao()); // Local
+```
