@@ -2050,3 +2050,19 @@ function pow (base, expoente) {
 
 console.log(pow(2, 5));
 ```
+
+#### 4 -
+Crie uma função que irá receber dois valores, o dividendo e o divisor. A função deverá imprimir o resultado e o resto da divisão destes dois valores.
+
+[Arquivo](exercicios/88/exe4.js)
+
+```javascript
+function divisao (a, b) {
+    console.log(`Quociente: ${Math.floor(a / b)}`);
+    console.log(`resto: ${a % b}`);
+}
+
+divisao(20, 5);
+divisao(20, 3);
+```
+
