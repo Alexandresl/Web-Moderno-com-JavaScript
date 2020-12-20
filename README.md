@@ -2000,3 +2000,19 @@ console.log(getPreco.apply(carro, [0.17, '$']));
 ```
 
 ### 88. Lista de exercícios: Fundamentos, Estruturas de controle e Funções
+
+#### 1
+Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtracao, multiplicação e divisão desses valores.
+
+[Arquivo](exercicios/88/exe1.js)
+
+```javascript
+function calcularOperacoes(a, b) {
+    console.log(`${a} + ${b} = ${a + b}`);
+    console.log(`${a} - ${b} = ${a - b}`);
+    console.log(`${a} * ${b} = ${a * b}`);
+    console.log(`${a} / ${b} = ${a / b}`);
+}
+
+calcularOperacoes(3, 4)
+```
