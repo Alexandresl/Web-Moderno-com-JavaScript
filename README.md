@@ -2078,3 +2078,21 @@ function emReal (a) {
 
 emReal(0.30000000000000004);
 ```
+
+#### 6 -
+Elabore duas funções que recebe3m três parâmetros: capital inicial, taxa de juros e tempo de aplicação. A primeira função retornará o montante da aplicação financeira sob o regime de juros simples e a segunda retornará o valor da aplicação sob o regime de juros compostos.
+
+[Arquivo](exercicios/88/exe6.js)
+
+```javascript
+function calculaJurosSimples(capitalInicial, taxaJuros, tempoAplicacao) {
+    return `R$ ${(capitalInicial + capitalInicial * taxaJuros * tempoAplicacao).toFixed(2)}`;
+}
+
+function calculaJurosCompostos(capitalInicial, taxaJuros, tempoAplicacao) {
+    return `R$ ${((capitalInicial * (1 + taxaJuros) ** tempoAplicacao)).toFixed(2)}`;
+}
+
+console.log(calculaJurosSimples(100, 0.1, 2));
+console.log(calculaJurosCompostos(100, 0.1, 2));
+```
