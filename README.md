@@ -1998,3 +1998,5 @@ console.log(getPreco.call(carro, 0.17, '$'));
 // No apply, os parâmetros são passados através de um array
 console.log(getPreco.apply(carro, [0.17, '$']));
 ```
+
+### 88. Lista de exercícios: Fundamentos, Estruturas de controle e Funções
