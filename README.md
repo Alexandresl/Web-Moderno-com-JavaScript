@@ -2037,3 +2037,16 @@ verificaTriângulo(3, 3, 3)
 verificaTriângulo(4, 3, 3)
 verificaTriângulo(1, 2, 3)
 ```
+
+#### 3 -
+Crie uma função que recebe dois parâmetros, base e expoente, e retorno a base elevada ao expoente
+
+[Arquivo](exercicios/88/exe3.js)
+
+```javascript
+function pow (base, expoente) {
+    return base ** expoente;
+}
+
+console.log(pow(2, 5));
+```
