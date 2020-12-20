@@ -1913,7 +1913,7 @@ console.log(iPad); // { nome: 'iPad', preco: 1199.49, desconto: 0.1 }
 [Arquivo](funcao/classVsFactory.js)
 
 ```javascript
-;class Passoa {
+class Passoa {
     constructor(nome) {
         this.nome = nome
     }
@@ -1935,4 +1935,20 @@ const criarPessoa = nome => {
 
 const p2 = criarPessoa('João');
 p2.falar();
+```
+
+### 85. Desafio Função Construtora
+
+[Arquivo](funcao/desafioFuncaoConstrutora.js)
+
+```javascript
+function Pessoa (nome) {
+    this.nome = nome;
+    this.falar = function () {
+        console.log(`Meu nome é ${nome}`);
+    }
+}
+
+const p = new Pessoa('João');
+p.falar();
 ```
