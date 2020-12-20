@@ -2001,7 +2001,7 @@ console.log(getPreco.apply(carro, [0.17, '$']));
 
 ### 88. Lista de exercícios: Fundamentos, Estruturas de controle e Funções
 
-#### 1
+#### 1 -
 Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtracao, multiplicação e divisão desses valores.
 
 [Arquivo](exercicios/88/exe1.js)
@@ -2015,4 +2015,25 @@ function calcularOperacoes(a, b) {
 }
 
 calcularOperacoes(3, 4)
+```
+
+#### 2 -
+Os triângulos podem ser classificaedos em 3 tipos quanto ao tamanho de seus lados: *Equilátero*: Os três lados são iguais. *Isósceles*: Dois lados iguais. *Escaleno*: Todos os lados são diferentes. Crie uma função que recebe os comprimentos dos três lados de um triângulo e retorne sua classificação quanto ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um triângulo).
+
+[Arquivo](exercicios/88/exe2.js)
+
+```javascript
+function verificaTriângulo (l1, l2, l3) {
+    if (l1 == l2 && l1 == l3) {
+        console.log("O triângulo é equilátero");
+    } else if (l1 == l2 || l2 == l3 || l1 == l3) {
+        console.log("O triângulo é isósceles");
+    } else {
+        console.log("O triângulo é escaleno");
+    }
+}
+
+verificaTriângulo(3, 3, 3)
+verificaTriângulo(4, 3, 3)
+verificaTriângulo(1, 2, 3)
 ```
