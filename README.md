@@ -1905,3 +1905,34 @@ const iPad = criarProduto('iPad', 1199.49);
 console.log(notebook); // { nome: 'Notebook', preco: 2199.49, desconto: 0.1 }
 console.log(iPad); // { nome: 'iPad', preco: 1199.49, desconto: 0.1 }
 ```
+
+### 84. Classe VS Função Factory
+
+* A função falar() declarada com a função factory, por não usar o ```this```, não perde a referência ao objeto, como o método declarado em uma ```class```
+
+[Arquivo](funcao/classVsFactory.js)
+
+```javascript
+;class Passoa {
+    constructor(nome) {
+        this.nome = nome
+    }
+    falar() {
+        console.log(`Meu nome é ${this.nome}`);
+    }
+}
+
+const p1 = new Passoa('João');
+p1.falar();
+
+const criarPessoa = nome => {
+    return {
+        falar() {
+            console.log(`Meu nome é ${nome}`);
+        }
+    }
+}
+
+const p2 = criarPessoa('João');
+p2.falar();
+```
