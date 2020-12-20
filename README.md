@@ -1952,3 +1952,17 @@ function Pessoa (nome) {
 const p = new Pessoa('João');
 p.falar();
 ```
+
+### 86. IIFE
+
+* IIFE (*Immediately Invoked Function Expression*) é uma função auto invocada.
+* É uma estratégia útil no contexto do Browser para fugirmos do escopo global, já que ela será executada assim que declarada e tudo que for criado será escopo local da função.
+
+[Arquivo](funcao/iife.js)
+
+```javascript
+(function () {
+    console.log('Será executado na hora!');
+    console.log('Foge do escopo mais abrangente!');
+})()
+```
