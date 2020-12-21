@@ -2163,6 +2163,7 @@ Construa uma função para um sistema de notas de uma instituição que possui a
 - As notas possuem o seguinte arredondamento: 
     - Se a diferença entre a nota e o próximo múltiplo de 5 for menor que 3, arredondar a nota para esse próximo múltiplo de 5. 
     - Se a nota for abaixo de 38, não é feito nenhum arredondamento pois esta nota resulta na reprovação do aluno.
+
 Por exemplo, a nota 84 será arredondada para 85, mas a nota 29 não será arredondada por ser abaixo de 40 e não ser possível arredondamento eficiente, ou seja, que evite a reprovação do aluno. No caso de a nota ser 38, o arredondamento é possível pois atingirá 40 e o aluno será aprovado.
 
 [Arquivo](exercicios/88/exe9.js)
