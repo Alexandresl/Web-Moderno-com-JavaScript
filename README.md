@@ -2004,7 +2004,7 @@ console.log(getPreco.apply(carro, [0.17, '$']));
 #### 1 -
 Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtracao, multiplicação e divisão desses valores.
 
-[Arquivo](exercicios/88/exe1.js)
+[Arquivo](exercicios/88/exe01.js)
 
 ```javascript
 function calcularOperacoes(a, b) {
@@ -2020,7 +2020,7 @@ calcularOperacoes(3, 4)
 #### 2 -
 Os triângulos podem ser classificaedos em 3 tipos quanto ao tamanho de seus lados: *Equilátero*: Os três lados são iguais. *Isósceles*: Dois lados iguais. *Escaleno*: Todos os lados são diferentes. Crie uma função que recebe os comprimentos dos três lados de um triângulo e retorne sua classificação quanto ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um triângulo).
 
-[Arquivo](exercicios/88/exe2.js)
+[Arquivo](exercicios/88/exe02.js)
 
 ```javascript
 function verificaTriângulo (l1, l2, l3) {
@@ -2041,7 +2041,7 @@ verificaTriângulo(1, 2, 3)
 #### 3 -
 Crie uma função que recebe dois parâmetros, base e expoente, e retorno a base elevada ao expoente
 
-[Arquivo](exercicios/88/exe3.js)
+[Arquivo](exercicios/88/exe03.js)
 
 ```javascript
 function pow (base, expoente) {
@@ -2054,7 +2054,7 @@ console.log(pow(2, 5));
 #### 4 -
 Crie uma função que irá receber dois valores, o dividendo e o divisor. A função deverá imprimir o resultado e o resto da divisão destes dois valores.
 
-[Arquivo](exercicios/88/exe4.js)
+[Arquivo](exercicios/88/exe04.js)
 
 ```javascript
 function divisao (a, b) {
@@ -2069,7 +2069,7 @@ divisao(20, 3);
 #### 5 -
 Lidar com números em JavaScript pode dar muita dor de cabeça. Você já viu o que acontece quado faz o seguinte comando no console: ```console.log(0.1 + 0.2);``` O resultado será: 0.30000000000000004. Outra coisa importante de observar, é o fato que o ponto é utilizado no logar da vírgula e vice versa. Com isso, vamos fazer um exercício simples para mostrar dinheiro sempre da forma correta. Desenvolva uma função JavaScript para que ela receba um valor como 0.30000000000000004 e retorno R$ 0,30 (observe a vírgula e o ponto).
 
-[Arquivo](exercicios/88/exe5.js)
+[Arquivo](exercicios/88/exe05.js)
 
 ```javascript
 function emReal (a) {
@@ -2082,7 +2082,7 @@ emReal(0.30000000000000004);
 #### 6 -
 Elabore duas funções que recebe3m três parâmetros: capital inicial, taxa de juros e tempo de aplicação. A primeira função retornará o montante da aplicação financeira sob o regime de juros simples e a segunda retornará o valor da aplicação sob o regime de juros compostos.
 
-[Arquivo](exercicios/88/exe6.js)
+[Arquivo](exercicios/88/exe06.js)
 
 ```javascript
 function calculaJurosSimples(capitalInicial, taxaJuros, tempoAplicacao) {
@@ -2100,7 +2100,7 @@ console.log(calculaJurosCompostos(100, 0.1, 2));
 ### 7 -
 Uma das vantagens da programação é a automatização de tarefas que não gostamos de realizar. Dito isto, elabore uma função cujo objetivo é resolver a fórmula de Bhaskara. Para isso, sua função deve receber três parâmetros, "*ax2*", "*bx*" e "*c*", de tal modo que na equação: 3x² - 5x + 12 os valores seriam respectivamente: 3, -5 e 12. Como retorno deve ser passado um vetor que tem 2 valores, um para cada possível resultado, mesmo que os resultados sejam iguais. Caso o delta seja negativo, retorne, ao invés do vetor, um string com a frase: "*Delta é negativo*".
 
-[Arquivo](exercicios/88/exe7.js)
+[Arquivo](exercicios/88/exe07.js)
 
 ```javascript
 function calculaBhaskara(ax2, bx, c) {
@@ -2129,7 +2129,7 @@ Exemplo:
 String: "10 20 20 8 25 3 0 30 1"
 retorno: [3, 7] (Significa que ele bateu três vezes seu recorde de melhor pontuação e a pior pontuação aconteceu no sétimo jogo)
 
-[Arquivo](exercicios/88/exe8.js)
+[Arquivo](exercicios/88/exe08.js)
 
 ```javascript
 const stringPontuacoes = '10 20 20 8 25 3 0 30 1';
@@ -2166,7 +2166,7 @@ Construa uma função para um sistema de notas de uma instituição que possui a
 
 Por exemplo, a nota 84 será arredondada para 85, mas a nota 29 não será arredondada por ser abaixo de 40 e não ser possível arredondamento eficiente, ou seja, que evite a reprovação do aluno. No caso de a nota ser 38, o arredondamento é possível pois atingirá 40 e o aluno será aprovado.
 
-[Arquivo](exercicios/88/exe9.js)
+[Arquivo](exercicios/88/exe09.js)
 
 ```javascript
 function classificaAluno(nota) {
@@ -2196,7 +2196,7 @@ classificaAluno(84);
 #### 10 -
 Crie uma função que verifica se um número inteiro passado como parâmetro é divisível por 3 e retorne *true* ou *false*.
 
-[Arquivo]()
+[Arquivo](exercicios/88/exe10.js)
 
 ```javascript
 function div3 (num) {
@@ -2210,4 +2210,45 @@ console.log(div3(3));
 console.log(div3(4));
 console.log(div3(12));
 console.log(div3(20));
+```
+
+#### 11 -
+As regras para o cálculo dos anos bissextos são as seguintes:
+- De 4 em 4 anos é bissexto;
+- De 100 em 100 anos não é bissexto;
+- De 400 em 400 anos é bissexto;
+Prevalecem as últimas regras sobre as primeiras.
+Partindo daí elabore uma função que recebe um ano e calcula se ele é ano bissexto, imprimindo no console a mensagem e retornando true ou false.
+
+[Arquivo](exercicios/88/exe11.js)
+
+```javascript
+function anoBissexto (ano) {
+    let anoBissexto;
+    if (ano <= 0) {
+        anoBissexto = false;
+    } else if (ano % 400 == 0) {
+        anoBissexto = true;
+    } else if (ano % 100 == 0) {
+        anoBissexto = false;
+    } else if (ano % 4 == 0) {
+        anoBissexto = true;
+    } else {
+        anoBissexto = false;
+    }
+    if (!anoBissexto) {
+        console.log(`O ano ${ano} não é bissexto`);
+        return false;
+    }
+    console.log(`O ano ${ano} é bissexto`);
+    return true;
+}
+
+console.log(anoBissexto(0));
+console.log(anoBissexto(4));
+console.log(anoBissexto(100));
+console.log(anoBissexto(400));
+console.log(anoBissexto(800));
+console.log(anoBissexto(2020));
+console.log(anoBissexto(2021));
 ```
