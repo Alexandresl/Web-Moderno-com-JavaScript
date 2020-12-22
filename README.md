@@ -2192,3 +2192,22 @@ classificaAluno(29);
 classificaAluno(38);
 classificaAluno(84);
 ```
+
+#### 10 -
+Crie uma função que verifica se um número inteiro passado como parâmetro é divisível por 3 e retorne *true* ou *false*.
+
+[Arquivo]()
+
+```javascript
+function div3 (num) {
+    if (num % 3 != 0) {
+        return false;
+    }
+    return true;
+}
+
+console.log(div3(3));
+console.log(div3(4));
+console.log(div3(12));
+console.log(div3(20));
+```
