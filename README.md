@@ -2284,3 +2284,41 @@ fatorial(8); // 8! = 40320
 fatorial(9); // 9! = 362880
 fatorial(10); // 10! = 3628800
 ```
+
+#### 13 -
+Crie um programa que exibe se um dia é dia útil, fim de semana ou dia inválido dado o número referente ao dia. Considere que é o dia 1 e sábado é o dia 7. Utilize a estrutura Switch.
+
+[Arquivo](exercicios/88/exe13.js)
+
+```javascript
+function diasDaSemana(dia) {
+    switch (dia) {
+        case 1:
+            return 'Fim de samana';
+        case 2:
+            return 'Dia útil';
+        case 3:
+            return 'Dia útil';
+        case 4:
+            return 'Dia útil';
+        case 5:
+            return 'Dia útil';
+        case 6:
+            return 'Dia útil';
+        case 7:
+            return 'Fim de samana';
+        default:
+            return 'Dia inválido'
+    }
+}
+
+console.log(diasDaSemana(0)); // Dia inválido
+console.log(diasDaSemana(1)); // Fim de samana
+console.log(diasDaSemana(2)); // Dia útil
+console.log(diasDaSemana(3)); // Dia útil
+console.log(diasDaSemana(4)); // Dia útil
+console.log(diasDaSemana(5)); // Dia útil
+console.log(diasDaSemana(6)); // Dia útil
+console.log(diasDaSemana(7)); // Fim de samana
+console.log(diasDaSemana(8)); // Dia inválido
+```
