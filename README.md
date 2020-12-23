@@ -2407,3 +2407,37 @@ calculadora(10, '-', 5); // 10 - 5 = 5
 calculadora(6, '*', 8); // 6 * 8 = 48
 calculadora(35, '/', 5); // 35 / 5 = 7
 ```
+
+#### 17 -
+Um funcionário irá receber um aumento de acordo com o seu plano de trabalho, de acordo com a tabela abaixo:
+Plano | Aumento
+------|---------
+A | 10%
+B | 15%
+C | 20%
+Faça uma função que leia o plano de trabalho e o salário atual de um funcionário e calcule e imprime o seu novo salário. Use a estrutura switch e faça um caso default que indique que o plano é inválido.
+
+[Arquivo](exercicios/88/exe17.js)
+
+```javascript
+function aumentoSalario (planoTrabalho, salarioAtual) {
+    switch (planoTrabalho) {
+        case 'A':
+            console.log(`O novo salário é R$ ${(salarioAtual * 1.1).toFixed(2)}`);
+            break;
+        case 'B':
+            console.log(`O novo salário é R$ ${(salarioAtual * 1.15).toFixed(2)}`);
+            break;
+        case 'C':
+            console.log(`O novo salário é R$ ${(salarioAtual * 1.2).toFixed(2)}`);
+            break;
+        default:
+            console.log(`Plano inválido`);
+    }
+}
+
+aumentoSalario('A', 100); // O novo salário é R$ 110.00
+aumentoSalario('B', 100); // O novo salário é R$ 115.00
+aumentoSalario('C', 100); // O novo salário é R$ 120.00
+aumentoSalario('D', 100); // Plano inválido
+```
