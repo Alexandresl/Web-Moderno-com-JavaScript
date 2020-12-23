@@ -2424,21 +2424,81 @@ Faça uma função que leia o plano de trabalho e o salário atual de um funcion
 function aumentoSalario (planoTrabalho, salarioAtual) {
     switch (planoTrabalho) {
         case 'A':
-            console.log(`O novo salário é R$ ${(salarioAtual * 1.1).toFixed(2)}`);
+            console.log(`O novo salário é R$ ${salarioAtual * 1.1}`);
             break;
         case 'B':
-            console.log(`O novo salário é R$ ${(salarioAtual * 1.15).toFixed(2)}`);
+            console.log(`O novo salário é R$ ${salarioAtual * 1.15}`);
             break;
         case 'C':
-            console.log(`O novo salário é R$ ${(salarioAtual * 1.2).toFixed(2)}`);
+            console.log(`O novo salário é R$ ${salarioAtual * 1.2}`);
             break;
         default:
             console.log(`Plano inválido`);
     }
 }
 
-aumentoSalario('A', 100); // O novo salário é R$ 110.00
-aumentoSalario('B', 100); // O novo salário é R$ 115.00
-aumentoSalario('C', 100); // O novo salário é R$ 120.00
+aumentoSalario('A', 100); // O novo salário é R$ 110.00000000000001
+aumentoSalario('B', 100); // O novo salário é R$ 114.99999999999999
+aumentoSalario('C', 100); // O novo salário é R$ 120
 aumentoSalario('D', 100); // Plano inválido
+```
+
+#### 18 -
+Faça um programa que leia um número entre 0 e 10, e escreva este número por extenso. Use o comando switch. Crie um caso default que escreva 'Número fora do intervalo'.
+
+[Arquivo](exercicios/88/exe18.js)
+
+```javascript
+function numeroPorExetenso (numero) {
+    switch (numero) {
+        case 0:
+            console.log('Zero');
+            break;
+        case 1:
+            console.log('Um');
+            break;
+        case 2:
+            console.log('Dois');
+            break;
+        case 3:
+            console.log('Três');
+            break;
+        case 4:
+            console.log('Quatro');
+            break;
+        case 5:
+            console.log('Cinco');
+            break;
+        case 6:
+            console.log('Seis');
+            break;
+        case 7:
+            console.log('Sete');
+            break;
+        case 8:
+            console.log('Oito');
+            break;
+        case 9:
+            console.log('Nove');
+            break;
+        case 10:
+            console.log('Dez');
+            break;
+        default:
+            console.log('Número fora do intervalo.');
+    }
+}
+
+numeroPorExetenso(0); // Zero
+numeroPorExetenso(1); // Um
+numeroPorExetenso(2); // Dois
+numeroPorExetenso(3); // Três
+numeroPorExetenso(4); // Quatro
+numeroPorExetenso(5); // Cinco
+numeroPorExetenso(6); // Seis
+numeroPorExetenso(7); // Sete
+numeroPorExetenso(8); // Oito
+numeroPorExetenso(9); // Nove
+numeroPorExetenso(10); // Dez
+numeroPorExetenso(11); // Número fora do intervalo.
 ```
