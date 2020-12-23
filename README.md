@@ -2376,3 +2376,34 @@ console.log(revenda('motocicletas')); // Tem certeza que não prefere este model
 console.log(revenda('caminhonetes')); // Tem certeza que não prefere este modelo?
 console.log(revenda('jipe')); // Não trabalhamos com este tipo de automóvel aqui
 ```
+
+#### 16 -
+Utilizando a estrutura do Switch, faça um programa que simule uma calculadora básica. O programa recebe como parâmetros dois valores numéricos e uma string referente à operação e a realize com os valores numéricos na ordem que foram inseridos. Por exemplo: calculadora(2, '+', 3). A função efetuará a soma de 2 e 3. Dica: Os sinais das operações são '+', '-', '*' e '/'. Crie um caso default para operações inválidas.
+
+[Arquivo](exercicios/88/exe16.js)
+
+```javascript
+function calculadora (num1, operacao, num2) {
+    switch (operacao) {
+        case '+':
+            console.log(`${num1} ${operacao} ${num2} = ${num1 + num2}`);
+            break;
+        case '-':
+            console.log(`${num1} ${operacao} ${num2} = ${num1 - num2}`);
+            break;
+        case '*':
+            console.log(`${num1} ${operacao} ${num2} = ${num1 * num2}`);
+            break;
+        case '/':
+            console.log(`${num1} ${operacao} ${num2} = ${num1 / num2}`);
+            break;
+        default:
+            console.log('Operação inválida');
+    }
+}
+
+calculadora(5, '+', 10); // 5 + 10 = 15
+calculadora(10, '-', 5); // 10 - 5 = 5
+calculadora(6, '*', 8); // 6 * 8 = 48
+calculadora(35, '/', 5); // 35 / 5 = 7
+```
