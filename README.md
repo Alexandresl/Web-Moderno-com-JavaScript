@@ -2546,6 +2546,6 @@ function compra(codigo, qtd) {
     return total *= qtd;
 }
 
-console.log(compra(100, 3));
-console.log(compra(101, 3));
+console.log(compra(100, 3)); // 9
+console.log(compra(101, 3)); // Produto inválido
 ´´´
