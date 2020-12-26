@@ -2729,3 +2729,20 @@ function imprimeHelloWorld() {
 
 imprimeHelloWorld();
 ```
+
+#### 25 -
+Escrever um programa para exibir os números de 1 até 50 na tela;
+
+[Arquivo](exercicios/88/exe25.js)
+
+```javascript
+function imprimirNumeros () {
+    let cont = 1;
+    while (cont <= 50) {
+        console.log(cont);
+        cont++;
+    }
+}
+
+imprimirNumeros();
+```
