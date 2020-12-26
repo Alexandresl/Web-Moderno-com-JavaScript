@@ -2712,3 +2712,20 @@ Resultado(100, 5, 5, 5)
 Resultado(100, 4, 5, 5)
 Resultado(100, 4, 5, 6)
 ```
+
+#### 24 -
+Crie um programa que imprima 11 vezes a frase " Hello World!" utilizando uma estrutura de repetição while.
+
+[Arquivo](exercicios/88/exe24.js)
+
+```javascript
+function imprimeHelloWorld() {
+    let cont = 0;
+    while (cont < 11) {
+        console.log(`${cont + 1}- Hello World!`);
+        cont++;
+    }
+}
+
+imprimeHelloWorld();
+```
