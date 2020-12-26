@@ -2630,3 +2630,33 @@ function imprimeNotas(notas100, notas50, notas10, notas5, notas1) {
 
 ATM(167.00);
 ```
+
+#### 21 -
+Criar um programa para identificar o valor a ser pago por um plano de saúde dada a idade do conveniado considerando que todos pagam R$ 100,00 mais um adicional conforme a seguinte tabela: 
+1) crianças com menos de 10 anos pagam R$ 80,00;
+2) conveniados com idade entre 10 e 30 anos pagam R$ 50,00;
+3) conveniados com idade de 30 até 60 anos pagam R$ 95,00;
+4) conveniados acima de 60 anos pagam R$ 130,00.
+
+[Arquivo](exercicios/88/exe21.js)
+
+```javascript
+function valorPlanoSaude(idade) {
+    let valorTotal = 100;
+    if (idade < 10) {
+        valorTotal += 80;
+    } else if (idade >= 10 && idade < 30) {
+        valorTotal += 50;
+    } else if (idade >= 30 && idade < 60) {
+        valorTotal += 95;
+    } else {
+        valorTotal += 130;
+    }
+    console.log(`O valor total do plano é R$ ${valorTotal.toFixed(2)}`);
+}
+
+valorPlanoSaude(9);
+valorPlanoSaude(10);
+valorPlanoSaude(30);
+valorPlanoSaude(80);
+```
