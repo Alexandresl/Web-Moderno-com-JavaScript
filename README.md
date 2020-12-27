@@ -2731,7 +2731,7 @@ imprimeHelloWorld();
 ```
 
 #### 25 -
-Escrever um programa para exibir os números de 1 até 50 na tela;
+Escrever um programa para exibir os números de 1 até 50 na tela.
 
 [Arquivo](exercicios/88/exe25.js)
 
@@ -2745,4 +2745,21 @@ function imprimirNumeros () {
 }
 
 imprimirNumeros();
+```
+
+#### 26 -
+Fazer um programa para encontrar todos os pares entre 1  e 100.
+
+[Arquivo](exercicios/88/exe26.js)
+
+```javascript
+function pares(inicio, fim) {
+    for (let i = inicio; i <= fim; i++) {
+        if (i % 2 == 0) {
+            console.log(i);
+        }
+    }
+}
+
+pares(1, 100);
 ```
