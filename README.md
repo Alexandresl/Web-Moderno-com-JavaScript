@@ -2848,3 +2848,27 @@ function noIntervalo1020(array) {
 
 noIntervalo1020([1, 3, 5, 7, 9, 11, 12, 13, 15, 17, 19]);
 ```
+
+#### 30 -
+Escreva um algoritmo que percorre um vetor de inteiros e defina o maior e menor valor dentro do vetor.
+
+[Arquivo](exercicios/88/exe30.js)
+
+```javascript
+function maiorMenor(array) {
+    let maiorNumero = array[0];
+    let menorNumero = array[0];
+    for (let i in array) {
+        if (array[i] > maiorNumero) {
+            maiorNumero = array[i];
+        }
+        if (array[i] < menorNumero) {
+            menorNumero = array[i];
+        }
+    }
+    console.log(`O maior número é ${maiorNumero}`);
+    console.log(`O menor número é ${menorNumero}`);
+}
+
+maiorMenor([23, 3984, 1, 3984, 9])
+```
