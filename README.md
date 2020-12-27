@@ -2872,3 +2872,22 @@ function maiorMenor(array) {
 
 maiorMenor([23, 3984, 1, 3984, 9])
 ```
+
+#### 31 -
+Escrever um algoritmo que percorre um vetor de inteiros, conta quantos números negativos há nesse vetor, e imprime a quantidade no console.
+
+[Arquivo](exercicios/88/exe31.js)
+
+```javascript
+function numerosNegativos(array) {
+    let contNegativos = 0;
+    for (let i in array) {
+        if (array[i] < 0) {
+            contNegativos++;
+        }
+    }
+    console.log(`A quantidade de números negativos é ${contNegativos}`);
+}
+
+numerosNegativos([0, 3, -2, 10, -5]);
+```
