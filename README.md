@@ -2825,3 +2825,26 @@ function separarParImpar(array) {
 
 separarParImpar([1, 3, 78, 90, 13])
 ```
+
+#### 29 -
+Utilizando a estrutura de repetição for, faça uma função que percorra um vetor e conte quantos números deste vetor estão no intervalo [10, 20] (repare que o intervalo é fechado, ou seja, inclui o 10 e 20) e quantos destes estão fora do intervalo, escrevendo estas informações.
+
+[Arquivo](exercicios/88/exe29.js)
+
+```javascript
+function noIntervalo1020(array) {
+    let noIntervalo = 0;
+    let foraDoIntervalo = 0;
+    for (let i in array) {
+        if (array[i] >= 10 && array[i] <= 20) {
+            noIntervalo++;
+        } else {
+            foraDoIntervalo++;
+        }
+    }
+    console.log(`${noIntervalo} numero(s) estão entre 10 e 20`);
+    console.log(`${foraDoIntervalo} numero(s) não estão entre 10 e 20`);
+}
+
+noIntervalo1020([1, 3, 5, 7, 9, 11, 12, 13, 15, 17, 19]);
+```
