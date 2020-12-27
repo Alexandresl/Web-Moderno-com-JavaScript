@@ -2891,3 +2891,21 @@ function numerosNegativos(array) {
 
 numerosNegativos([0, 3, -2, 10, -5]);
 ```
+
+#### 32 -
+Construir um algoritmo que calcule a média aritmética dos valores de um vetor de inteiros.
+
+[Arquivo](exercicios/88/exe32.js)
+
+```javascript
+function calculaMediaArray(array) {
+    let media = 0;
+    for (let i in array) {
+        media += array[i];
+    }
+    media /= array.length;
+    console.log(`A média é ${media}`);
+}
+
+calculaMediaArray([1, 3, 5, 7, 9, 11]);
+```
