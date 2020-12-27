@@ -2909,3 +2909,26 @@ function calculaMediaArray(array) {
 
 calculaMediaArray([1, 3, 5, 7, 9, 11]);
 ```
+
+#### 33 -
+Crie três vetores, chamados vetorinteiro, vetorString e vetorDouble. Cada um destes vetores deverá conter quatro valores, sendo o primeiro com valores inteiros, o segundo com strings e o terceiro com valores decimais. Declarados os vetores, utilize a função de união concat() de duas maneiras diferentes para unir os vetores, e mostre o resultado no console. Todos os elementos do vertor resultado deverão aparecer no console.
+
+[Arquivo](exercicios/88/exe33.js)
+
+```javascript
+let vetorInteiro = [9, 8, 4, 2];
+let vetorString = ["Laranja", "Melancia", "Limão", "Uva"];
+let vetorDouble = [9.8, 8.4, 4.2, 2.9];
+
+function concatArrays(...args) {
+    let result = [];
+    for (let i in args) {
+        result = result.concat(args[i])
+    }
+    return result;
+}
+
+console.log(concatArrays(vetorInteiro, vetorString));
+console.log(concatArrays(vetorString, vetorDouble));
+
+```
