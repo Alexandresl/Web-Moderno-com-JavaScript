@@ -2930,5 +2930,33 @@ function concatArrays(...args) {
 
 console.log(concatArrays(vetorInteiro, vetorString));
 console.log(concatArrays(vetorString, vetorDouble));
+```
 
+#### 34 -
+Construa uma função que receberá duas Strings de tamanhos variádos e que retornará *true* ou *false* caso todos os caracteres (independentemente de ser maiúsculo ou minúsculo) estejam em ambas as palavras.
+
+[Arquivo](exercicios/88/exe34.js)
+
+```javascript
+function testaCaracteres(str1, str2) {
+    let estaContido = true;
+    for (let i = 0; i < str1.length; i++) {
+        let charStr1 = str1.charAt(i).toLowerCase();
+        for (let j = 0; j < str2.length; j++) {
+            let charStr2 = str2.charAt(j).toLowerCase();
+            if (charStr1 === charStr2) {
+                estaContido = true;
+                break;
+            } else {
+                estaContido = false;
+            }
+        }
+        if (!estaContido) {
+            return estaContido;
+        }
+    }
+    return estaContido;
+}
+
+console.log(testaCaracteres('abc', 'csa'));
 ```
