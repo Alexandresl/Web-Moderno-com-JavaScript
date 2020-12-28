@@ -3041,3 +3041,27 @@ function pg(n, a1, r) {
 pa(10, 1, 2);
 pg(10, 1, 2);
 ```
+
+#### 38 -
+Escreva uma função que receba dois parâmetros inicio e fim. Essa função deve imprimir todos os números ímparews que estão entre esses valores. Por padrão os valores devem ser 0 para início e 100 para fim. Atente para corrigir a ordem dos parâmetros caso a função receba o valor maior antes do menor.
+
+[Arquivo](exercicios/88/exe38.js)
+
+```javascript
+function numerosImpares(inicio, fim) {
+    inicio > fim ? [inicio, fim] : [fim, inicio];
+    let impares = []
+    for (let i = inicio; i <= fim; i++) {
+        if (i % 2 != 0) {
+            impares.push(i)
+        }
+    }
+    let res = "";
+    for (let i in impares) {
+        res = res.concat(impares[i], ", ")
+    }
+    console.log(res);
+}
+
+numerosImpares(0, 100);
+```
