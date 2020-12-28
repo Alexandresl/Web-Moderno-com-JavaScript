@@ -3007,3 +3007,37 @@ function multiplyMajor5(array, number) {
 multiplyAll([1, 3, 5, 7, 9], 3);
 multiplyMajor5([1, 3, 5, 7, 9], 3);
 ```
+
+#### 37 -
+Escreva duas funções, uma para progressão aritmética e uma para progressão geométrica que recebam como parâmetros um número *n* (numero de termo), *a1* (o primeiro termo) e *r* (a razão) e escreva os *n* termos bem como a soma dos elementos.
+
+[Arquivo](exercicios/88/exe37.js)
+
+```javascript
+function pa(n, a1, r) {
+    let pa = [];
+    let somaPa = 0;
+    for (let i = 0; i < n; i++) {
+        a1 = a1 + r
+        somaPa += a1;
+        pa.push(a1);
+    }
+    console.log(`PA: ${pa}`);
+    console.log(`Soma dos termos - PA: ${somaPa}`);
+}
+
+function pg(n, a1, r) {
+    let pg = [];
+    let somaPg = 0;
+    for (let i = 0; i < n; i++) {
+        a1 = a1 * r;
+        somaPg += a1;
+        pg.push(a1);
+    }
+    console.log(`PG: ${pg}`);
+    console.log(`Soma dos termos - PG: ${somaPg}`);
+}
+
+pa(10, 1, 2);
+pg(10, 1, 2);
+```
