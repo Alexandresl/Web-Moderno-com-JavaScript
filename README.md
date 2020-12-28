@@ -2981,3 +2981,29 @@ mescla(vetorPilha, vetorAdiciona);
 console.log("Vetor adicionado: " + vetorAdiciona);
 console.log("Vetor Resultado: " + vetorPilha);
 ```
+
+#### 36 -
+Crie duas funções que recebem dois parâmetros, um vetor com apenas valores numéricos e um número inteiro. Faça com que a primeira função retorne outro vetor que será resultado da multiplicação de cada elemento pelo número passado como parâmetro. A segunda função fará o mesmo da primeira se e somente se o valor do elemento fo maior que 5.
+
+[Arquivo](exercicios/88/exe36.js)
+
+```javascript
+function multiplyAll(array, number) {
+    for (let i in array) {
+        array[i] = array[i] * number;
+    }
+    console.log(array);
+}
+
+function multiplyMajor5(array, number) {
+    for (let i in array) {
+        if (array[i] > 5) {
+            array[i] = array[i] * number;
+        }
+    }
+    console.log(array);
+}
+
+multiplyAll([1, 3, 5, 7, 9], 3);
+multiplyMajor5([1, 3, 5, 7, 9], 3);
+```
