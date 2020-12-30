@@ -3065,3 +3065,34 @@ function numerosImpares(inicio, fim) {
 
 numerosImpares(0, 100);
 ```
+
+#### 39 -
+Crie uma função que receba dois valores de igual tamanho e troque seus elementos de modo que primeiro elemento do vetor A, passe a ser o primeiro elemento do vetor B e vice e versa e assim sucessivamente. Faça a troca sem utilizar uma veriável auxiliar.
+
+[Arquivo](exercicios\88\exe39.js)
+
+```javascript
+let vetorA = [1, 2, 3, 4, 5];
+let vetorB = [6, 7, 8, 9, 10];
+
+function trocaElementosVetores(vetorA, vetorB) {
+    if (vetorA.length == vetorB.length) {
+        tamanho = vetorA.length
+        for (let i = 0; i < tamanho; i++) {
+            vetorB.push(vetorA[i]);
+            vetorA.push(vetorB[i]);
+        }
+        for (let i = 0; i < tamanho; i++) {
+            vetorA.shift();
+            vetorB.shift();
+        }
+    } else {
+        console.log("Vetor de tamanhos diferentes!");
+    }
+}
+
+trocaElementosVetores(vetorA, vetorB);
+
+console.log(`Vetor A: ${vetorA}`);
+console.log(`Vetor B: ${vetorB}`);
+```
