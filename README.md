@@ -3096,3 +3096,33 @@ trocaElementosVetores(vetorA, vetorB);
 console.log(`Vetor A: ${vetorA}`);
 console.log(`Vetor B: ${vetorB}`);
 ```
+
+#### 40 -
+Faça uma função que receba como parâmetro um vetor de notas e mostre os conceitos de cada uma de modo que de 0,0 e 4,9 seja atribuído o conceito D, de 5,0 a 6,9 seja atribuído o conceito C, de 7,0 e 8,9 o conceito B e de 9,0 a 10,0 o conceito A.
+
+[Arquivo](exercicios/88/exe40.js)
+
+```javascript
+function retornaConceito(arrayNotas) {
+    let media = verificaMedia(arrayNotas);
+    if (media < 5) {
+        console.log("Seu conceito é D");
+    } else if (media < 7) {
+        console.log("Seu conceito é C");
+    } else if (media < 9) {
+        console.log("Seu conceito é B");
+    } else {
+        console.log("Seu conceito é A");
+    }
+}
+
+function verificaMedia(array) {
+    let total = 0;
+    for (let i in array) {
+        total += array[i]
+    }
+    return (total / array.length).toFixed(2);
+}
+
+retornaConceito([9, 10]);
+```
