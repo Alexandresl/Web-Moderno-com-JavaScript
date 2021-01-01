@@ -3171,3 +3171,53 @@ objeto.processamento();
     * *Encapsulamento* - Significa que os detelhes de implementação são escondidos e é criada uma interface simples, para a pessoa que for utilizar aquele sistema. Ex.: *Novamente o exemplo do carro é bastante ilustrativo, para um motorista é necessário conhecer como ligar, acelerar, frear, saber quanto abastecer, etc. Já os detalhes mecânicos são encapsulados, não sendo necessário para quem utiliza aquele objeto saber como funciona*.
     * *Herança (prototype)* - Princípio baseano na relação *é um*. É junto com a composição uma forma de reaproveitamento de código. Neste caso você receberá atributos e comportamentos de uma classe pai. Embora algumas linguagens permitam o que chamamos de herança múltipla, o JavaScript permite apenas um único pai, que por sua vez também pode herdar de outra classe atributos e comportamentos. Durante o desenvolvimento é melhor priorizarmos a composição (relação *tem um*) ao invés da herança.
     * *Polimorfismo* - Significa múltiplas formas. Um objeto instanciado como Carro poderá ser tratado como uma Ferrari, que irá possuir atributos e comportamentos específicos.
+
+### 90. Revisão sobre Objeto
+
+[Arquivo](objeto/objetoRevisao.js)
+
+```javascript
+// Objeto é uma coleção dinâmica de pares chave/valor
+const produto = new Object;
+produto.nome = "cadeira";
+produto['marca do produto'] = 'Genérica';
+produto.preco = 220;
+
+console.log(produto);
+delete produto['marca do produto'];
+console.log(produto);
+
+const carro = {
+    modelo: 'A4',
+    valor: 89000,
+    proprietario: {
+        nome: 'Raul',
+        idade: 56,
+        endereco: {
+            logradouro: 'Rua ABC',
+            numero: 123
+        }
+    },
+    condutores: [{
+        nome: 'Júnior',
+        idade: 19
+    }, {
+        nome: 'Ama',
+        idade: 42
+    }],
+    calculaValorSeguro: function() {
+        // ...
+    }
+}
+
+carro.proprietario.endereco.numero = 1000;
+carro['proprietario']['endereco']['logradouro'] = 'Av. Gigante';
+console.log(carro);
+
+delete carro.condutores;
+delete carro.proprietario.endereco;
+delete carro.calculaValorSeguro;
+console.log(carro);
+console.log(carro.condutores); // retorna undefined
+// console.log(carro.condutores.length); // Gera erro!
+```
