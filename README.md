@@ -3126,3 +3126,48 @@ function verificaMedia(array) {
 
 retornaConceito([9, 10]);
 ```
+
+## Seção 6: Javascript: Objeto
+
+### 90. Introdução à OO
+
+* Depois das funções, os objetos são um dos principais recursos da linguaguem.
+* Os primeiros programas de computador eram criados no paradigma não estruturado. Para detalhar um pouco mais sobre este paradigma foram utilizados os seguintes links:
+    * https://www.ramon.pro.br/o-paradigma-nao-estruturado/
+    * https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_estruturada
+    * https://pt.wikipedia.org/wiki/Edsger_Dijkstra
+    * https://pt.wikipedia.org/wiki/Considered_harmful
+    * https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF Link com a carta aberta de Kijkstra "Go To Statement Considered Harmful" - GO TO declaração considerada perigosa.
+* Os programas não estruturados utilizavam comandos elementares:
+    * *Processamento* - qualquer operação que o computador pode realizar em seu nível básico como operações aritméticas, de atriuição, etc. Nesse caso, também levamos em consideração as operações de entrada e saída de dados.
+    * *Fluxo* - é a indicação de qual o próximo comando a ser realizaedo pelo computador.
+    * *Decisão* - é o comando que permite o computador desviar, de forma condicional, o fluxo a ser seguido.
+* A partir de algum tempo, impulsionado tanto por vantagens práticas, como por algumas publicações de cientistas da comnputação, como a carta aberta de Kijkstra e o teorema de Böhm-Jacopini, foi ganhando força a programação estruturada.
+* A programação estruturada (PE) é um padrão ou paradigma de programação de engenharia de software, com êngase em sequência, decisão e, iteração (sub-rotinas, laços de repetição, condicionais e, estruturas em bloco).
+* Dentro da Programação estruturada temos também diversos paradigmas. O primeiro deles é o *procedural*.
+* O paradigma procedural é baseado na *procedure* ou função.
+* No exemplo 1 vemos a chamada de uma possível função "processamento" recebendo três parâmetros que são processados por estas funções.
+```javascript
+// Exemplo 1
+processamento(valor1, valor2, valor3)
+```
+* Apesar de já vermos uma avanço em relação ao paradigma não estruturado, a programação procedural também gera alguns problemas, pois todos os dados do programa acabam por ficar "disponíveis" para serem alterados por qualquer função, podendo gerar muitas inconsistências, principalmente em programas maiores.
+* A Principal mudança ocorrida na **Programação Orientada a objetos** é que o foco que antes encontrava-se na função, passou a ser nos dados. Agora dentro dos dados "Objetos" temos funções especializadas que alteram este o que ajuda a manter a consistência.
+```javascript
+// Exemplo 2
+objeto = {
+    valor1,
+    valor2,
+    valor3,
+    processamento() {
+        //...
+    }
+}
+objeto.processamento();
+```
+* No exemplo 2, podemos notar a diferença em relação a programação procedural, agora o objeto possuí os parâmetros (dados) e os métodos (funções) para que possam manipular os atributos de forma segura.
+* 4 princípios importantes a orientação a objetos:
+    * *Abstração* - É o processo de "traduzir" um objeto do mundo real para um objeto computacional. É importante que saibamos reconhecer as necessidades do sistema que estamos construindo, pois não só seria muito custoso, como na maioria das vezes irrelevante, trazer todas as características de um objeto real para o programa. Ex.: *Para o sistema do DETRAN, criar um objeto carro com o método acelerar() não faria muito sentido, porém atributos como placa, ano, modelo são pertinentes. Já para um sistema de uma oficina mecânica outras características podem ser necessárias*.
+    * *Encapsulamento* - Significa que os detelhes de implementação são escondidos e é criada uma interface simples, para a pessoa que for utilizar aquele sistema. Ex.: *Novamente o exemplo do carro é bastante ilustrativo, para um motorista é necessário conhecer como ligar, acelerar, frear, saber quanto abastecer, etc. Já os detalhes mecânicos são encapsulados, não sendo necessário para quem utiliza aquele objeto saber como funciona*.
+    * *Herança (prototype)* - Princípio baseano na relação *é um*. É junto com a composição uma forma de reaproveitamento de código. Neste caso você receberá atributos e comportamentos de uma classe pai. Embora algumas linguagens permitam o que chamamos de herança múltipla, o JavaScript permite apenas um único pai, que por sua vez também pode herdar de outra classe atributos e comportamentos. Durante o desenvolvimento é melhor priorizarmos a composição (relação *tem um*) ao invés da herança.
+    * *Polimorfismo* - Significa múltiplas formas. Um objeto instanciado como Carro poderá ser tratado como uma Ferrari, que irá possuir atributos e comportamentos específicos.
