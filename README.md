@@ -3172,7 +3172,7 @@ objeto.processamento();
     * *Herança (prototype)* - Princípio baseano na relação *é um*. É junto com a composição uma forma de reaproveitamento de código. Neste caso você receberá atributos e comportamentos de uma classe pai. Embora algumas linguagens permitam o que chamamos de herança múltipla, o JavaScript permite apenas um único pai, que por sua vez também pode herdar de outra classe atributos e comportamentos. Durante o desenvolvimento é melhor priorizarmos a composição (relação *tem um*) ao invés da herança.
     * *Polimorfismo* - Significa múltiplas formas. Um objeto instanciado como Carro poderá ser tratado como uma Ferrari, que irá possuir atributos e comportamentos específicos.
 
-### 90. Revisão sobre Objeto
+### 91. Revisão sobre Objeto
 
 [Arquivo](objeto/objetoRevisao.js)
 
@@ -3220,4 +3220,64 @@ delete carro.calculaValorSeguro;
 console.log(carro);
 console.log(carro.condutores); // retorna undefined
 // console.log(carro.condutores.length); // Gera erro!
+```
+
+### 92. Estratégias de criação de objetos
+
+[Arquivo](objeto/criandoObjetos.js)
+
+```javascript
+/**
+ * Podemos criar objetos:
+ */
+
+// Usando a notação literal
+const obj1 = {}
+console.log(obj1);
+
+// Usando o Object
+const obj2 = new Object();
+console.log(obj2);
+
+// Usando funções construtoras
+function Produto(nome, preco, desc) {
+    this.nome = nome;
+    this.getPrecoComDesconto = () => {
+        return preco * (1 - desc);
+    }
+    /**
+     * Nesta função apenas podemos acessar externamente
+     * o atributo nome, o prco e o desconto, uma vez
+     * determinados não podem ser modificados.
+     */
+}
+const p1 = new Produto('Caneta', 7.99, 0.15)
+const p2 = new Produto('Notebook', 2998.99, 0.25)
+
+console.log(p1.getPrecoComDesconto(), p2.getPrecoComDesconto());
+
+// Usando uma Função Factory
+function criarFuncionario(nome, salarioBase, faltas) {
+    return {
+        nome,
+        salarioBase,
+        faltas,
+        getSalario() {
+            return (salarioBase / 30) * (30 - faltas);
+        }
+    }
+}
+
+const f1 = criarFuncionario('João', 7980, 4);
+const f2 = criarFuncionario('Maria', 11400, 1);
+console.log(f1.getSalario(), f2.getSalario());
+
+// Usando o Object.create
+const filha = Object.create(null);
+filha.nome = 'Ana';
+console.log(filha);
+
+// Usando uma função conhecida que retorna objeto...
+const fromJSON = JSON.parse('{"info": "Sou um JSON!"}');
+console.log(fromJSON);
 ```
