@@ -3841,3 +3841,43 @@ aprovados = ['Bia', 'Carlos', 'Ana'];
 aprovados.splice(1, 1); // A partir do índice 1, irá remover 1 índice
 console.log(aprovados); // ['Bia', 'Ana']
 ```
+
+### 108. Array: Métodos importantes
+
+* ```array.pop()``` - remove o último elemento.
+* ```array.push(elemento)``` - adiciona elemento a última posição.
+* ```array.shift()```- Remove elemento da primeira posição.
+* ```array.unshift()``` - Adiciona elemento a primeira posição.
+* ```array.splice()``` - Conforme detalhado na aula anterior pode remover, adicionar ou remover e adicionar elementos.
+* ```array.slice(start, end)``` - Retorna um novo array a partir do índice *start* até uma posição antes do índice *end*;
+
+[Arquivo](array/arrayMetodos.js)
+
+```javascript
+const pilotos = ['Vettel', 'Alonso', 'Raikkonen', 'Massa'];
+pilotos.pop();
+console.log(pilotos); // [ 'Vettel', 'Alonso', 'Raikkonen' ]
+pilotos.push('Verstappen');
+console.log(pilotos); // [ 'Vettel', 'Alonso', 'Raikkonen', 'Verstappen' ]
+pilotos.shift();
+console.log(pilotos); // [ 'Alonso', 'Raikkonen', 'Verstappen' ]
+pilotos.unshift('Hamilton');
+console.log(pilotos); // [ 'Hamilton', 'Alonso', 'Raikkonen', 'Verstappen' ]
+
+/**
+ * splice pode adicionar e remover
+ */
+
+ // Adicionar
+ pilotos.splice(2, 0, 'Bottas', 'Massa');
+ console.log(pilotos); // [ 'Hamilton', 'Alonso', 'Bottas', 'Massa', 'Raikkonen', 'Verstappen' ]
+
+ // Remover
+ pilotos.splice(3, 1)
+ console.log(pilotos); // [ 'Hamilton', 'Alonso', 'Bottas', 'Raikkonen', 'Verstappen' ]
+
+ const algunsPilotos1 = pilotos.slice(2);
+ console.log(algunsPilotos1); // [ 'Bottas', 'Raikkonen', 'Verstappen' ]
+ const algunsPilotos2 = pilotos.slice(1, 4);
+ console.log(algunsPilotos2); // [ 'Alonso', 'Bottas', 'Raikkonen' ]
+```
