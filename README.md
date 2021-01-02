@@ -749,7 +749,7 @@ console.log(nota); // 6
 
 * Podemos usar o destructuring já nos parâmetros de uma função.
 
-[Arquivo]()
+[Arquivo](fundamentos/destructuring3.js)
 
 ```javascript
 function rand({ min = 0, max = 1000}) {
@@ -856,7 +856,7 @@ F | V
 
 * O **OU exclusivo** pode ser simulado com o operador de diferente ```!=``` apesar de existir o operador bitwise (^) - Operador bit a bit, este é mais indicado para situações de comparação entre valores numéricos.
 
-[Arquivo]()
+[Arquivo](fundamentos/logicos.js)
 
 ```javascript
 function compras(trabalho1, trabalho2) {
@@ -1644,7 +1644,7 @@ comparaComThisArrow('module.exports', module.exports);
 
 ### 74. Funções Anônimas
 
-[Arquivo]()
+[Arquivo](funcao/funcoesAnonimas.js)
 
 ```javascript
 const soma = function (x, y) {
@@ -1695,7 +1695,7 @@ fabricantes.forEach((fabricante) => console.log(fabricante))
 
 ### 76. Funções Callback #02
 
-[Arquivo]()
+[Arquivo](funcao/callback2.js)
 
 ```javascript
 const notas = [7.7, 6.5, 5.2, 8.9, 3.6, 7.1, 9.0];
@@ -2256,7 +2256,7 @@ console.log(anoBissexto(2021));
 #### 12 - 
 Faça um algoritmo que calcule o fatorial de um número.
 
-[Arquivo](exercicios\88\exe12.js)
+[Arquivo](exercicios/88/exe12.js)
 
 ```javascript
 function calculaFatorial (num) {
@@ -2516,7 +2516,7 @@ Código | Descrição do Produto | Preço
 
 Implemente uma função que receba como parâmetros o código do item pedido, a quantidade e calcule o valor a ser pago por aquele lanche. Considere que a cada execução somente será calculado um item. Use o comando switch. Crie um caso default para produto não existente.
 
-[Arquivo](exercicios\88\exe19.js)
+[Arquivo](exercicios/88/exe19.js)
 
 ```javascript
 function compra(codigo, qtd) {
@@ -3069,7 +3069,7 @@ numerosImpares(0, 100);
 #### 39 -
 Crie uma função que receba dois valores de igual tamanho e troque seus elementos de modo que primeiro elemento do vetor A, passe a ser o primeiro elemento do vetor B e vice e versa e assim sucessivamente. Faça a troca sem utilizar uma veriável auxiliar.
 
-[Arquivo](exercicios\88\exe39.js)
+[Arquivo](exercicios/88/exe39.js)
 
 ```javascript
 let vetorA = [1, 2, 3, 4, 5];
@@ -3587,7 +3587,7 @@ for (let key in filha2) {
 * Quando instanciamos um objeto com o operador new, o prototype deste objeto aponta para o prototype da função instanciada. Diferente de quando instanciamos um objeto literal ou apartir do new Object, que nestes casos o ```__proto__``` irá apontar para ```Object.prototype```
 * Em resumo:
 
-[Arquivo]()
+[Arquivo](objeto/herança4.js)
 
 ```javascript
 function MeuObjeto() {
@@ -3709,7 +3709,7 @@ console.log(pessoa); // { nome: 'Juliana', idade: 29 }
 
 * JSON é um formato textual. Diferentemente do objeto, o JSON não armazena funções, apenas dados.
 
-[Arquivo](objeto\jsonVsObj.js)
+[Arquivo](objeto/jsonVsObj.js)
 
 ```javascript
 const obj = { a: 1, b: 2, c: 3, soma() { return a + b + c; } };
@@ -3717,4 +3717,42 @@ console.log(JSON.stringify(obj)); // {"a":1,"b":2,"c":3}
 
 console.log(JSON.parse('{ "a": 1, "b": 2, "c": 3}')); // { a: 1, b: 2, c: 3 }
 console.log(JSON.parse('{ "a": 1.7, "b": "string", "c": true, "d": {}, "e": []}')); // { a: 1.7, b: 'string', c: true, d: {}, e: [] }
+```
+
+### 105. Classe #01
+
+[Arquivo](objeto/classe1.js)
+
+```javascript
+class Lancamento {
+    constructor(nome = 'Genérico', valor = 0) {
+        this.nome = nome;
+        this.valor = valor;
+    }
+}
+
+class CicloFinanceiro {
+    constructor(mes, ano) {
+        this.mes = mes;
+        this.ano = ano;
+        this.lancamentos = [];
+    }
+    addLancamento(...lancamentos) {
+        lancamentos.forEach(l => this.lancamentos.push(l))
+    }
+    sumario () {
+        let valorConsolidado = 0;
+        this.lancamentos.forEach(l => {
+            valorConsolidado += l.valor;
+        });
+        return valorConsolidado;
+    }
+}
+
+const salario = new Lancamento('Salario', 45000);
+const contaDeLuz = new Lancamento('Luz', -220);
+
+const contas = new CicloFinanceiro(6, 2018);
+contas.addLancamento(salario, contaDeLuz);
+console.log(contas.sumario());
 ```
