@@ -3907,3 +3907,54 @@ const meuArray = ['Rafael', 'Ana', 'Bia'];
 console.log(quaseArray.toString(), meuArray); // [ 'Rafael', 'Ana', 'Bia' ] [ 'Rafael', 'Ana', 'Bia' ]
 ```
 
+### 110. Foreach #01
+
+* O método forEach executará uma função callback para cada elemento do array. A função passada poderá ter até 4 parâmetros:
+    * ```CurrentValue``` - O valor atual do elemento sendo processado no array
+    * ```index``` - O índice do elemento atual sendo processado no array
+    * ```array``` - O array a qual o forEach está sendo aplicado
+    * ```thisArg``` - Valor a ser usado como *this* quando executar callback
+* O método forEach() retorna undefined
+
+[Arquivo](array\foreach1.js)
+
+```javascript
+const aprovados = ['Agatha', 'Aldo', 'Daniel', 'Raquel'];
+
+aprovados.forEach(function(nome, indice){
+    console.log(`${indice + 1}) ${nome}`);
+});
+
+/**
+ * Saída
+ * 
+ * 1) Agatha
+ * 2) Aldo
+ * 3) Daniel
+ * 4) Raquel
+ */
+
+ aprovados.forEach(nome => console.log(nome))
+
+ /**
+  * Saída
+  * 
+  * Agatha
+  * Aldo
+  * Daniel
+  * Raquel
+  */
+
+  const exibirAprovados = aprovado => console.log(aprovado);
+
+  aprovados.forEach(exibirAprovados);
+
+  /**
+  * Saída
+  * 
+  * Agatha
+  * Aldo
+  * Daniel
+  * Raquel
+  */
+```
