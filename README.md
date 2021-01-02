@@ -3909,11 +3909,12 @@ console.log(quaseArray.toString(), meuArray); // [ 'Rafael', 'Ana', 'Bia' ] [ 'R
 
 ### 110. Foreach #01
 
-* O método forEach executará uma função callback para cada elemento do array. A função passada poderá ter até 4 parâmetros:
+* O método forEach executará uma função callback para cada elemento do array.
+* Parâmetros:
     * ```CurrentValue``` - O valor atual do elemento sendo processado no array
     * ```index``` - O índice do elemento atual sendo processado no array
     * ```array``` - O array a qual o forEach está sendo aplicado
-    * ```thisArg``` - Valor a ser usado como *this* quando executar callback
+* ```thisArg``` - Valor a ser usado como *this* quando executar callback
 * O método forEach() retorna undefined
 
 [Arquivo](array/foreach1.js)
@@ -3984,4 +3985,39 @@ aprovados.meuForEach(function(nome, indice){
  * 3) Daniel
  * 4) Raquel
  */
+```
+
+### 112. Map #01
+
+* O método **map()** invoca a função ```callback``` passada por argumento para cada elemento do *Array* e devolve um novo Array como resulotado.
+    * Sintaxe:
+    ```javascript
+    arr.map(callback[, thisArgs]);
+    ```
+    * Parâmetros:
+        * ```callback``` - Função cujo retorno produz o elemento do novo Array. Recebe três argumentos:
+            * ```valorAtual``` - O valor do elemento original do Array de origem.
+            * ```indice``` - O índice do elemento  atual que está sendo processado no array.
+            * ```array``` - O Array de origem
+        * ```this.Args``` - Opcional. Valor a ser utilizado como o **this** no momento da execução da função ```callback```
+
+[Arquivo](array/map1.js)
+
+```javascript
+const nums = [1, 2, 3, 4, 5]
+
+// criando um array com cada elemento multiplicado por 2
+let resultado = nums.map(valor => valor * 2);
+
+console.log(resultado); // [ 2, 4, 6, 8, 10 ]
+
+// Aplicando maps sucessívos
+const soma10 = e => e + 10;
+const triplo = e => e * 3;
+const paraDinheiro = e => `R$ ${e.toFixed(2).replace('.', ',')}`;
+// Outra forma para transformar em valores monetários
+const paraReal = e => e.toLocaleString("pt-BR", {style: "currency", currency: "BRL"});
+
+resultado = nums.map(soma10).map(triplo).map(paraReal);
+console.log(resultado);
 ```
