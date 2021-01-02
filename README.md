@@ -3670,3 +3670,37 @@ const aula3 = novo(Aula, 'Bem Vindo', 123);
 const aula4 = novo(Aula, 'Até Breve', 456);
 console.log(aula3, aula4);
 ```
+
+### 103. Evitando modificações
+
+* ```Object.PreventExtensions()``` - Previne que sejam adicionados novos atributos a um determinado objeto. Não impede que o valor dos atributos sejam alterados.
+* ```Object.seal()``` - Sela o objeto. Não é possível nem adicionar nem excluir atributos. Não impede que o valor dos atributos sejam alterados.
+* ```Object.freeze()``` - Impede que sejam adicionados ou excluídos elementos do objeto e também que os valores sejam alterados.
+
+[Arquivo](objeto/evitandoModificacoes.js)
+
+```javascript
+// Object.PreventExtensions
+const produuto = Object.preventExtensions({
+    nome: 'Qualquer',
+    preco: 1.99,
+    tag: 'promocao'
+})
+console.log('Extensível:', Object.isExtensible(produuto)); // Extensível: false
+
+produuto.nome = 'Borracha';
+produuto.descricao = 'Borracha escolar branca';
+delete produuto.tag;
+console.log(produuto); // { nome: 'Borracha', preco: 1.99 }
+
+// Object.seal
+const pessoa = {nome: 'Juliana', idade: 35}
+Object.seal(pessoa);
+console.log('Selado:', Object.isSealed(pessoa)); // true
+pessoa.sobrenome = 'Silva';
+delete pessoa.nome;
+pessoa.idade = 29;
+console.log(pessoa); // { nome: 'Juliana', idade: 29 }
+
+// Object.freeze
+```
