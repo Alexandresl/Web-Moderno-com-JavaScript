@@ -3704,3 +3704,17 @@ console.log(pessoa); // { nome: 'Juliana', idade: 29 }
 
 // Object.freeze
 ```
+
+### 104. JSON vs Objeto
+
+* JSON é um formato textual. Diferentemente do objeto, o JSON não armazena funções, apenas dados.
+
+[Arquivo](objeto\jsonVsObj.js)
+
+```javascript
+const obj = { a: 1, b: 2, c: 3, soma() { return a + b + c; } };
+console.log(JSON.stringify(obj)); // {"a":1,"b":2,"c":3}
+
+console.log(JSON.parse('{ "a": 1, "b": 2, "c": 3}')); // { a: 1, b: 2, c: 3 }
+console.log(JSON.parse('{ "a": 1.7, "b": "string", "c": true, "d": {}, "e": []}')); // { a: 1.7, b: 'string', c: true, d: {}, e: [] }
+```
