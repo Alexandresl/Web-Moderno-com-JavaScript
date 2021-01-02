@@ -3462,6 +3462,7 @@ console.log(obj); // { a: 4, b: 2, c: 3 }
 * Para acessar o protótipo de um objeto podemos utilizar o atributo ```__proto__```, o que por padrão irá referenciar um atributo do Object que é o ```Object.prototype``` (que é o prototype de mais alto nível).
 * ```Object.prototype``` não possui prototype, assim ao tentarmos acessar ```Object.prototype.__proto__``` o retorno será ```null```.
 * Toda função possui um atributo prototype, embora o atributo da função Object possua características únicas.
+* Toda função possuí também um atributo ```__proto__``` que aponta para ```Function.prototype```.
 * Todo objeto possui uma referência a um prototype que poderemos acessar por ```__proto__```, porém **não** possui atributo prototype.
 
 [Arquivo](objeto/heranca1.js)
@@ -3579,4 +3580,37 @@ for (let key in filha2) {
  * nome
  * por herança: corCabelo
  */
+```
+
+### 100. Herança #04
+
+* Quando instanciamos um objeto com o operador new, o prototype deste objeto aponta para o prototype da função instanciada. Diferente de quando instanciamos um objeto literal ou apartir do new Object, que nestes casos o ```__proto__``` irá apontar para ```Object.prototype```
+* Em resumo:
+
+[Arquivo]()
+
+```javascript
+function MeuObjeto() {
+
+}
+
+console.log(MeuObjeto.prototype); // {}
+
+const obj1 = new MeuObjeto;
+const obj2 = new MeuObjeto;
+console.log(obj1.__proto__ === obj2.__proto__); // true
+console.log(MeuObjeto.prototype === obj1.__proto__); // true
+
+MeuObjeto.prototype.nome = 'Anônimo';
+MeuObjeto.prototype.falar = function() {
+    console.log(`Bom dia! Meu nome é ${this.nome}`);
+}
+obj1.falar();
+obj2.nome = 'Rafael';
+obj2.falar();
+
+const obj3 = {};
+obj3.__proto__ = MeuObjeto.prototype;
+obj3.nome = "Obj3";
+obj3.falar();
 ```
