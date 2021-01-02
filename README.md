@@ -3453,3 +3453,32 @@ Object.freeze(obj);
 obj.c = 1234;
 console.log(obj); // { a: 4, b: 2, c: 3 }
 ```
+
+### 97. Herança #01
+
+* A função em JavaScript funciona um pouco diferente de outras linguagens orientadas a objetos. A herança é um princípio da Orientação a Objetos que permite que uma classe filha receba de uma classe pai características e comportamentos. O Principal objetivo é o reaproveitamente de código.
+* Em JavaScript uma função ou classe só pode herdar de uma outra classe ou função.
+* A herança em JavaScript é baseada em protótipos. Por exemplo, se tentarmos acessar uma variável em uma função e esta não possuir, o JavaScript tentará buscar esta variável na função pai. Este processo pode ocorrer indefinidamente, até que a função não possua mais esta relação de "herança", o que retornaria *undefined*, ou até que o valor seja encontrado.
+* Para acessar o protótipo de um objeto podemos utilizar o atributo ```__proto__```, o que por padrão irá referenciar um atributo do Object que é o ```Object.prototype``` (que é o prototype de mais alto nível).
+* ```Object.prototype``` não possui prototype, assim ao tentarmos acessar ```Object.prototype.__proto__``` o retorno será ```null```.
+* Toda função possui um atributo prototype, embora o atributo da função Object possua características únicas.
+* Todo objeto possui uma referência a um prototype que poderemos acessar por ```__proto__```, porém **não** possui atributo prototype.
+
+[Arquivo](objeto/heranca1.js)
+
+```javascript
+const ferrari = {
+    modelo: 'F40',
+    velMax: 324
+}
+
+const volvo = {
+    modelo: 'V40',
+    velMax: 200
+}
+
+console.log(ferrari.__proto__); // {}
+console.log(ferrari.__proto__ === Object.prototype); // true
+console.log(volvo.__proto__ === Object.prototype); // true
+console.log(Object.prototype.__proto__ === null); // true
+```
