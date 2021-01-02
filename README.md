@@ -3784,3 +3784,60 @@ class Filho extends Pai {
 const filho = new Filho;
 console.log(filho); // Filho { sobrenome: 'Silva', profissao: 'Professor' }
 ```
+
+## Seção 7: JavaScript: Array
+
+### 107. Array: Visão Geral
+
+* Em JavaScript não existe um tipo de dado nativo array. O Array em JavaScript é um objeto com características especiais.
+* Em JavaScript o array é uma estrutura dinâmico, cresce ou diminue dinamicamente. diferente do que ocorre em outras linguagens.
+* Em JavaScript o array é uma estrutura heterogênea. não há nenhum impedimento para incluir valores de diferentes tipos, como números, strings, boolean, objetos ou mesmo outros arrays. Embora seja extremamente desaconselhável na maioria das situações misturar elementos de tipos diferentes dentro de um mesmol array.
+* Assim como em outras linguagens, o array em JavaScript é uma estrutura indexada iniciando no índice 0.
+* Ao tentarmos acessar um índice inexistente em um array, teremos como retorno undefined.
+* O método ```.sort()``` altera o array, assim caso haja índices "Vazios" estes serão alocados no final do array. As strings são ordenadas em ordem alfabética.
+* Ao deletarmos um array com o operador ```delete```, este apenas "limpa" aquela posição do array mantendo o índice como *undefined*
+* O método ```splice()```altera o conteúdo de um array, adicionando novos elementos enquanto remove elementos antigos. Sintaxe:
+    ```javascript
+    array.splice(indice[, deleteCount[, elemento1[, ...[,elementoN]]]]);
+    ```
+    * Parâmetros da função ```splice()```:
+        * **indice** - Índice o qual deve iniciar a alterar o array. Se maior que o tamanho total da mesma, nenhum elemento será alterado. Se negativo, irá iniciar a partir daquele número de elementos a partir do fim.
+        * **deleteCount** - Um inteiro indicando o número de antigos elementos que devem ser removidos. Se o parâmetro ```deleteCount``` não é especificado, ou se é maior que o número de elementos restantes no array iniciando pelo índice, então todos os elementos até o fim do array serão deletados. Se ```deleteCount``` é 0, nenhum elemento é removido. Neste caso você deve especificar pelo menos um novo elemento.
+        * **elemento1, ..., elementoN** - Os elementos a adicionar no array. Se você não especificar nenhum elemento, *splice* simplesmente removerá elementos da mesma.
+    * Retorno da função ```splice()```
+        * Um array contendo os elementos removidos. Se apenas um elemento é removido, por exemplo, um array contendo apenas um elemento é retornada. Se nenhum elemento é removido, um array vazio é retornada.
+
+[Arquivo](array/array.js)
+
+```javascript
+console.log(typeof Array, typeof new Array, typeof []); // function object object
+
+// Forma "Alternativa" para criação de array (não recomendada)
+let aprovados = new Array('Bia', 'Carlos', 'Ana');
+console.log(aprovados); // [ 'Bia', 'Carlos', 'Ana' ]
+// Forma "Tradicional" para declaração de arrays
+aprovados = ['Bia', 'Carlos', 'Ana'];
+console.log(aprovados[0]); // Bia
+console.log(aprovados[1]); // Carlos
+console.log(aprovados[2]); // Ana
+console.log(aprovados[3]); // undefined
+
+aprovados[3] = 'Paulo';
+console.log(aprovados[3]); // Paulo
+aprovados.push('Abia');
+console.log(aprovados.length); // 5
+aprovados[9] = 'Rafael';
+console.log(aprovados.length); // 10
+console.log(aprovados[8] === undefined); // true
+console.log(aprovados); // [ 'Bia', 'Carlos', 'Ana', 'Paulo', 'Abia', <4 empty items>, 'Rafael' ]
+aprovados.sort();
+console.log(aprovados); // [ 'Abia', 'Ana', 'Bia', 'Carlos', 'Paulo', 'Rafael', <4 empty items> ]
+
+delete aprovados[1];
+console.log(aprovados[1]); // undefined
+console.log(aprovados[2]); // bia
+
+aprovados = ['Bia', 'Carlos', 'Ana'];
+aprovados.splice(1, 1); // A partir do índice 1, irá remover 1 índice
+console.log(aprovados); // ['Bia', 'Ana']
+```
