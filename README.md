@@ -3361,3 +3361,30 @@ const obj5 = {
 
 console.log(obj5); // { funcao1: [Function: funcao1], funcao2: [Function: funcao2] }
 ```
+
+### 95. Getters/Setters
+
+* Por convensão, para atributos que queremos que sejam privados, iniciamos seu nome com o underscore (_). Ex.: _nome. É importante, porém, que saibamos que isso não torna o atributo privado realmente, pondendo ser acessado e alterado externamente.
+* JavaScript, ao contrario do que outras linguagens, como Java, por exemplo, não aceita *sobrecarga*, ou seja, dois métodos com o mesmo nome porém com quantidade ou tipos de parâmetros diferentes, a não ser no caso dos métodos getters e setters.
+
+[Arquivo](objeto/getterSetter.js)
+
+```javascript
+const sequencia = {
+    _valor: 1, // convenção
+    get valor() {
+        return this._valor++;
+    },
+    set valor(valor) {
+        if (valor > this._valor) {
+            this._valor = valor;
+        }
+    }
+}
+
+console.log(sequencia.valor, sequencia.valor); // 1, 2
+sequencia.valor = 1000;
+console.log(sequencia.valor, sequencia.valor); // 1000 1001
+sequencia.valor = 900; // Não modifica o valor do atributo devido a validação do set
+console.log(sequencia.valor, sequencia.valor); // 1002 1003
+```
