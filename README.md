@@ -3756,3 +3756,31 @@ const contas = new CicloFinanceiro(6, 2018);
 contas.addLancamento(salario, contaDeLuz);
 console.log(contas.sumario());
 ```
+
+### 106. Classe #02
+
+[Arquivo](objeto/classe2.js)
+
+```javascript
+class Avo {
+    constructor(sobrenome) {
+        this.sobrenome = sobrenome;
+    }
+}
+
+class Pai extends Avo {
+    constructor(sobrenome, profissao = 'Professor') {
+        super(sobrenome);
+        this.profissao = profissao;
+    }
+}
+
+class Filho extends Pai {
+    constructor() {
+        super('Silva');
+    }
+}
+
+const filho = new Filho;
+console.log(filho); // Filho { sobrenome: 'Silva', profissao: 'Professor' }
+```
