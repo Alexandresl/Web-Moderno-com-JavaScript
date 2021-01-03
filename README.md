@@ -4313,4 +4313,3 @@ console.log(notas2); // [ 8.1, 9.3, 8.9, 7.3 ]
 ### 123. Lista de Exercícios - Sem Resolução
 
 [Arquivo](exercicios/123/Exercicios-sem-solucao.pdf);
-
