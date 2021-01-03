@@ -4075,3 +4075,45 @@ const apenasPreco = produto => produto.preco;
 const resultado = carrinho.meuMap(paraObjeto).meuMap(apenasPreco);
 console.log(resultado);
 ```
+
+### 115. Filter #01
+
+* O método ```filter()``` cria um novo array com todos os elementos que passaram no teste implementado pela função fornecida.
+* Sintaxe:
+    ```
+    const array = arr.filter(callback[, thisArgs]);
+    ```
+* Parâmetros:
+    * ```callback``` - Função é um predicado, para testar cada elemento do array. Retorna *true* para manter o elemento, *false* para não incluir. Pode receber três argumentos:
+        * ```element```- O elemento que está sendo processado no array.
+        * ```index``` - O índice do elemento atual que está sendo processado no array.
+        * ```array``` - O array para qual a função ```filter()``` foi chamada.
+    * ```thisArg``` - Opcional. Valor a ser usado como ```this```durante a execução do callback.
+
+[Arquivo](array/filter1.js)
+
+```javascript
+const produtos = [
+    {nome: 'Notebook', preco: 2499, fragil: true},
+    {nome: 'iPad Pro', preco: 4199, fragil: true},
+    {nome: 'Copo de Vidro', preco: 12.49, fragil: true},
+    {nome: 'Copo de Plástico', preco: 18.99, fragil: false}
+]
+
+const fragil = p => p.fragil;
+const caro = p => p.preco >= 500;
+
+const arrayFinal = produtos.filter(fragil).filter(caro);
+
+console.log(arrayFinal);
+
+/**
+ * Saída:
+ * 
+ * [
+ *  { nome: 'Notebook', preco: 2499, fragil: true },
+ *  { nome: 'iPad Pro', preco: 4199, fragil: true }
+ * ]
+ * 
+ */
+```
