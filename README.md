@@ -4247,3 +4247,25 @@ const soma = (total, atual) => total + atual;
 const total2 = alunos.map(getNota).reduce(soma)
 console.log(total2 / alunos.length);
 ```
+
+### 121. Concat
+
+* O método ```concat()``` retorna um novo array contendo todos os arrays ou valores passados como parâmetro.
+* Sintaxe:
+    ```javascript
+        arr.concat(valor1, valor2, ..., valorN);
+    ```
+* Parâmetros:
+    ```valorN``` - Arrays ou valores para concatenar (unir) ao array retornado.
+
+[Arquivo](array/concat.js)
+
+```javascript
+const filhas = ['Ualeskah', 'Cibalena'];
+const filhos = ['Uoxinton', 'Uesclei'];
+
+const todos = filhas.concat(filhos);
+console.log(filhas); // [ 'Ualeskah', 'Cibalena' ]
+console.log(filhos); // [ 'Uoxinton', 'Uesclei' ]
+console.log(todos); // [ 'Ualeskah', 'Cibalena', 'Uoxinton', 'Uesclei' ]
+```
