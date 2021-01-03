@@ -4314,6 +4314,30 @@ console.log(notas2); // [ 8.1, 9.3, 8.9, 7.3 ]
 
 [Arquivo](exercicios/123/Exercicios-sem-solucao.pdf)
 
-### 124. Lista de Exercícios - Com Resolução
+1. Crie uma função que retorna a string "Olá", concatenada com um argumento *text* (a ser passado para a função) e com ponto de exclamação "!" no final.
+Exemplos:
+    ```javascript
+    cumprimentar("Leonardo"); // Retornará "Olá, Leonardo!"
+    cumprimentar("Maria"); // Retornará "Olá, Maria!"
+    ```
 
-[Arquivo](exercicios/123/Exercicios-com-solucao.pdf)
+2. Escreva uma função que receba a idade de uma pessoa em anos e retorne a mesma idade em dias.
+*Obs.:* considere que um ano tem 365 dias. Desc onsidere anos bissextos (com 366) e desconsidere também dias corridos desde o último aniversário.
+Exemplos:
+```javascript
+converterIdadeEmAnosParaDias(25) // retornará 9125
+converterIdadeEmAnosParaDias(70) // retornará 25550
+```
+
+3. Desenvolva uma função que recebe dois parâmetros, um é a quantidade de horas trabalhadas por um funcionário num mês, e o quanto ele recebe por hora. O retorno da função deve ser a string "Salário igual a R$ x", em que X é o quanto o funcionário ganhou no mês.
+Exemplos:
+```javascript
+calcularSalario(150, 40.5) // retornará "Salário igual a R$ 6075"
+```
+
+4. Crie uma função que recebe um número (de 1 a 12) e retorne o mês correspondente como uma *string*. Por exemplos, se a entrada for 2, a função deverá retornar "fevereiro", pois este é o 2º mês.
+Exemplos:
+```javascript
+nomeDoMes(1) // retornará "janeiro"
+nomeDoMes(4) // retornará "abril"
+```
