@@ -4307,3 +4307,10 @@ Array.prototype.flatMap = function (callback) {
 const notas2 = escola.flatMap(getNotasDaTurma);
 console.log(notas2); // [ 8.1, 9.3, 8.9, 7.3 ]
 ```
+
+## Seção 8: Lista de Exercícios de JavaScript
+
+### 123. Lista de Exercícios - Sem Resolução
+
+[Arquivo](exercicios/123/Exercicios-sem-solucao.pdf);
+
