@@ -4203,3 +4203,23 @@ const resultado2 = alunos.map(a => a.bolsista).reduce(algumBolsista);
 
 console.log(resultado2);
 ```
+
+### 119. Reduce #03
+
+[arquivo](array/reduce3.js)
+
+```javascript
+Array.prototype.meuReduce = function (callback, valorInicial) {
+    const indiceInicial = valorInicial ? 0 : 1
+    let acumulador = valorInicial || this[0];
+    for (let i = indiceInicial; i < this.length; i++) {
+        acumulador = callback(acumulador, this[i], i, this);
+    }
+    return acumulador;
+}
+
+const soma = (total, valor) => total + valor;
+
+const nums = [1, 2, 3, 4, 5, 6];
+console.log(nums.meuReduce(soma, 9));
+```
