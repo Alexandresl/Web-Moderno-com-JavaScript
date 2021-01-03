@@ -4146,3 +4146,35 @@ const arrayFinal = produtos.meuFilter(fragil).meuFilter(caro);
 
 console.log(arrayFinal);
 ```
+
+### 117. Reduce #01
+
+* O método ```reduce()``` executa uma função **reducer** fornecida por você para cada elemento do array, resultando num único valor de retorno.
+* A função reducer recebe quatro parâmetros: Acumulador (acc), valor Atual (cur), index Atual (idx) e Array original (src).
+* O valor de retorno de sua função reducer é atribuída ao acumulador. O acumulador, com seu valor atualizado, é repassado para cada iteração subsequente pelo array, que por fim, se tornará o valor resultante, único, final.
+* Sintaxe:
+    ```
+        array.reduce(callback( acumulador, valorAtual[, index[, array]] )[, valorInicial])
+    ```
+* Parâmetros:
+    * ```callback``` - Função que é executada em cada valor no array (exceto no primeiro, se nenhum **valor inicial** for passado). Recebe quatro argumentos.
+    * ```acumulador``` - Opcional. O índice do elemento atual que está sendo processado no array. Começa a partir do índex *0* se um *valor inicial* for fornecido. Do contrário, começa do índex *1*.
+    * ```valorInicial```- Opcional. Valor a ser usado como o primeiro argumento da primeira chamada da função callback. Se nenhum *valorInicial* é fornecido, o primeiro elemento do array será usado como o valor incial do *acumulador* e o *valorAtual* não será lido. Chamar *reduce()* em um array vazia, sem valor inicial retornará erro.
+
+[Arquivo](array/reduce1.js)
+
+```javascript
+const alunos = [
+    { nome: 'João', nota: 7.3, bolsista: false },
+    { nome: 'Maria', nota: 9.2, bolsista: true },
+    { nome: 'Pedro', nota: 9.8, bolsista: false },
+    { nome: 'Ana', nota: 8.7, bolsista: true },
+]
+
+const resultado = alunos.map(a => a.nota).reduce(function(acumulador, atual){
+    console.log(acumulador, atual);
+    return acumulador + atual;
+}, 0);
+
+console.log('Resultado:', resultado);
+```
