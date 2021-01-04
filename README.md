@@ -2001,6 +2001,8 @@ console.log(getPreco.apply(carro, [0.17, '$']));
 
 ### 88. Lista de exercícios: Fundamentos, Estruturas de controle e Funções
 
+[Arquivo](exercicios/88/arquivos/Exercícios++Javascript.pdf)
+
 #### 1 -
 Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtracao, multiplicação e divisão desses valores.
 
@@ -4312,7 +4314,7 @@ console.log(notas2); // [ 8.1, 9.3, 8.9, 7.3 ]
 
 ### 123. Lista de Exercícios - Sem Resolução
 
-[Arquivo](exercicios/123/Exercicios-sem-solucao.pdf)
+[Arquivo](exercicios/123/arquivos/Exercicios-sem-solucao.pdf)
 
 1. Crie uma função que retorna a string "Olá", concatenada com um argumento *text* (a ser passado para a função) e com ponto de exclamação "!" no final.
 Exemplos:
@@ -4562,4 +4564,26 @@ recerberMelhorEstudante({
     Mariana: [9, 6.6, 7.9, 8], // média 7.875
     Carla: [7, 7, 8, 9] // média 7.75
 }) // retornará { nome: "Mariana", media: 7.875 }
+```
+
+### 124. Lista de Exercícios - Com Resolução
+
+[Arquivo](exercicios/123/arquivos/Exercicios-com-solucao.pdf)
+
+#### 1. Crie uma função que retorna a string "Olá", concatenada com um argumento *text* (a ser passado para a função) e com ponto de exclamação "!" no final.
+Exemplos:
+```javascript
+cumprimentar("Leonardo"); // Retornará "Olá, Leonardo!"
+cumprimentar("Maria"); // Retornará "Olá, Maria!"
+```
+
+[Arquivo](exercicios/123/exe1.js)
+
+```javascript
+function cumprimentar(str) {
+    return "Olá, ".concat(str, "!");
+}
+
+console.log(cumprimentar("Leonardo"));
+console.log(cumprimentar("Maria"));
 ```
