@@ -4573,6 +4573,16 @@ Exemplos:
 calcularSalario(150, 40.5) // retornará "Salário igual a R$ 6075"
 ```
 
+[Arquivo](exercicios/123/exe3.js)
+
+```javascript
+function calcularSalario(qtdHorasMes, valorPorHora) {
+    return "Salário igual a R$ ".concat((qtdHorasMes * valorPorHora).toFixed(2).replace('.', ','));
+}
+
+console.log(calcularSalario(150, 40.5));
+```
+
 4. Crie uma função que recebe um número (de 1 a 12) e retorne o mês correspondente como uma *string*. Por exemplos, se a entrada for 2, a função deverá retornar "fevereiro", pois este é o 2º mês.
 Exemplos:
 ```javascript
