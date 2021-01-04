@@ -4624,6 +4624,18 @@ maiorOuIgual(0, "0") // returnará false
 maiorOuIgual(5, 1) // retornará false
 ```
 
+[Arquivo](exercicios/123/exe5.js)
+
+```javascript
+function maiorOuIgual(num1, num2) {
+    return typeof num1 === 'number' && typeof num2 === 'number' && num1 >= num2;
+}
+
+console.log(maiorOuIgual(0, 0));
+console.log(maiorOuIgual(0, '0'));
+console.log(maiorOuIgual(5, 1));
+```
+
 6. Escreva uma função que receba um valor booleano ou numérico. Se o parâmetro fornecido for booleano, o retorno da função deverá ser o inverso. Por exemplo, se a entrada for *false*, retornará *true*. Se o parâmetro for numérico, o retorno será o número inverso. Por Exemplo, se for fornecido 1, e o retorno será -1. Se o parâmetro de entrada não for de nenhum dos tipos acimna, retorne "booleano ou número esperados, mas o parâmetro é do tipo ...".
 Exemplos:
 ```javascript
