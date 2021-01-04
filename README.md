@@ -2003,8 +2003,7 @@ console.log(getPreco.apply(carro, [0.17, '$']));
 
 [Arquivo](exercicios/88/arquivos/Exercícios++Javascript.pdf)
 
-#### 1 -
-Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtracao, multiplicação e divisão desses valores.
+#### 1 - Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtracao, multiplicação e divisão desses valores.
 
 [Arquivo](exercicios/88/exe01.js)
 
@@ -2019,8 +2018,7 @@ function calcularOperacoes(a, b) {
 calcularOperacoes(3, 4)
 ```
 
-#### 2 -
-Os triângulos podem ser classificaedos em 3 tipos quanto ao tamanho de seus lados: *Equilátero*: Os três lados são iguais. *Isósceles*: Dois lados iguais. *Escaleno*: Todos os lados são diferentes. Crie uma função que recebe os comprimentos dos três lados de um triângulo e retorne sua classificação quanto ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um triângulo).
+#### 2 - Os triângulos podem ser classificaedos em 3 tipos quanto ao tamanho de seus lados: *Equilátero*: Os três lados são iguais. *Isósceles*: Dois lados iguais. *Escaleno*: Todos os lados são diferentes. Crie uma função que recebe os comprimentos dos três lados de um triângulo e retorne sua classificação quanto ao tamanho de seus lados. (Neste exemplo deve-se abstrair as condições matemáticas de existência de um triângulo).
 
 [Arquivo](exercicios/88/exe02.js)
 
@@ -2040,8 +2038,7 @@ verificaTriângulo(4, 3, 3)
 verificaTriângulo(1, 2, 3)
 ```
 
-#### 3 -
-Crie uma função que recebe dois parâmetros, base e expoente, e retorno a base elevada ao expoente
+#### 3 - Crie uma função que recebe dois parâmetros, base e expoente, e retorno a base elevada ao expoente
 
 [Arquivo](exercicios/88/exe03.js)
 
@@ -2053,8 +2050,7 @@ function pow (base, expoente) {
 console.log(pow(2, 5));
 ```
 
-#### 4 -
-Crie uma função que irá receber dois valores, o dividendo e o divisor. A função deverá imprimir o resultado e o resto da divisão destes dois valores.
+#### 4 - Crie uma função que irá receber dois valores, o dividendo e o divisor. A função deverá imprimir o resultado e o resto da divisão destes dois valores.
 
 [Arquivo](exercicios/88/exe04.js)
 
@@ -2068,8 +2064,7 @@ divisao(20, 5);
 divisao(20, 3);
 ```
 
-#### 5 -
-Lidar com números em JavaScript pode dar muita dor de cabeça. Você já viu o que acontece quado faz o seguinte comando no console: ```console.log(0.1 + 0.2);``` O resultado será: 0.30000000000000004. Outra coisa importante de observar, é o fato que o ponto é utilizado no logar da vírgula e vice versa. Com isso, vamos fazer um exercício simples para mostrar dinheiro sempre da forma correta. Desenvolva uma função JavaScript para que ela receba um valor como 0.30000000000000004 e retorno R$ 0,30 (observe a vírgula e o ponto).
+#### 5 - Lidar com números em JavaScript pode dar muita dor de cabeça. Você já viu o que acontece quado faz o seguinte comando no console: ```console.log(0.1 + 0.2);``` O resultado será: 0.30000000000000004. Outra coisa importante de observar, é o fato que o ponto é utilizado no logar da vírgula e vice versa. Com isso, vamos fazer um exercício simples para mostrar dinheiro sempre da forma correta. Desenvolva uma função JavaScript para que ela receba um valor como 0.30000000000000004 e retorno R$ 0,30 (observe a vírgula e o ponto).
 
 [Arquivo](exercicios/88/exe05.js)
 
@@ -2081,8 +2076,7 @@ function emReal (a) {
 emReal(0.30000000000000004);
 ```
 
-#### 6 -
-Elabore duas funções que recebe3m três parâmetros: capital inicial, taxa de juros e tempo de aplicação. A primeira função retornará o montante da aplicação financeira sob o regime de juros simples e a segunda retornará o valor da aplicação sob o regime de juros compostos.
+#### 6 - Elabore duas funções que recebe3m três parâmetros: capital inicial, taxa de juros e tempo de aplicação. A primeira função retornará o montante da aplicação financeira sob o regime de juros simples e a segunda retornará o valor da aplicação sob o regime de juros compostos.
 
 [Arquivo](exercicios/88/exe06.js)
 
@@ -2099,8 +2093,7 @@ console.log(calculaJurosSimples(100, 0.1, 2));
 console.log(calculaJurosCompostos(100, 0.1, 2));
 ```
 
-### 7 -
-Uma das vantagens da programação é a automatização de tarefas que não gostamos de realizar. Dito isto, elabore uma função cujo objetivo é resolver a fórmula de Bhaskara. Para isso, sua função deve receber três parâmetros, "*ax2*", "*bx*" e "*c*", de tal modo que na equação: 3x² - 5x + 12 os valores seriam respectivamente: 3, -5 e 12. Como retorno deve ser passado um vetor que tem 2 valores, um para cada possível resultado, mesmo que os resultados sejam iguais. Caso o delta seja negativo, retorne, ao invés do vetor, um string com a frase: "*Delta é negativo*".
+### 7 - Uma das vantagens da programação é a automatização de tarefas que não gostamos de realizar. Dito isto, elabore uma função cujo objetivo é resolver a fórmula de Bhaskara. Para isso, sua função deve receber três parâmetros, "*ax2*", "*bx*" e "*c*", de tal modo que na equação: 3x² - 5x + 12 os valores seriam respectivamente: 3, -5 e 12. Como retorno deve ser passado um vetor que tem 2 valores, um para cada possível resultado, mesmo que os resultados sejam iguais. Caso o delta seja negativo, retorne, ao invés do vetor, um string com a frase: "*Delta é negativo*".
 
 [Arquivo](exercicios/88/exe07.js)
 
@@ -2124,8 +2117,7 @@ console.log(calculaBhaskara(3, 1, 2))
 
 ```
 
-#### 8 -
-Pedro joga N jogos de basquete por temporada. Para saber como ele está progredindo, mantém registro de todas as pontuações feitas por jogo. Após cada jogo ele anota no novo valor e confere se o mesmo é maior ou mentor que seu melhor e pior desempenho. Dada uma lista string = "pontuação1, pontuação2, pontuação3, etc...", escreva uma função que ao recebê-la, irá comparar os valores um a um e irá retornar um vetor com o número de vezes que ele bateu seu recorde de maior número de pontos e quando fez seu pior jogo.
+#### 8 - Pedro joga N jogos de basquete por temporada. Para saber como ele está progredindo, mantém registro de todas as pontuações feitas por jogo. Após cada jogo ele anota no novo valor e confere se o mesmo é maior ou mentor que seu melhor e pior desempenho. Dada uma lista string = "pontuação1, pontuação2, pontuação3, etc...", escreva uma função que ao recebê-la, irá comparar os valores um a um e irá retornar um vetor com o número de vezes que ele bateu seu recorde de maior número de pontos e quando fez seu pior jogo.
 Obs.: O primeiro jogo não conta commo novo recorde do melhor.
 Exemplo:
 String: "10 20 20 8 25 3 0 30 1"
@@ -2158,8 +2150,7 @@ function progresso (stringPontuacoes) {
 console.log(progresso(stringPontuacoes));
 ```
 
-#### 9 -
-Construa uma função para um sistema de notas de uma instituição que possui a seguinte política de classificação: 
+#### 9 - Construa uma função para um sistema de notas de uma instituição que possui a seguinte política de classificação: 
 - Todo aluno recebe uma nota de 0 a 100. 
 - Alunos com nnota abaixo de 40 são reprovados.
 - As notas possuem o seguinte arredondamento: 
@@ -2195,8 +2186,7 @@ classificaAluno(38);
 classificaAluno(84);
 ```
 
-#### 10 -
-Crie uma função que verifica se um número inteiro passado como parâmetro é divisível por 3 e retorne *true* ou *false*.
+#### 10 - Crie uma função que verifica se um número inteiro passado como parâmetro é divisível por 3 e retorne *true* ou *false*.
 
 [Arquivo](exercicios/88/exe10.js)
 
@@ -2214,8 +2204,7 @@ console.log(div3(12));
 console.log(div3(20));
 ```
 
-#### 11 -
-As regras para o cálculo dos anos bissextos são as seguintes:
+#### 11 - As regras para o cálculo dos anos bissextos são as seguintes:
 - De 4 em 4 anos é bissexto;
 - De 100 em 100 anos não é bissexto;
 - De 400 em 400 anos é bissexto;
@@ -2255,8 +2244,7 @@ console.log(anoBissexto(2020));
 console.log(anoBissexto(2021));
 ```
 
-#### 12 - 
-Faça um algoritmo que calcule o fatorial de um número.
+#### 12 - Faça um algoritmo que calcule o fatorial de um número.
 
 [Arquivo](exercicios/88/exe12.js)
 
@@ -2287,8 +2275,7 @@ fatorial(9); // 9! = 362880
 fatorial(10); // 10! = 3628800
 ```
 
-#### 13 -
-Crie um programa que exibe se um dia é dia útil, fim de semana ou dia inválido dado o número referente ao dia. Considere que é o dia 1 e sábado é o dia 7. Utilize a estrutura Switch.
+#### 13 - Crie um programa que exibe se um dia é dia útil, fim de semana ou dia inválido dado o número referente ao dia. Considere que é o dia 1 e sábado é o dia 7. Utilize a estrutura Switch.
 
 [Arquivo](exercicios/88/exe13.js)
 
@@ -2325,8 +2312,7 @@ console.log(diasDaSemana(7)); // Fim de samana
 console.log(diasDaSemana(8)); // Dia inválido
 ```
 
-#### 14 -
-Crie uma estrutura condicional switch que receba uma string com o nome de uma fruta e que possua três casos: Caso maçã, retorne no console: "Não vendemos esta fruta aqui". Caso kiwi, retorne: "Estamos com escassez de kiwis". Caso melância: "Aqui está, são 3 reais o quilo". Teste com estas três opções. Crie também um *default*, que retornará uma mensagem de erro no console.
+#### 14 - Crie uma estrutura condicional switch que receba uma string com o nome de uma fruta e que possua três casos: Caso maçã, retorne no console: "Não vendemos esta fruta aqui". Caso kiwi, retorne: "Estamos com escassez de kiwis". Caso melância: "Aqui está, são 3 reais o quilo". Teste com estas três opções. Crie também um *default*, que retornará uma mensagem de erro no console.
 
 [Arquivo](exercicios/88/exe14.js)
 
@@ -2353,8 +2339,7 @@ comprarFrutas('melância');
 comprarFrutas('larânja');
 ```
 
-#### 15 -
-Um homem decidiu ir à uma revenda comprar um carro. Ele deseja comprar um carro hatch, e a revenda possui, além de carros hatch, sedans, motocicletas e caminhonetes. Utilizando uma estrutura switch, cao o comprador queira o hatch, retorne: "Compra efetuada com sucesso". Nas outras opções, retorne: "Tem certeza que não prefere este modelo?". Caso seja especificado um modelo que não está disponível, retorne no console: "Não trabalhamos com este tipo de automóvel aqui'.
+#### 15 - Um homem decidiu ir à uma revenda comprar um carro. Ele deseja comprar um carro hatch, e a revenda possui, além de carros hatch, sedans, motocicletas e caminhonetes. Utilizando uma estrutura switch, cao o comprador queira o hatch, retorne: "Compra efetuada com sucesso". Nas outras opções, retorne: "Tem certeza que não prefere este modelo?". Caso seja especificado um modelo que não está disponível, retorne no console: "Não trabalhamos com este tipo de automóvel aqui'.
 
 [Arquivo](exercicios/88/exe15.js)
 
@@ -2379,8 +2364,7 @@ console.log(revenda('caminhonetes')); // Tem certeza que não prefere este model
 console.log(revenda('jipe')); // Não trabalhamos com este tipo de automóvel aqui
 ```
 
-#### 16 -
-Utilizando a estrutura do Switch, faça um programa que simule uma calculadora básica. O programa recebe como parâmetros dois valores numéricos e uma string referente à operação e a realize com os valores numéricos na ordem que foram inseridos. Por exemplo: calculadora(2, '+', 3). A função efetuará a soma de 2 e 3. Dica: Os sinais das operações são '+', '-', '*' e '/'. Crie um caso default para operações inválidas.
+#### 16 - Utilizando a estrutura do Switch, faça um programa que simule uma calculadora básica. O programa recebe como parâmetros dois valores numéricos e uma string referente à operação e a realize com os valores numéricos na ordem que foram inseridos. Por exemplo: calculadora(2, '+', 3). A função efetuará a soma de 2 e 3. Dica: Os sinais das operações são '+', '-', '*' e '/'. Crie um caso default para operações inválidas.
 
 [Arquivo](exercicios/88/exe16.js)
 
@@ -2410,8 +2394,7 @@ calculadora(6, '*', 8); // 6 * 8 = 48
 calculadora(35, '/', 5); // 35 / 5 = 7
 ```
 
-#### 17 -
-Um funcionário irá receber um aumento de acordo com o seu plano de trabalho, de acordo com a tabela abaixo:
+#### 17 - Um funcionário irá receber um aumento de acordo com o seu plano de trabalho, de acordo com a tabela abaixo:
 Plano | Aumento
 ------|---------
 A | 10%
@@ -2445,8 +2428,7 @@ aumentoSalario('C', 100); // O novo salário é R$ 120
 aumentoSalario('D', 100); // Plano inválido
 ```
 
-#### 18 -
-Faça um programa que leia um número entre 0 e 10, e escreva este número por extenso. Use o comando switch. Crie um caso default que escreva 'Número fora do intervalo'.
+#### 18 - Faça um programa que leia um número entre 0 e 10, e escreva este número por extenso. Use o comando switch. Crie um caso default que escreva 'Número fora do intervalo'.
 
 [Arquivo](exercicios/88/exe18.js)
 
@@ -2505,8 +2487,7 @@ numeroPorExetenso(10); // Dez
 numeroPorExetenso(11); // Número fora do intervalo.
 ```
 
-#### 19 -
-O cardápio de uma lanchonete é o seguinte:
+#### 19 - O cardápio de uma lanchonete é o seguinte:
 Código | Descrição do Produto | Preço
 -------|----------------------|-------
 100 | Cachorro Quente | R$ 3,00
@@ -2552,8 +2533,7 @@ console.log(compra(100, 3)); // 9
 console.log(compra(101, 3)); // Produto inválido
 ```
 
-#### 20.
-Crie um programa para informar quais e quantas notas são necessárias para entregar o mínimo de cédulas para um determinado valor informado pelo usuário c onsiderando notas de R$ 100, R$ 50, R$ 10 e R$ 5 e 1. Seu programa deve mostrar apenas as notas utilizadas. Por exemplo, ao solictar R$ 18, o programa deve informar apenas a seguinte informação (note que não foram exibidas informações sobre as demais cédulas): 1 nota(s) de R$ 10. 1 nota(s) de R$ 5. 3 nota(s) de R$ 1.
+#### 20. Crie um programa para informar quais e quantas notas são necessárias para entregar o mínimo de cédulas para um determinado valor informado pelo usuário c onsiderando notas de R$ 100, R$ 50, R$ 10 e R$ 5 e 1. Seu programa deve mostrar apenas as notas utilizadas. Por exemplo, ao solictar R$ 18, o programa deve informar apenas a seguinte informação (note que não foram exibidas informações sobre as demais cédulas): 1 nota(s) de R$ 10. 1 nota(s) de R$ 5. 3 nota(s) de R$ 1.
 
 [Arquivo](exercicios/88/exe20.js)
 
@@ -2633,8 +2613,7 @@ function imprimeNotas(notas100, notas50, notas10, notas5, notas1) {
 ATM(167.00);
 ```
 
-#### 21 -
-Criar um programa para identificar o valor a ser pago por um plano de saúde dada a idade do conveniado considerando que todos pagam R$ 100,00 mais um adicional conforme a seguinte tabela: 
+#### 21 - Criar um programa para identificar o valor a ser pago por um plano de saúde dada a idade do conveniado considerando que todos pagam R$ 100,00 mais um adicional conforme a seguinte tabela: 
 1) crianças com menos de 10 anos pagam R$ 80,00;
 2) conveniados com idade entre 10 e 30 anos pagam R$ 50,00;
 3) conveniados com idade de 30 até 60 anos pagam R$ 95,00;
@@ -2662,8 +2641,7 @@ valorPlanoSaude(10);
 valorPlanoSaude(30);
 valorPlanoSaude(80);
 ```
-#### 22 -
-Criar uma função para calcular o valor a ser pago de anuidade de uma associação. A função recebe como parâmetro um inteiro que representa o mês (1 - janeiro, 2 - fevereiro, ...) que foi paga e o valor da anuidade. A anuidade deve ser paga no mês de janeiro. Por mês, é cobrado 5% de juros (sob o regime de juros compostos). O retorno deve ser o valor a ser pago para o respectivo mês escolhido.
+#### 22 - Criar uma função para calcular o valor a ser pago de anuidade de uma associação. A função recebe como parâmetro um inteiro que representa o mês (1 - janeiro, 2 - fevereiro, ...) que foi paga e o valor da anuidade. A anuidade deve ser paga no mês de janeiro. Por mês, é cobrado 5% de juros (sob o regime de juros compostos). O retorno deve ser o valor a ser pago para o respectivo mês escolhido.
 
 [Arquivo](exercicios/88/exe22.js)
 
@@ -2678,8 +2656,7 @@ console.log(pagarAssociacao(2, 100));
 console.log(pagarAssociacao(4, 100));
 ```
 
-### 23 -
-Escreva um algoritmos que leia o código de um aluno e suas três notas. Calcule a média ponderada do aluno, considerando que o peso para a maior nota seja 4 e para as duas restantes 3. Mowstre o código do aluno, suas três notas, a média calculada e uma mensagem "*APROVADO*" se a média for maior ou igual a 5 e "*Reprovado*" se a média for menor que 5. Repita a operação até que o código lido seja negativo.
+### 23 - Escreva um algoritmos que leia o código de um aluno e suas três notas. Calcule a média ponderada do aluno, considerando que o peso para a maior nota seja 4 e para as duas restantes 3. Mowstre o código do aluno, suas três notas, a média calculada e uma mensagem "*APROVADO*" se a média for maior ou igual a 5 e "*Reprovado*" se a média for menor que 5. Repita a operação até que o código lido seja negativo.
 
 [Arquivo](exercicios/88/exe23.js)
 
@@ -2715,8 +2692,7 @@ Resultado(100, 4, 5, 5)
 Resultado(100, 4, 5, 6)
 ```
 
-#### 24 -
-Crie um programa que imprima 11 vezes a frase " Hello World!" utilizando uma estrutura de repetição while.
+#### 24 - Crie um programa que imprima 11 vezes a frase " Hello World!" utilizando uma estrutura de repetição while.
 
 [Arquivo](exercicios/88/exe24.js)
 
@@ -2732,8 +2708,7 @@ function imprimeHelloWorld() {
 imprimeHelloWorld();
 ```
 
-#### 25 -
-Escrever um programa para exibir os números de 1 até 50 na tela.
+#### 25 - Escrever um programa para exibir os números de 1 até 50 na tela.
 
 [Arquivo](exercicios/88/exe25.js)
 
@@ -2749,8 +2724,7 @@ function imprimirNumeros () {
 imprimirNumeros();
 ```
 
-#### 26 -
-Fazer um programa para encontrar todos os pares entre 1  e 100.
+#### 26 - Fazer um programa para encontrar todos os pares entre 1  e 100.
 
 [Arquivo](exercicios/88/exe26.js)
 
@@ -2766,8 +2740,7 @@ function pares(inicio, fim) {
 pares(1, 100);
 ```
 
-#### 27 -
-Construa uma função que receba como parâmetros as alturas e as taxas de crescimento anuais de duas crianças e calcule se existe uma criança menor, caso exista se a criança menor ultrapassará a maior e em quantos anos isso acontecerá. Utilize centímetros para as unidades de medida.
+#### 27 - Construa uma função que receba como parâmetros as alturas e as taxas de crescimento anuais de duas crianças e calcule se existe uma criança menor, caso exista se a criança menor ultrapassará a maior e em quantos anos isso acontecerá. Utilize centímetros para as unidades de medida.
 
 [Arquivo](exercicios/88/exe27.js)
 
@@ -2810,8 +2783,7 @@ function comparaAlturas(altura1, taxa1, altura2, taxa2) {
 comparaAlturas(50, 0.05, 50, 0.06);
 ```
 
-#### 28 -
-Ler um vetor de números inteiros e imprimir quantos são pares e quantos são ímpares.
+#### 28 - Ler um vetor de números inteiros e imprimir quantos são pares e quantos são ímpares.
 
 [Arquivo](exercicios/88/exe28.js)
 
@@ -2828,8 +2800,7 @@ function separarParImpar(array) {
 separarParImpar([1, 3, 78, 90, 13])
 ```
 
-#### 29 -
-Utilizando a estrutura de repetição for, faça uma função que percorra um vetor e conte quantos números deste vetor estão no intervalo [10, 20] (repare que o intervalo é fechado, ou seja, inclui o 10 e 20) e quantos destes estão fora do intervalo, escrevendo estas informações.
+#### 29 - Utilizando a estrutura de repetição for, faça uma função que percorra um vetor e conte quantos números deste vetor estão no intervalo [10, 20] (repare que o intervalo é fechado, ou seja, inclui o 10 e 20) e quantos destes estão fora do intervalo, escrevendo estas informações.
 
 [Arquivo](exercicios/88/exe29.js)
 
@@ -2851,8 +2822,7 @@ function noIntervalo1020(array) {
 noIntervalo1020([1, 3, 5, 7, 9, 11, 12, 13, 15, 17, 19]);
 ```
 
-#### 30 -
-Escreva um algoritmo que percorre um vetor de inteiros e defina o maior e menor valor dentro do vetor.
+#### 30 - Escreva um algoritmo que percorre um vetor de inteiros e defina o maior e menor valor dentro do vetor.
 
 [Arquivo](exercicios/88/exe30.js)
 
@@ -2875,8 +2845,7 @@ function maiorMenor(array) {
 maiorMenor([23, 3984, 1, 3984, 9])
 ```
 
-#### 31 -
-Escrever um algoritmo que percorre um vetor de inteiros, conta quantos números negativos há nesse vetor, e imprime a quantidade no console.
+#### 31 - Escrever um algoritmo que percorre um vetor de inteiros, conta quantos números negativos há nesse vetor, e imprime a quantidade no console.
 
 [Arquivo](exercicios/88/exe31.js)
 
@@ -2894,8 +2863,7 @@ function numerosNegativos(array) {
 numerosNegativos([0, 3, -2, 10, -5]);
 ```
 
-#### 32 -
-Construir um algoritmo que calcule a média aritmética dos valores de um vetor de inteiros.
+#### 32 - Construir um algoritmo que calcule a média aritmética dos valores de um vetor de inteiros.
 
 [Arquivo](exercicios/88/exe32.js)
 
@@ -2912,8 +2880,7 @@ function calculaMediaArray(array) {
 calculaMediaArray([1, 3, 5, 7, 9, 11]);
 ```
 
-#### 33 -
-Crie três vetores, chamados vetorinteiro, vetorString e vetorDouble. Cada um destes vetores deverá conter quatro valores, sendo o primeiro com valores inteiros, o segundo com strings e o terceiro com valores decimais. Declarados os vetores, utilize a função de união concat() de duas maneiras diferentes para unir os vetores, e mostre o resultado no console. Todos os elementos do vertor resultado deverão aparecer no console.
+#### 33 - Crie três vetores, chamados vetorinteiro, vetorString e vetorDouble. Cada um destes vetores deverá conter quatro valores, sendo o primeiro com valores inteiros, o segundo com strings e o terceiro com valores decimais. Declarados os vetores, utilize a função de união concat() de duas maneiras diferentes para unir os vetores, e mostre o resultado no console. Todos os elementos do vertor resultado deverão aparecer no console.
 
 [Arquivo](exercicios/88/exe33.js)
 
@@ -2934,8 +2901,7 @@ console.log(concatArrays(vetorInteiro, vetorString));
 console.log(concatArrays(vetorString, vetorDouble));
 ```
 
-#### 34 -
-Construa uma função que receberá duas Strings de tamanhos variádos e que retornará *true* ou *false* caso todos os caracteres (independentemente de ser maiúsculo ou minúsculo) estejam em ambas as palavras.
+#### 34 - Construa uma função que receberá duas Strings de tamanhos variádos e que retornará *true* ou *false* caso todos os caracteres (independentemente de ser maiúsculo ou minúsculo) estejam em ambas as palavras.
 
 [Arquivo](exercicios/88/exe34.js)
 
@@ -2963,8 +2929,7 @@ function testaCaracteres(str1, str2) {
 console.log(testaCaracteres('abc', 'csa'));
 ```
 
-#### 35 -
-Crie dois vetores chamados vetorPilha e vetorAdiciona. Inicialmente, o vetorPilha conterá cinco elementos inteiros: [1, 2, 3, 4, 5]. Você deverá adicionar os valores contidos no vetorAdiciona [6, 7, 8, 9, 10] ao vetor pilha e mostra-los no console. É importante lembrar que o método ```push```retorna somente o tamanho do vetor. Ao final das operações imprima os vetores no console.
+#### 35 - Crie dois vetores chamados vetorPilha e vetorAdiciona. Inicialmente, o vetorPilha conterá cinco elementos inteiros: [1, 2, 3, 4, 5]. Você deverá adicionar os valores contidos no vetorAdiciona [6, 7, 8, 9, 10] ao vetor pilha e mostra-los no console. É importante lembrar que o método ```push```retorna somente o tamanho do vetor. Ao final das operações imprima os vetores no console.
 
 [Arquivo](exercicios/88/exe35.js)
 
@@ -2984,8 +2949,7 @@ console.log("Vetor adicionado: " + vetorAdiciona);
 console.log("Vetor Resultado: " + vetorPilha);
 ```
 
-#### 36 -
-Crie duas funções que recebem dois parâmetros, um vetor com apenas valores numéricos e um número inteiro. Faça com que a primeira função retorne outro vetor que será resultado da multiplicação de cada elemento pelo número passado como parâmetro. A segunda função fará o mesmo da primeira se e somente se o valor do elemento fo maior que 5.
+#### 36 - Crie duas funções que recebem dois parâmetros, um vetor com apenas valores numéricos e um número inteiro. Faça com que a primeira função retorne outro vetor que será resultado da multiplicação de cada elemento pelo número passado como parâmetro. A segunda função fará o mesmo da primeira se e somente se o valor do elemento fo maior que 5.
 
 [Arquivo](exercicios/88/exe36.js)
 
@@ -3010,8 +2974,7 @@ multiplyAll([1, 3, 5, 7, 9], 3);
 multiplyMajor5([1, 3, 5, 7, 9], 3);
 ```
 
-#### 37 -
-Escreva duas funções, uma para progressão aritmética e uma para progressão geométrica que recebam como parâmetros um número *n* (numero de termo), *a1* (o primeiro termo) e *r* (a razão) e escreva os *n* termos bem como a soma dos elementos.
+#### 37 - Escreva duas funções, uma para progressão aritmética e uma para progressão geométrica que recebam como parâmetros um número *n* (numero de termo), *a1* (o primeiro termo) e *r* (a razão) e escreva os *n* termos bem como a soma dos elementos.
 
 [Arquivo](exercicios/88/exe37.js)
 
@@ -3044,8 +3007,7 @@ pa(10, 1, 2);
 pg(10, 1, 2);
 ```
 
-#### 38 -
-Escreva uma função que receba dois parâmetros inicio e fim. Essa função deve imprimir todos os números ímparews que estão entre esses valores. Por padrão os valores devem ser 0 para início e 100 para fim. Atente para corrigir a ordem dos parâmetros caso a função receba o valor maior antes do menor.
+#### 38 - Escreva uma função que receba dois parâmetros inicio e fim. Essa função deve imprimir todos os números ímparews que estão entre esses valores. Por padrão os valores devem ser 0 para início e 100 para fim. Atente para corrigir a ordem dos parâmetros caso a função receba o valor maior antes do menor.
 
 [Arquivo](exercicios/88/exe38.js)
 
@@ -3068,8 +3030,7 @@ function numerosImpares(inicio, fim) {
 numerosImpares(0, 100);
 ```
 
-#### 39 -
-Crie uma função que receba dois valores de igual tamanho e troque seus elementos de modo que primeiro elemento do vetor A, passe a ser o primeiro elemento do vetor B e vice e versa e assim sucessivamente. Faça a troca sem utilizar uma veriável auxiliar.
+#### 39 - Crie uma função que receba dois valores de igual tamanho e troque seus elementos de modo que primeiro elemento do vetor A, passe a ser o primeiro elemento do vetor B e vice e versa e assim sucessivamente. Faça a troca sem utilizar uma veriável auxiliar.
 
 [Arquivo](exercicios/88/exe39.js)
 
@@ -3099,8 +3060,7 @@ console.log(`Vetor A: ${vetorA}`);
 console.log(`Vetor B: ${vetorB}`);
 ```
 
-#### 40 -
-Faça uma função que receba como parâmetro um vetor de notas e mostre os conceitos de cada uma de modo que de 0,0 e 4,9 seja atribuído o conceito D, de 5,0 a 6,9 seja atribuído o conceito C, de 7,0 e 8,9 o conceito B e de 9,0 a 10,0 o conceito A.
+#### 40 - Faça uma função que receba como parâmetro um vetor de notas e mostre os conceitos de cada uma de modo que de 0,0 e 4,9 seja atribuído o conceito D, de 5,0 a 6,9 seja atribuído o conceito C, de 7,0 e 8,9 o conceito B e de 9,0 a 10,0 o conceito A.
 
 [Arquivo](exercicios/88/exe40.js)
 
