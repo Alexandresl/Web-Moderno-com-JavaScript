@@ -4645,6 +4645,27 @@ inverso(-2000) // retornará 2000
 inverso("programação") // retornará "booleano ou número esperados, mas o parâmetro é do tipo String"
 ```
 
+[Arquivo](exercicios/123/exe6.js)
+
+```javascript
+function inverso(entrada) {
+    typeEntry = typeof entrada;
+    switch (typeEntry) {
+        case 'number':
+            return entrada * -1;
+        case 'boolean':
+            return entrada ? false : true;
+        default:
+            return `Booleano ou número esperados, mas o parâmetro é do tipo ${typeEntry}`;
+    }
+}
+
+console.log(inverso(true));
+console.log(inverso("6"));
+console.log(inverso(-2000));
+console.log(inverso("Programação"));
+```
+
 7. Crie uma função que receba quatro números como parâmetros (numero, minimo, maximo, inclusivo) e retorne se o parâmetro *numero* (o primeiro) está entre *minimo* e *maximo*. Quando o parâmetro *inclusivo* for *true*, tenha "entre" como inclusivo, ou seja, considerando se *numero* é igual a *minimo* ou a *maximo*. Caso o parâmetro *inclusivo* não seja informado, seu valor padrão deeverá ser false, portanto, a lógica será exclusivoa, não considerando se *numero* é igual a *mninimo* ou a *maximo*.
 Exemplos:
 ```javascript
