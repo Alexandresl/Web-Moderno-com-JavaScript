@@ -4689,10 +4689,7 @@ function estaEntre(numero, minimo, maximo, inclusivo = false) {
         maximo++;
     }
 
-    if(numero > minimo && numero < maximo) {
-        return true;
-    }
-    return false;
+    return numero > minimo && numero < maximo;
 
 }
 
@@ -4708,6 +4705,21 @@ Exemplos:
 ```javascript
 multiplicar(5, 5); // retornará 25
 multiplicar(0, 7); // retornará 0
+```
+
+[Arquivo](exercicios/123/exe8.js)
+
+```javascript
+function multiplicar(multiplicando, multiplicador) {
+    let result = 0;
+    for (let i = multiplicador; i >= 1; i--) {
+        result += multiplicando;
+    }
+    return result;
+}
+
+console.log(multiplicar(5, 5));
+console.log(multiplicar(0, 7));
 ```
 
 9. Escreva uma função que receba dois parâmetros. O primeiro parâmetro é o elemento que repetirá, enquanto que o segundo será o número de vezes que haverá repetição. Um array será retornado.
