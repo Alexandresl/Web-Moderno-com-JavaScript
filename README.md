@@ -4321,13 +4321,13 @@ inverso(-2000) // retornará 2000
 inverso("programação") // retornará "booleano ou número esperados, mas o parâmetro é do tipo String"
 ```
 
-7. Crie uma função que receba quatro números como parâmetros (numero, minimo, maximo, inclusivo) e retorne se o parâmetro *numero* (o primeiro) está entre *minimo* e *maximo*. Quando o parâmetro *inclusivo* for *true*, tenha "entre" como inclusivo, ou seja, considerando se *numero* é igual a *minimo* ou a *maximo*. Caso o parâmetro *inclusivo* não seja informado, seu valor padrão deeverá ser false, portanto, a lógica será exclusivoa, não considerando se *numero* é igual a *mninimo* ou a *maximo*.
+7. Crie uma função que receba quatro números como parâmetros (numero, minimo, maximo, inclusivo) e retorne se o parâmetro *numero* (o primeiro) está entre *minimo* e *maximo*. Quando o parâmetro *inclusivo* for *true*, tenha "entre" como inclusivo, ou seja, considerando se *numero* é igual a *minimo* ou a *maximo*. Caso o parâmetro *inclusivo* não seja informado, seu valor padrão deeverá ser false, portanto, a lógica será exclusiva, não considerando se *numero* é igual a *mninimo* ou a *maximo*.
 Exemplos:
 ```javascript
-estaEngre(10, 100, 50); // returnará true
-estaEngre(16, 100, 160); // returnará false
-estaEngre(3, 150, 3); // returnará false
-estaEngre(3, 150, 3, true); // returnará true
+estaEntre(10, 100, 50); // returnará true
+estaEntre(16, 100, 160); // returnará false
+estaEntre(3, 150, 3); // returnará false
+estaEntre(3, 150, 3, true); // returnará true
 ```
 
 8. Desenvolva uma função que recebe dois números inteiros não negativos (maiores ou iguais a zero) e realize a multiplicação deles. Porém, não utilize o operador de multiplicação.
@@ -4652,9 +4652,9 @@ function inverso(entrada) {
     typeEntry = typeof entrada;
     switch (typeEntry) {
         case 'number':
-            return entrada * -1;
+            return -entrada;
         case 'boolean':
-            return entrada ? false : true;
+            return !entrada;
         default:
             return `Booleano ou número esperados, mas o parâmetro é do tipo ${typeEntry}`;
     }
@@ -4666,14 +4666,42 @@ console.log(inverso(-2000));
 console.log(inverso("Programação"));
 ```
 
-7. Crie uma função que receba quatro números como parâmetros (numero, minimo, maximo, inclusivo) e retorne se o parâmetro *numero* (o primeiro) está entre *minimo* e *maximo*. Quando o parâmetro *inclusivo* for *true*, tenha "entre" como inclusivo, ou seja, considerando se *numero* é igual a *minimo* ou a *maximo*. Caso o parâmetro *inclusivo* não seja informado, seu valor padrão deeverá ser false, portanto, a lógica será exclusivoa, não considerando se *numero* é igual a *mninimo* ou a *maximo*.
+7. Crie uma função que receba quatro números como parâmetros (numero, minimo, maximo, inclusivo) e retorne se o parâmetro *numero* (o primeiro) está entre *minimo* e *maximo*. Quando o parâmetro *inclusivo* for *true*, tenha "entre" como inclusivo, ou seja, considerando se *numero* é igual a *minimo* ou a *maximo*. Caso o parâmetro *inclusivo* não seja informado, seu valor padrão deeverá ser false, portanto, a lógica será exclusiva, não considerando se *numero* é igual a *mninimo* ou a *maximo*.
 Exemplos:
 ```javascript
-estaEngre(10, 100, 50); // returnará true
-estaEngre(16, 100, 160); // returnará false
-estaEngre(3, 150, 3); // returnará false
-estaEngre(3, 150, 3, true); // returnará true
+estaEntre(10, 100, 50); // returnará true
+estaEntre(16, 100, 160); // returnará false
+estaEntre(3, 150, 3); // returnará false
+estaEntre(3, 150, 3, true); // returnará true
 ```
+
+[Arquivo](exercicios/123/exe7.js)
+
+```javascript
+function estaEntre(numero, minimo, maximo, inclusivo = false) {
+
+    if (minimo > maximo) {
+        [minimo, maximo] = [maximo, minimo]  
+    } 
+    
+    if (inclusivo) {
+        minimo--;
+        maximo++;
+    }
+
+    if(numero > minimo && numero < maximo) {
+        return true;
+    }
+    return false;
+
+}
+
+console.log(estaEntre(60, 100, 50));
+console.log(estaEntre(16, 100, 160));
+console.log(estaEntre(3, 150, 3));
+console.log(estaEntre(3, 150, 3, true));
+```
+
 
 8. Desenvolva uma função que recebe dois números inteiros não negativos (maiores ou iguais a zero) e realize a multiplicação deles. Porém, não utilize o operador de multiplicação.
 Exemplos:

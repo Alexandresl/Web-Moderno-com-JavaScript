@@ -2,9 +2,9 @@ function inverso(entrada) {
     typeEntry = typeof entrada;
     switch (typeEntry) {
         case 'number':
-            return entrada * -1;
+            return -entrada;
         case 'boolean':
-            return entrada ? false : true;
+            return !entrada;
         default:
             return `Booleano ou número esperados, mas o parâmetro é do tipo ${typeEntry}`;
     }
