@@ -4729,6 +4729,17 @@ repetir("código", 2); // retornará ["código", "código"]
 repetir(7, 3); // retornará [7, 7, 7]
 ```
 
+[Arquivo](exercicios/123/exe9.js)
+
+```javascript
+function repetir(elemento, vezes) {
+    return Array(vezes).fill(elemento)
+}
+
+console.log(repetir("Código", 2));
+console.log(repetir(7, 3));
+```
+
 10. Elabore uma função que recebe um número como parâmetro e retorne uma string com o símbolo "+" na quantidade especificada no parâmetro.
 Exemplos:
 ```javascript
