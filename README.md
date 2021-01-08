@@ -4762,11 +4762,24 @@ console.log(simboloMais(2));
 console.log(simboloMais(4));
 ```
 
-11. Crie uma função que receb a um array e retorne o primeiro e o último elemento desse array como um novo array:
+11. Crie uma função que receba um array e retorne o primeiro e o último elemento desse array como um novo array:
 Exemplos:
 ```javascript
 receberPrimeiroEUltimoElemento([7, 14, "olá"]); // retornará [7, "olá"]
 receberPrimeiroEUltimoElemento([-100, "aplicativo", 16]); // retornará [-100, 16]
+```
+
+[Arquivo](exercicios/123/exe11.js)
+
+```javascript
+function receberPrimeiroEUltimoElemento(array) {
+    let primeiroElemento = array[0];
+    let ultimoElemento = array[array.length - 1];
+    return [primeiroElemento, ultimoElemento];
+}
+
+console.log(receberPrimeiroEUltimoElemento([7, 14, "olá"]));
+console.log(receberPrimeiroEUltimoElemento([-100, "aplicativo", 16]));
 ```
 
 12. Quando temos um objeto e manipulamos seus atributos, adicionando, atualizando ou removendo-os, estamos apenas modificando-o, mas, em essência, o objeto continua o mesmo, ou seja, a sua referência de memória é a mesma.
