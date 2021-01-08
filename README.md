@@ -4747,6 +4747,21 @@ simboloMais(2); // retornará "++"
 simboloMais(4); // retornará "++++"
 ```
 
+[Arquivo](exercicios/123/exe10.js
+
+```javascript
+function simboloMais(num) {
+    let str = "";
+    for (let i = 0; i < num; i++) {
+        str = str.concat("+");
+    }
+    return str;
+}
+
+console.log(simboloMais(2));
+console.log(simboloMais(4));
+```
+
 11. Crie uma função que receb a um array e retorne o primeiro e o último elemento desse array como um novo array:
 Exemplos:
 ```javascript
