@@ -4756,7 +4756,6 @@ function simboloMais(num) {
         str = str.concat("+");
     }
     return str;
-    
 }
 
 console.log(simboloMais(2));
