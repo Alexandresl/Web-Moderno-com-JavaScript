@@ -4853,6 +4853,25 @@ objetoParaArray({
 }); // irá retornar [["codigo", 11111], ["preco", 12000]]
 ```
 
+[Arquivo](exercicios/123/exe14.js)
+
+```javascript
+function objetoParaArray(obj) {
+    let array = Object.entries(obj);
+    return array;
+}
+
+console.log(objetoParaArray({
+    nome: "Maria",
+    profissão: "Desenvolvedora de software"
+}));
+
+console.log(objetoParaArray({
+    codigo: 11111,
+    preco: 12000
+}));
+```
+
 15. Elabora uma função que receba um array de números e retorne um array que tenha todos os números que são pares e que também tenham índices pares.
 Exemplos:
 ```javascript
