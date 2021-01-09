@@ -4787,7 +4787,7 @@ Num projeto que você está trabalhando, você foi designado a refatorar diversa
 Você escreverá uma função que recebe um objeto como primeiro parâmetro e, como segundo parâmetro, o nome de uma propriedade contida nesse objetro. Em seguida, retorne uma cópia desse objeto sem a propriedade especificada no segundo parâmetro.
 *Obs.:* A fim de testar se o objeto retornado não é o mesmo que foi passado como parâmetro para a função *remover propriedade*, você poderá usar a função ```Object.is()```, por exemplo:
 ```javascript
-Object.id(removerPropriedade(objeto, "descricao"), objeto);
+Object.is(removerPropriedade(objeto, "descricao"), objeto);
 ```
 Retornará *false* se o objeto não for o mesmo.
 Exemplos:
@@ -4798,6 +4798,25 @@ removerPropriedade({
     nome: "caneta",
     descricao: "Não preenchido"
 }, "descricao") // retornará {id: 20, nome: "caneta"}
+```
+
+[Arquivo](exercicios/123/exe12.js)
+
+```javascript
+function removerPropriedade(obj, atr) {
+    const copia = Object.assign({}, obj);
+    delete copia[atr];
+    return copia;''
+}
+
+console.log(removerPropriedade({a: 1, b: 2}, "a"));
+
+console.log(
+    removerPropriedade({
+        id: 20,
+        nome: "caneta",
+        descricao: "Não preenchido"
+    }, "descricao"));
 ```
 
 13. Crie uma função que receba um array de elementos e retorne um array somente com os números presentes no array recebido como parâmetro.
