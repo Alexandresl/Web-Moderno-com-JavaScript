@@ -4826,6 +4826,19 @@ filtrarNumeros(["Javascript", 1, "3", "web", 20]); // retornará [1, 20]
 filtrarNumeros(['a', 'c']); // retornará []
 ```
 
+[Arquivo](exercicios\123\exe13.js)
+
+```javascript
+const isNumber = nome => typeof nome == 'number'
+
+function filtrarNumeros(array) {
+    return array.filter(isNumber);
+}
+
+console.log(filtrarNumeros(["Javascript", 1, "3", "web", 20]));
+console.log(filtrarNumeros(['a', 'c']));
+```
+
 14. Desenvolva uma função que recebe como parâmetro um objeto e retorne um array de arrays, em que cada elemento é um array formado pelos pares *chave*/*valor* que corresponde a um atributo do objeto. Observe os exemplos abaixo para um melhor entendimento.
 Exemplos:
 ```javascript
