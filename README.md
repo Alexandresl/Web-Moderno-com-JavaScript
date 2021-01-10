@@ -4796,6 +4796,23 @@ funcaoDaSorte(5) //  retornará "Que pena! O número sorteado foi o 3"
 funcaoDaSorte(5) //  retornará "Que pena! O número sorteado foi o 1"
 ```
 
+[Arquivo](exercicios/123/exe22.js)
+
+```javascript
+function funcaoDaSorte(num) {
+    const min = 1;
+    const max = 10;
+    const numDaSorte = Math.floor(Math.random() * (max - min) + min);
+    if (numDaSorte === num) {
+        return `Parabéns! O número sorteador foi o ${numDaSorte}.`;
+    } else {
+        return `Que Pena! O número sorteador foi o ${numDaSorte}.`;
+    }
+}
+
+console.log(funcaoDaSorte(1));
+```
+
 23. Criar uma função que receba uma string como parâmetro e conte quantas palavras tem nela.
 *Obs.:* Considere que todas as palavras só são separadas por um espaço.
 Exemplos:
