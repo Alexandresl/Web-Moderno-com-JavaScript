@@ -4901,6 +4901,22 @@ checarAnoBissexto(2020); // returnará true
 checarAnoBissexto(2100); // returnará false, pois é múltiplo de 100 e não é múltiplo de 400
 ```
 
+[Arquivo](exercicios/123/exe16.js)
+
+```javascript
+function checarAnoBissexto(ano) {
+    const divisivel4 = ano % 4 === 0;
+    const naoDivisivel100 = ano % 100 !== 0;
+    const divisivel400 = ano % 400 === 0;
+
+
+    return (divisivel4 && naoDivisivel100) || divisivel400;
+}
+
+console.log(checarAnoBissexto(2020));
+console.log(checarAnoBissexto(2100));
+```
+
 17. Escreva uma função que receba um array de números e retorne a soma de todos os números desse array.
 Exemplos:
 ```javascript
