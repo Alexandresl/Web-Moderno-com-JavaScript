@@ -4702,6 +4702,27 @@ despesasTotais([
 ]) // retornará 34599.89
 ```
 
+[Arquivo](exercicios/123/exe18.js)
+
+```javascript
+let soPreco = (obj) => obj.preco;
+let somaPreco = (acumulador, atual) => acumulador + atual;
+
+function despesasTotais(arrayObj) {
+    let result = arrayObj.map(soPreco).reduce(somaPreco);
+    return result;
+}
+
+console.log(despesasTotais([
+    {nome: "Jornal Online", categoria: "Informação", preco: 89.99},
+    {nome: "Cinema", categoria: "Entretenimento", preco: 150}
+]));
+console.log(despesasTotais([
+    {nome: "Galaxy S20", categoria: "Eletrônicos", preco: 3599.99},
+    {nome: "Macbook Pro", categoria: "Eletrônicos", preco: 30999.90}
+]));
+```
+
 19. Numa aplicação Web de investimento financeiro da qual você faz parte da equipe de desenvolvimento, pretende-se adicionar a funcionalidade de calcular a média de um conjunto de número informados pelo usuário.
 Com o intuíto de realizar esse cálculo, crie uma função que receba um array com uma quantidade indeterminada de números e retorne a média simples desses números.
 Exemplos:
