@@ -4731,6 +4731,20 @@ calcularMedia([0, 10]) // retornará 5
 calcularMedia([1, 2, 3, 4, 5]) // retornará 3
 ```
 
+[Arquivo](exercicios/123/exe19.js)
+
+```javascript
+const somaValores = (acumulador, valor) => acumulador + valor;
+
+function calcularMedia(array) {
+    const total = array.reduce(somaValores);
+    return total / array.length;
+}
+
+console.log(calcularMedia([0, 10]));
+console.log(calcularMedia([1, 2, 3, 4, 5]));
+```
+
 20. Faça uma função que recebe a base e a altura de um triângulo e retorne a área desse triângulo. A precisão deverá ser de duas casas decimais, arredondando se necessário.
 *Obs.:* a fórmula para calcular a área de um triângulo é (*base* x *altura*) / 2.
 Exemplos:
