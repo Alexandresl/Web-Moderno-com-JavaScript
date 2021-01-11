@@ -4840,6 +4840,17 @@ contarCaractere("r", "A sorte favorece os audazes"); // retornará 2
 contarCaractere("c", "Conhece-te a ti mesmo"); // retornará 1
 ```
 
+[Arquivo](exercicios/123/exe24.js)
+
+```javascript
+function contarCaractere(caractere, string) {
+    return [...string].filter(caractereBuscado => caractere === caractereBuscado).length;
+}
+
+console.log(contarCaractere("r", "A sorte favorece os audazes"));
+console.log(contarCaractere("c", "Conhece-te a ti mesmo"));
+```
+
 25. A fim de criar um mecanismo de busca para sua aplicação, você precisa iniciar criando uma função para identificar palavras semelhantes.
 Escreva uma função que recebe como primeiro parâmetro uma palavra e, como segundo parâmetro, um *array de strings*. A função deverá filtrar as palavras do *array* que contêm nelas a *string* do primeiro parâmetro.
 Exemplos:
