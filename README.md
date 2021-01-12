@@ -5162,3 +5162,15 @@ const contadorC = require('./instanciaNova')()
 ```
 
 * Acima os scripts **start** e **test**, por serem padrão do node poderão ser executados apenas com npm e a palavra reservada (npm star ou npm test). Já o **dev** como não é, precisa ser invocado com o acréscimo do *run*, exemplo: **npm run dev**.
+
+### 137. Lendo Arquivos
+
+[arquivo.json](node/arquivo.json)
+[arquivoLeitura.js](node/arquivoLeitura.js)
+
+* para ler e escrever em arquivo a partir do Node, utilizamos um módulo nativo do node chamado **fs** (*file system*).
+* Podemos ler um arquivo de forma síncrona ou asíncrona.
+* Para ler de forma síncrona (não recomendado) utilizamos a função ```fs.readFilesSync(caminho, 'utf-8')```.
+* Para ler de forma assíncrona utilizamos a função: ```fs.readFile(caminho, 'encode', callback(err, conteudo))```.
+* No caso específico de acessar um arquivo no formado json, podemos utilizar o ```require('arquivo.json')```. que é bem menos verboso e não há nem a necessidade de realizar um parse para objeto.
+* Para ler os arquivos de uma pasta utilizamos o ```fs.readdir()```.
