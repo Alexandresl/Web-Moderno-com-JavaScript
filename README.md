@@ -5116,3 +5116,10 @@ module.exports = () => {
 ```javascript
 const contadorC = require('./instanciaNova')()
 ```
+
+### 133. Objeto Global do Node
+
+[global](node/global.js)
+[globalCliente](node/globalCliente.js)
+
+* Assim como temos um objeto global no Browser, o ```window```. No node nós temos o objeto ```global``` como objeto global.
