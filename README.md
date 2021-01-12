@@ -5123,3 +5123,11 @@ const contadorC = require('./instanciaNova')()
 [globalCliente](node/globalCliente.js)
 
 * Assim como temos um objeto global no Browser, o ```window```. No node nós temos o objeto ```global``` como objeto global.
+
+### 134. Entendendo o 'this'
+
+[this](node/this.js)
+
+* o this no contexto do Node.js aponta para ```module.exports```.
+* Porém se estiver dentro de uma função ele irá apontar para ```global```
+
