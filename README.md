@@ -5021,6 +5021,8 @@ console.log(
 * Instalado de forma local o lodash: *npm i lodash*
 * Instalado de forma global o nodemon: *npm i -g nodemon*
 
+[usandoModulosTerceiros](node/usandoModulosTerceiros.js)
+
 ### 128. Sistema de módulos: Require
 
 * Para importar módulos que não estão na mesma pasta usando o require:
@@ -5028,3 +5030,13 @@ console.log(
     * Para os módulos que estão na pasta *node_modules*, basta usar o *require* com o nome do módulo (nome da pasta) e o node irá acessar o arquivo "*index.js*" dentro deste diretório.
     * O mesmo ocorre com qualquer módulo chamado index.js, podemos acessá-lo apenas usando o nome do diretório.
     * A estratégia para acessar um módulo interno do node é a mesma, basta usar o *require* com o nome do módulo.
+
+[acessarModulo](node/pastaA/pastaB/acessarModulo.js)
+
+### 129. Sistema de módulos: Exports
+
+* Dentro do módulo do Node.js, o ```this``` e o ```exports``` é uma referência para ```module.exports```.
+* ```module.exports``` é o objeto que verdadeiramente será exportado, assim, toda a atribuição de objeto literal deverá ser feita unicamente para este objeto.
+
+[exportar](node/exportar.js)
+[exportarCliente](node/exportarCliente.js)
