@@ -4989,3 +4989,12 @@ console.log(
     })
 );
 ```
+
+## Seção 9: Node
+
+### 125. Node: Visão Geral
+
+* O Node.js foi criado por Ryan Dahl, com formação em matemática.
+* O Node.js foi implementado baseado no interpretador *V8 JavaScript Engine* (interpretador de JavaScript em C++ com código aberto do Google, utilizado no Chrome).
+* A principal característica e diferença de outras tecnologias (como PHP, Java, C# e C) é a execução das requisições/eventos em *single-thread*, onde apenas uma *thread* (chamada de *Event Loop*) é responsável por executar o código de JavaScript, sem a necessidade de criar nova *thread* que utilizaria mais recursos computacionais (por exemplo memória RAM) e sem o uso da fila de espera.
+
