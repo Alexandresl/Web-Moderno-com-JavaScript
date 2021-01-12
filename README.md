@@ -5180,3 +5180,7 @@ const contadorC = require('./instanciaNova')()
 [arquivoEscrita](node/arquivoEscrita.js)
 
 * Para escrever em um arquivo utilizamos o arquivo ```fs.writeFile(caminhoDoArquivo, dados, callback)```
+
+### 139. Frameworks Web
+
+*  Os Fremeworks tem por principal característica, fornecer uma estrutura e a partir daí a aplicação ser implementada. Ao contrário disso, uma biblioteca apenas irá prover funcionalidades sem se importar com a estrutura do projeto.
