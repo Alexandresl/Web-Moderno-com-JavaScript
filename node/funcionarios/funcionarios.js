@@ -3,13 +3,12 @@ const axios = require('axios');
 
 // retornar a mulher chinesa com menor salário
 
-const mulher = (atual) => atual[1].genero === 'F';
-const chinesa = (atual) => atual[1].pais === 'China'
-const retornaMenorSalario = (menor, atual) => menor > atual ? atual : menor;
+const mulher = (atual) => atual.genero === 'F';
+const chinesa = (atual) => atual.pais === 'China'
+const retornaMenorSalario = (menor, atual) => menor.salario > atual.salario ? atual : menor;
 
 axios.get(url).then(response => {
-    const funcionarios = Object.entries(response.data);
-    const mulherChinesa = funcionarios.filter(mulher).filter(chinesa);
-    const menorSalario = mulherChinesa.reduce(retornaMenorSalario);
-    console.log(menorSalario);
+    const funcionarios = response.data;
+    const resposta = funcionarios.filter(chinesa).filter(mulher).reduce(retornaMenorSalario);
+    console.log(resposta);
 });
