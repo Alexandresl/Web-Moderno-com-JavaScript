@@ -4998,3 +4998,8 @@ console.log(
 * O Node.js foi implementado baseado no interpretador *V8 JavaScript Engine* (interpretador de JavaScript em C++ com código aberto do Google, utilizado no Chrome).
 * A principal característica e diferença de outras tecnologias (como PHP, Java, C# e C) é a execução das requisições/eventos em *single-thread*, onde apenas uma *thread* (chamada de *Event Loop*) é responsável por executar o código de JavaScript, sem a necessidade de criar nova *thread* que utilizaria mais recursos computacionais (por exemplo memória RAM) e sem o uso da fila de espera.
 
+### 126. Sistema de módulos
+
+* No Node.js não precisamos nos preocupar em compactar arquivos ou realizar "traduções" conforme ocorre no front-end. Isso porque os arquivos não irão trafegar pela rede, será interpretado no próprio servidor.
+* O Node.js é estruturado em módulos. Cada arquivo é um módulo.
+* Os módulos em Node.js são baseados no *CommonsJS*, que é um projeto com o objetivo de especificar um ecossistema para JavaScript para servidores ou aplicações desktop nativas. O projeto foi iniciado por *Kevin Dangoor* em janeiro de 2009 e inicialmente chamado de *ServerJS*.
