@@ -5003,3 +5003,20 @@ console.log(
 * No Node.js não precisamos nos preocupar em compactar arquivos ou realizar "traduções" conforme ocorre no front-end. Isso porque os arquivos não irão trafegar pela rede, será interpretado no próprio servidor.
 * O Node.js é estruturado em módulos. Cada arquivo é um módulo.
 * Os módulos em Node.js são baseados no *CommonsJS*, que é um projeto com o objetivo de especificar um ecossistema para JavaScript para servidores ou aplicações desktop nativas. O projeto foi iniciado por *Kevin Dangoor* em janeiro de 2009 e inicialmente chamado de *ServerJS*.
+* Podemos exportar em um arquivo node, usando:
+    * this
+    * exports
+    * module.exports
+* Para utilizar módulos exportados utilizamos o require:
+    * require('./caminhoRelativo');
+
+[moduloA](node\moduloA.js)
+[moduloB](node\moduloB.js)
+[moduloCliente](node\moduloCliente.js)
+
+### 127. Usando módulos de terceiros
+
+* Podemos instalar módulos de terceiros através do *NPM* (Node Package Manager). Ex.: *npm i lodash*.
+* Os arquivos requeridos seão incluídos em uma pasta chamada *node_modules*.
+* Instalado de forma local o lodash: *npm i lodash*
+* Instalado de forma global o nodemon: *npm i -g nodemon*
