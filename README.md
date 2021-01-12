@@ -5174,3 +5174,9 @@ const contadorC = require('./instanciaNova')()
 * Para ler de forma assíncrona utilizamos a função: ```fs.readFile(caminho, 'encode', callback(err, conteudo))```.
 * No caso específico de acessar um arquivo no formado json, podemos utilizar o ```require('arquivo.json')```. que é bem menos verboso e não há nem a necessidade de realizar um parse para objeto.
 * Para ler os arquivos de uma pasta utilizamos o ```fs.readdir()```.
+
+### 138. Escrevendo Arquivo
+
+[arquivoEscrita](node/arquivoEscrita.js)
+
+* Para escrever em um arquivo utilizamos o arquivo ```fs.writeFile(caminhoDoArquivo, dados, callback)```
