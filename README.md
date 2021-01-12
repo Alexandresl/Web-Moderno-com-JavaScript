@@ -4941,6 +4941,20 @@ segundoMaior([12, 16, 1, 5]) // retornará 12
 segundoMaior([8, 4, 5, 6]) // retornará 6
 ```
 
+[Arquivo](exercicios/123/exe29.js)
+
+```javascript
+function segundoMaior (array) {
+    let maiorNumero = Math.max(...array);
+    const newArray = array.filter((elemento) => elemento != maiorNumero);
+    let segundoMaior = Math.max(...newArray);
+    return segundoMaior;
+}
+
+console.log(segundoMaior([12, 16, 1, 5]));
+console.log(segundoMaior([8, 4, 5, 6]));
+```
+
 30. Elabore uma função que recebe um objeto com estudantes e suas notas. As notas de cada estudante estarão num array, conforme exemplo abaixo. Você deverá calcular a média da nota de cada aluno e retornar um objeto com os atributos nome e media, que indica o aluno que teve o melhor desempenho nas notas.
 Exemplo:
 ```javascript
