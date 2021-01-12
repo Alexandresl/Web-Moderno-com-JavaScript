@@ -5090,3 +5090,29 @@ axios.get(url).then(response => {
     console.log(resposta);
 });
 ```
+
+### 132. Instância Única vc Nova Instância
+
+[instanciaUnica](node/instanciaUnica.js)
+[instanciaNova](node/instanciaNova.js)
+[instanciaCliente](node/instanciaCliente.js)
+
+* O Node.js faz cache dos módulos importados com o *required*. Assimn todos os módulos possuem uma única instância (*singleton*). Para driblar isso podemos utilizar uma função factory, como no exemplo abaixo:
+
+```javascript
+// Uma factory retorna um novo objeto
+module.exports = () => {
+    return {
+        valor: 1,
+        inc() {
+            this.valor++;
+        }
+    }
+}
+```
+
+* Importante que na hora de usar o require, como o que está sendo exportado é uma função, será necessário invocar esta função para termos o objeto. Veja o exemplo:
+
+```javascript
+const contadorC = require('./instanciaNova')()
+```
