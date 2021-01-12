@@ -5040,3 +5040,32 @@ console.log(
 
 [exportar](node/exportar.js)
 [exportarCliente](node/exportarCliente.js)
+
+### 130. Arquivo package.json
+
+* Para criação do package.json podemos utilizar o comando *npm init* para utilizar o wizard ou com *npm init -y* para responder tudo com sim automaticamente.
+* Para instalarmos uma dependência de terceiros atualizando este arquivo será necessário adicionar o comando *--save*. Exemplo: npm i --save axios.
+* No package.json será criada uma área de dependências. exemplo:
+
+```json
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
+```
+* "^" antes da versão do axios significa que ele poderá atualizar até a versão 0.99.1, por exemplo, mas não para a versão 1.00.0. ou seja, apenas a versão *minor*
+* As dependências possuem atualizações: *major*, *minor* e *fix*. 
+* No exemplo do axios: *major*: 0, *minor*: 21 e *fix*: 1.
+* Se no package.json tivesse um "~" antes da versão, ele permitiria apenas a atualização do "fix".
+* caso tivese apenas o número da versão, significaria que ele iria instalar a versão exata, sem nenhuma atualização.
