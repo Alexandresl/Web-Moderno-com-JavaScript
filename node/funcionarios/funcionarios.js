@@ -9,7 +9,6 @@ const retornaMenorSalario = (menor, atual) => menor.salario > atual.salario ? at
 
 axios.get(url).then(response => {
     const funcionarios = response.data;
-    console.log(funcionarios);
     const resposta = funcionarios.filter(chinesa).filter(mulher).reduce(retornaMenorSalario);
     console.log(resposta);
 });

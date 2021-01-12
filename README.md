@@ -5131,3 +5131,34 @@ const contadorC = require('./instanciaNova')()
 * o this no contexto do Node.js aponta para ```module.exports```.
 * Porém se estiver dentro de uma função ele irá apontar para ```global```
 
+### 135. Passando Parâmetros entre Módulos
+
+[passandoParemetros](node/passandoParametros.js)
+[passandoParemetrosCliente](node/passandoParametrosCliente.js)
+
+### 136. Instalando Deps & Scripts
+
+* Para reinstalar as dependências de um projeto que possu o package.js basta no terminal executar o comando **npm i**.
+* É possível criar scripts para executar funções automáticamente: por exemplo:
+
+```javascript
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "funcionarios.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
+```
+
+* Acima os scripts **start** e **test**, por serem padrão do node poderão ser executados apenas com npm e a palavra reservada (npm star ou npm test). Já o **dev** como não é, precisa ser invocado com o acréscimo do *run*, exemplo: **npm run dev**.
