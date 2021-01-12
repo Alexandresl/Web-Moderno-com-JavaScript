@@ -5020,3 +5020,4 @@ console.log(
 * Os arquivos requeridos seão incluídos em uma pasta chamada *node_modules*.
 * Instalado de forma local o lodash: *npm i lodash*
 * Instalado de forma global o nodemon: *npm i -g nodemon*
+
