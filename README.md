@@ -4878,6 +4878,20 @@ removerVogais("Cod3r") // retornará "Cd3r"
 removerVogais("Fundamentos") // retornará "Fndmnts"
 ```
 
+[Arquivo](exercicios/123/exe26.js)
+
+```javascript
+function removerVogais(string) {
+    const novaString = [...string].filter((ele) => {
+        return (ele !== 'a' && ele !== 'e' && ele !== 'i' && ele !== 'o' && ele !== 'u');
+    });
+    return novaString.join('');
+}
+
+console.log(removerVogais("Cod3r"));
+console.log(removerVogais("Fundamentos"));
+```
+
 27. Desenvolva uma função que recebe um objeto como parâmeetro e retorne um outro objeto que corresponde ao objeto recebido como parâmetro, porém com as posições das chaves e valores invertidas, conforme exemplo a seguir:
 Exemplo:
 ```javascript
