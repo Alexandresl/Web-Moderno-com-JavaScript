@@ -4898,6 +4898,21 @@ Exemplo:
 inverter({ a: 1, b: 2, c: 3}) // retornará { 1: "a", 2: "b", 3: "c"}
 ```
 
+[Arquivo](exercicios/123/exe27.js)
+
+```javascript
+function inverter(obj) {
+    const objInvertido = {}
+    Object.entries(obj).forEach((parChaveValor) => {
+        const chave = 0, valor = 1
+        return objInvertido[parChaveValor[valor]] = parChaveValor[chave];
+    });
+    return objInvertido;
+}
+
+console.log(inverter({ a: 1, b: 2, c: 3 }));
+```
+
 28. Elabore uma função que recebe dois parâmetros: o primeiro é um array de números e o segundo é um número que especifica uma quantidade de dígitos. Essa função deverá retornar somente aqueles números do array que têm a quantidade de dígitos indicada pelo segundo parâmeetro.
 Exemplos:
 ```javascript
