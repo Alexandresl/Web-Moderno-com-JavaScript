@@ -4920,6 +4920,20 @@ filtrarPorQuantidadeDeDigitos([38, 2, 365, 10, 125, 11], 2) // retornará [38, 1
 filtrarPorQuantidadeDeDigitos([5, 9, 1, 125, 11], 1) // retornará [5, 9, 1]
 ```
 
+[Arquivo](exercicios/123/exe28.js)
+
+```javascript
+function filtrarPorQuantidadeDeDigitos(array, qtdDigitos) {
+    const newArray = array.filter((element) => {
+        return element.toString().split('').length == qtdDigitos;
+    });
+    return newArray;
+}
+
+console.log(filtrarPorQuantidadeDeDigitos([38, 2, 365, 10, 125, 11], 2));
+console.log(filtrarPorQuantidadeDeDigitos([5, 9, 1, 125, 11], 1));
+```
+
 29. Crie uma função que recebe um array de números e retorne o segundo maior número presente nesse array.
 Exemplos:
 ```javascript
