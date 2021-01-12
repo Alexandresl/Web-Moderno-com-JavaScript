@@ -4859,6 +4859,18 @@ buscarPalavrasSemelhantes("pro", ["programação", "mobile", "profissional"]) //
 buscarPalavrasSemelhantes("python", ["javascript", "java", "c++"]) // retornará []
 ```
 
+[Arquivo](exercicios/123/exe25.js)
+
+```javascript
+function buscarPalavrasSemelhantes(palavra, array) {
+    const result = array.filter((elemento) => elemento.includes(palavra));
+    return result;
+}
+
+console.log(buscarPalavrasSemelhantes("pro", ["programação", "mobile", "profissional"]));
+console.log(buscarPalavrasSemelhantes("python", ["javascript", "java", "c++"]));
+```
+
 26. Desenvolva uma função que receba uma string como parâmetro e retorne essa string somente com as consoantes, ou seja, sem as vogais.
 Exemplos:
 ```javascript
