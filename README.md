@@ -5269,3 +5269,27 @@ const tarefa2 = schedule.scheduleJob(regra, function() {
     console.log('Executando Tarefa 2', new Date().getSeconds());
 });
 ```
+
+### 147. Process: Entrada e Saída Padrão
+
+* além do ```global``` também temos um outro objeto disponível no node que é o ```process```. Utilizando este objeto, conseguimos ler dados do teclado do usuário e imprimir dados na tela.
+
+[Arquivo](node/entradaESaida.js) 
+
+```javascript
+const anonimo = process.argv.indexOf('-a') !== -1;
+// console.log(anonimo);
+
+if (anonimo) {
+    process.stdout.write('Fala Anônimo!\n');
+    process.exit();
+} else {
+     process.stdout.write('Informe o seu nome: ')
+     // on(data) -> Quando for digitado algo e presionado Enter
+     process.stdin.on('data', data => {
+         const nome = data.toString().replace('\n', '');
+         process.stdout.write(`Fala ${nome}`);
+         process.exit();
+     });
+}
+```
