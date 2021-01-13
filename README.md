@@ -5233,3 +5233,6 @@ console.log(ctx);
 * É instalado o Express.js com o comando **npm i --save express@4.16.2 -E". Lembrete: o --save é utilizado para que o arquivo package.json seja atualizado com esta nova dependência. e o -E (maiúsculo) significa que será instalada a versão exata que foi indicada, neste caso a 4.16.2.
 * Instalar o nodemon apenas como desenvolvimento: *npm i --save-dev nodemon@1.14.11 -E*
 * Para enviar uma requisição utilizamos o método ```send()```, este automáticamente converte um objeto em JSON.
+
+### 144. Projeto: API com Express #02
+
