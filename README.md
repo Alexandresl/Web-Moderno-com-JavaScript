@@ -5412,3 +5412,21 @@ const grupoA = ['João', 'Pedro', 'Glória']
 const grupoFinal = ['Maria', ...grupoA, 'rafaela']
 console.log(grupoFinal); // [ 'Maria', 'João', 'Pedro', 'Glória', 'rafaela' ]
 ```
+
+### 152. Tagged Template #01
+
+* Serve para processar uma template string dentro de uma função tag.
+
+[Arquivo](esnext/taggedTemplate1.js)
+
+```javascript
+function tag(partes, ...valores) {
+    console.log(partes); // [ '', ' está ', '' ]
+    console.log(valores); // [ 'Gui', 'Aprovado' ]
+    return 'Outra String...';
+}
+
+const aluno = 'Gui';
+const situacao = 'Aprovado';
+console.log(tag `${aluno} está ${situacao}`); // Outra String...
+```
