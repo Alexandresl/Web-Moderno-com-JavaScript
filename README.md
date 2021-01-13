@@ -5241,3 +5241,31 @@ console.log(ctx);
 ### 145. Projeto: API com Express #03
 
 * É instalado o body-parser para fazer com que o servidor reconheça a requisição e transforme em objeto. comando **npm i --save body-parser@1.18.2 -E**
+
+### 146. Tarefas Agendadas com Temporizador
+
+* O Node.js possui um módulo que permite agendar processos. Para instalar usa-se o **npm i node-schedule!1.3.0 -E**
+
+[Arquivo](node/temporizador.js)
+
+```javascript
+const schedule = require('node-schedule');
+
+const tarefa1 = schedule.scheduleJob('*/5 * 0 * * 3', function() {
+    console.log('Executando Tarefa 1', new Date().getSeconds());
+});
+
+setTimeout(function() {
+    tarefa1.cancel();
+    console.log('Cancelando Tarefa 1');
+}, 20000);
+
+const regra = new schedule.RecurrenceRule();
+regra.dayOfWeek = [new schedule.Range(1, 5)];
+regra.hour = 0;
+regra.second = 30;
+
+const tarefa2 = schedule.scheduleJob(regra, function() {
+    console.log('Executando Tarefa 2', new Date().getSeconds());
+});
+```
