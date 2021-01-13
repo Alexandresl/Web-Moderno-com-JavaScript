@@ -5451,3 +5451,37 @@ const preco = 29.9
 const precoParcela = 11
 console.log(real `1x de ${preco} ou 3x de ${precoParcela}`);
 ```
+
+### 154. Map
+
+* O Map é uma estrutura chave/valor, que não permite chaves duplicadas. Ao contrário de um objeto, onde o identificado tem que limitações, em uma estrutura Map, o identificado pode um objeto, um array, uma função, etc.
+
+[Arquivo](esnext/map.js)
+
+```javascript
+const tecnologias = new Map();
+tecnologias.set('react', { framework: false});
+tecnologias.set('Angular', { framework: true});
+
+console.log(tecnologias.get('react')); // { framework: false }
+console.log(tecnologias.get('react').framework); // false
+
+const chavesVariadas = new Map([
+    [function(){}, 'Função'],
+    [{}, 'Objeto'],
+    [123, 'Número']
+]);
+
+chavesVariadas.forEach((vl, ch) => {
+    console.log(ch, vl);
+})
+// saídas:
+// [Function (anonymous)] Função
+// {} Objeto
+// 123 Número
+
+console.log(chavesVariadas.has(123)); // true
+chavesVariadas.delete(123);
+console.log(chavesVariadas.has(123)); // false
+console.log(chavesVariadas.size); // 2
+```
