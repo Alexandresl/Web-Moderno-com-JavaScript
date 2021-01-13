@@ -5355,3 +5355,34 @@ function total(...numeros) {
 
 console.log(total(2, 3, 4, 5));
 ```
+
+### 150. Revisão #03
+
+[Arquivo](esnext/revisao3.js)
+
+```javascript
+// ES8: Object.values / Object.entries
+const obj = { a: 1, b: 2, c: 3 }
+console.log(Object.values(obj));
+console.log(Object.entries(obj));
+
+// Melhorias na Notação Literal
+const nome = 'Carla'
+const pessoa = {
+    nome,
+    ola() {
+        return 'Oi Gente';
+    }
+}
+console.log(pessoa.nome, pessoa.ola());
+
+// Class
+class Animal {}
+class Cachorro extends Animal {
+    falar() {
+        return 'Au au!';
+    }
+}
+
+console.log(new Cachorro().falar());
+```
