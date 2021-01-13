@@ -5222,3 +5222,14 @@ const ctx = {}
 exec(ctx, passo1, passo2, passo3);
 console.log(ctx);
 ```
+
+### 142. Instalando o Postman
+
+[link](https://www.postman.com/downloads/)
+
+### 143. Projeto: API com Express #01
+
+* Iniciamos o projeto com **npm init -y** para fazer a criação do package.json sem passar pelo wizard.
+* É instalado o Express.js com o comando **npm i --save express@4.16.2 -E". Lembrete: o --save é utilizado para que o arquivo package.json seja atualizado com esta nova dependência. e o -E (maiúsculo) significa que será instalada a versão exata que foi indicada, neste caso a 4.16.2.
+* Instalar o nodemon apenas como desenvolvimento: *npm i --save-dev nodemon@1.14.11 -E*
+* Para enviar uma requisição utilizamos o método ```send()```, este automáticamente converte um objeto em JSON.
