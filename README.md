@@ -5183,4 +5183,10 @@ const contadorC = require('./instanciaNova')()
 
 ### 139. Frameworks Web
 
-*  Os Fremeworks tem por principal característica, fornecer uma estrutura e a partir daí a aplicação ser implementada. Ao contrário disso, uma biblioteca apenas irá prover funcionalidades sem se importar com a estrutura do projeto.
+*  Os Fremeworks tem por principal característica, fornecer uma estrutura e a partir daí a aplicação ser implementada. Ao contrário disso, uma biblioteca apenas irá prover um conjunto de funcionalidades sem se importar com a estrutura do projeto.
+
+### 140. Padrão Middleware #01
+
+* O Middleware ou Chain of Responsibility é um padrão de projeto com o objetivo de evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar essa solicitação.
+* O Framework Express é fortemente baseado neste padrão de projeto.
+* Em resumo, este padrão de projeto, visa dividir uma operação em vários passos sem que estes estejam "amarrados" uns aos outros. permitindo que eles sejam utilizados isoladamente ou em ordens diversas.
