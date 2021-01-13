@@ -5187,6 +5187,38 @@ const contadorC = require('./instanciaNova')()
 
 ### 140. Padrão Middleware #01
 
-* O Middleware ou Chain of Responsibility é um padrão de projeto com o objetivo de evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar essa solicitação.
+* O Middleware ou Chain of Responsibility (cadeia de responsabilidade) é um padrão de projeto com o objetivo de evitar o acoplamento do remetente de uma solicitação ao seu receptor, ao dar a mais de um objeto a oportunidade de tratar essa solicitação.
 * O Framework Express é fortemente baseado neste padrão de projeto.
 * Em resumo, este padrão de projeto, visa dividir uma operação em vários passos sem que estes estejam "amarrados" uns aos outros. permitindo que eles sejam utilizados isoladamente ou em ordens diversas.
+
+### 141. Padrão Middleware #02
+
+[middlewares.js](node/middlewares.js)
+
+* Segue uma possível implementação do padrão Chain of Responsibility:
+
+```javascript
+const passo1 = (ctx, next) => {
+    ctx.valor1 = 'mid1';
+    next()
+}
+
+const passo2 = (ctx, next) => {
+    ctx.valor2 = 'mid2';
+    next()
+}
+
+const passo3 = ctx => ctx.valor3 = 'mid3';
+
+const exec = (ctx, ...middlewares) => {
+    const exePasso = indice => {
+        middlewares && indice < middlewares.length &&
+            middlewares[indice](ctx, () => exePasso(indice + 1))
+    }
+    exePasso(0);
+}
+
+const ctx = {}
+exec(ctx, passo1, passo2, passo3);
+console.log(ctx);
+```
