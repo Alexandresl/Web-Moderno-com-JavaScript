@@ -5293,3 +5293,65 @@ if (anonimo) {
      });
 }
 ```
+
+## Seção 10: ESNext
+
+### 148. Revisão #01
+
+[Arquivo](esnext/revisao1.js)
+
+```javascript
+// let e const
+{
+    var a = 2;
+    let b = 3
+    console.log(b);
+}
+
+console.log(a);
+
+// Template String
+const produto = 'iPad';
+console.log(`${produto} é caro!`);
+
+// Destructuring
+const [l, e, t, ...ras] = "Cod3r";
+console.log(l, e, t, ras);
+
+const [x, , y] = [1, 2, 3];
+console.log(x, y);
+
+const {idade: i, nome} = {nome: 'Ana', idade: 9}
+console.log(i, nome);
+```
+
+### 149. Revisão #02
+
+[Arquivo](esnext/revisao2.js)
+
+```javascript
+// Arrow Function
+const soma = (a, b) => a + b;
+console.log(soma(2, 3));
+
+// Arrow Function (this)
+const lexico1 = () => console.log(this=== exports);
+lexico1();
+
+// parâmetro Default
+function log(texto = 'Node') {
+    console.log(texto);
+}
+
+log()
+log('Sou mais forte')
+
+// Operador rest
+function total(...numeros) {
+    let total = 0;
+    numeros.forEach(n => total += n);
+    return total;
+}
+
+console.log(total(2, 3, 4, 5));
+```
