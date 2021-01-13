@@ -5386,3 +5386,29 @@ class Cachorro extends Animal {
 
 console.log(new Cachorro().falar());
 ```
+
+### 151. Operador Rest/Spread
+
+[Arquivo](esnext/operadorSpreadRest.js)
+
+* O operador Rest/spread (```...```) pode ser usado para juntar dados ou espalha-los. Se formos juntar, chamamos de **rest** e se for espalhar de **spread**.
+* Podemos, conforme exemplo da Aula 149 - Revisão #02, utilizar o **rest** no parâmetro de uma função para juntar quaisquer quantidade de argumentos que sejam passados.
+* Podemos utilizar o **spread** dentro de um objeto ou array para "espalhar" os dados de outro objeto ou array, conforme exemplo abaixo.
+
+```javascript
+const funcionario = {
+    nome: 'Maria',
+    salario: 1234.99
+}
+
+const clone = {
+    ativo: true,
+    ...funcionario
+}
+
+console.log(clone); // { ativo: true, nome: 'Maria', salario: 1234.99 }
+
+const grupoA = ['João', 'Pedro', 'Glória']
+const grupoFinal = ['Maria', ...grupoA, 'rafaela']
+console.log(grupoFinal); // [ 'Maria', 'João', 'Pedro', 'Glória', 'rafaela' ]
+```
