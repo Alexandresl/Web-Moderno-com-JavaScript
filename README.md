@@ -5229,6 +5229,8 @@ console.log(ctx);
 
 ### 143. Projeto: API com Express #01
 
+[arquivos](node/projeto)
+
 * Iniciamos o projeto com **npm init -y** para fazer a criação do package.json sem passar pelo wizard.
 * É instalado o Express.js com o comando **npm i --save express@4.16.2 -E". Lembrete: o --save é utilizado para que o arquivo package.json seja atualizado com esta nova dependência. e o -E (maiúsculo) significa que será instalada a versão exata que foi indicada, neste caso a 4.16.2.
 * Instalar o nodemon apenas como desenvolvimento: *npm i --save-dev nodemon@1.14.11 -E*
@@ -5236,3 +5238,6 @@ console.log(ctx);
 
 ### 144. Projeto: API com Express #02
 
+### 145. Projeto: API com Express #03
+
+* É instalado o body-parser para fazer com que o servidor reconheça a requisição e transforme em objeto. comando **npm i --save body-parser@1.18.2 -E**
