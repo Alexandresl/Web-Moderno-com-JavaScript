@@ -6001,3 +6001,6 @@ gerarMegaSena(19)
     .then(console.log)
     .catch(console.log)
 ```
+
+### 171. Cenas dos Próximos Capítulos
+
