@@ -5738,3 +5738,20 @@ obterAlunos()
 ```
 
 ### 161. Novas Aulas Promises & Async/Await
+
+### 162. Promise #01
+
+[Arquivo](esnext/promise_1.js)
+
+```javascript
+const primeiroElemento = arrayOuString => arrayOuString[0];
+const letraMinuscula = letra => letra.toLowerCase();
+
+let p = new Promise(function(resolve) {
+    resolve(['Ana', 'Bia', 'Carlos', 'Daniel']);
+})
+    .then(primeiroElemento)
+    .then(primeiroElemento)
+    .then(letraMinuscula)
+    .then(console.log);
+```
