@@ -6023,3 +6023,7 @@ gerarMegaSena(19)
     * 3xx - Redirecionamento
     * 4xx - Erro no Cliente
     * 5xx - Erro no Servidor
+
+### 174. Slides do Capítulo
+
+[Arquivo](conceitos-web/slide/slides_conceitos_web.pdf)
