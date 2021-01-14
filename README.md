@@ -5736,3 +5736,5 @@ obterAlunos()
     .then(alunos => alunos.map(a => a.nome))
     .then(nomes => console.log(nomes));
 ```
+
+### 161. Novas Aulas Promises & Async/Await
