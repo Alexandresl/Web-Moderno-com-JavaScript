@@ -5556,3 +5556,24 @@ for (let letra of s) {
     console.log(letra);
 }
 ```
+
+### 157. Promises
+
+* As *promises* são utilizadas quando precisamos realizar algum processamento assíncrono.
+
+[Arquivo](esnext/promises.js)
+
+```javascript
+function falarDepoisDe(segundos, frase) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(frase)
+        }, segundos * 1000);
+    });
+}
+
+falarDepoisDe(5, 'Que legal')
+    .then(frase => frase.concat('?!?'))
+    .then(outraFrase => console.log(outraFrase))
+    .catch(e => console.log(e));
+```
