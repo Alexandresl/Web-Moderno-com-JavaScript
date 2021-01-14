@@ -5809,3 +5809,49 @@ gerarNumerosEntre(1, 60)
     .then(numx10 => `O número gerado foi ${numx10}`)
     .then(console.log);
 ```
+
+### 165. Desafio Promise
+
+[Arquivo](esnext/desafio_3.js)
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+
+const caminho = path.join(__dirname, 'dados.txt');
+
+function leArquivo(caminho) {
+    return new Promise(resolve => {
+        fs.readFile(caminho, (_, conteudo) => 
+            resolve(conteudo.toString()));
+    });
+}
+
+leArquivo(caminho)
+    .then(console.log);
+```
+
+### 166. Desafio Promise - Resposta
+
+[Arquivo](esnext/desafio_3_resposta.js)
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+
+const caminho = path.join(__dirname, 'dados.txt');
+
+function lerArquivo(caminho) {
+    return new Promise(resolve => {
+        fs.readFile(caminho, function (_, conteudo) {
+            resolve(conteudo.toString())
+        });
+    });
+}
+
+lerArquivo(caminho)
+    .then(conteudo => conteudo.split('\r\n'))
+    .then(linhas => linhas.join(', '))
+    .then(conteudo => `O valor final é: ${conteudo}`)
+    .then(console.log);
+```
