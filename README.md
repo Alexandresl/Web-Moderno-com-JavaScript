@@ -6004,3 +6004,22 @@ gerarMegaSena(19)
 
 ### 171. Cenas dos Próximos Capítulos
 
+## seção 11: Conceitos da Web
+
+### 172. Introdução à Web
+
+### 173. Protocolo HTTP
+
+* **HTTP** - *Hyper Text Transfer Protocol*
+* Características
+    * Está na *Camada de aplicação*
+    * É *stateless*, não possui histórico de comunicação, sem estado
+    * É Cliente-Servidor, baseado em requisição e resposta
+    * Opera em cima da pilha TCP/IP
+    * Pode retornar HTML, CSS, JS, Mídias, JSON, etc
+* Grupos de Status HTTP
+    * 1xx - Informação
+    * 2xx - Sucesso
+    * 3xx - Redirecionamento
+    * 4xx - Erro no Cliente
+    * 5xx - Erro no Servidor
