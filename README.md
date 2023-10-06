@@ -8,6 +8,7 @@
     - [4. Importância dos fundamentos](#4-importância-dos-fundamentos)
     - [5. Por que aprender Javascript?](#5-por-que-aprender-javascript)
     - [6. Usando o terminal](#6-usando-o-terminal)
+    - [7. Terminais](#7-terminais)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -63,5 +64,24 @@ Todos os exercícios e projetos estão em [https://github.com/cod3rcursos/web-mo
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/1e281211dd90a6dd1352d542f39316a086a65ad5)
 
 ### 6. Usando o terminal
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/5bf7486d4382a0d96382831f3164cc658deb0a45)
+
+### 7. Terminais
+
+Fala galera! Tranquilo?
+
+Venho passar uma dica rápida e super importante pra quem tá iniciando na área de programação agora. Essa dica serve para qualquer ambiente ou curso que você vá fazer.
+
+
+O terminal do seu sistema operacional, seja ele Windows, Linux ou Mac, é super importante. É uma ferramenta importante de ser dominada e que será utilizada em qualquer ambiente de qualquer linguagem ou tecnologia. Vou deixar aqui links para os posts feitos lá no Blog da Cod3r sobre esse assunto.
+
+Caso vocês não saibam muito sobre os terminais ou se tiverem dúvidas sobre o assunto, recomendo que deem uma olhada.
+
+Windows -> https://blog.cod3r.com.br/terminal-no-windows/
+
+Linux/Mac -> https://blog.cod3r.com.br/terminal-no-macos-e-linux/
+
+Bons estudos, galera!
 
 [Commit]()
