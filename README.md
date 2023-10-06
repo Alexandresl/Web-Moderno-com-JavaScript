@@ -7,6 +7,7 @@
     - [3. Boas práticas do suporte](#3-boas-práticas-do-suporte)
     - [4. Importância dos fundamentos](#4-importância-dos-fundamentos)
     - [5. Por que aprender Javascript?](#5-por-que-aprender-javascript)
+    - [6. Usando o terminal](#6-usando-o-terminal)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -58,5 +59,9 @@ Todos os exercícios e projetos estão em [https://github.com/cod3rcursos/web-mo
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/62dc43d2f7db73c4bc8f190ee61225b576a69e32)
 
 ### 5. Por que aprender Javascript?
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/1e281211dd90a6dd1352d542f39316a086a65ad5)
+
+### 6. Usando o terminal
 
 [Commit]()
