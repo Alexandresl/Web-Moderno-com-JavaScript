@@ -4,6 +4,7 @@
   - [Seção 1: Introdução Curso Desenvolvimento Web](#seção-1-introdução-curso-desenvolvimento-web)
     - [1. Visão geral do Curso Desenvolvimento Web](#1-visão-geral-do-curso-desenvolvimento-web)
     - [2. Repositório do curso](#2-repositório-do-curso)
+    - [3. Boas práticas do suporte](#3-boas-práticas-do-suporte)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -43,5 +44,9 @@
 ### 2. Repositório do curso
 
 Todos os exercícios e projetos estão em [https://github.com/cod3rcursos/web-moderno](https://github.com/cod3rcursos/web-moderno)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/d2fac4c4d18496bdf03d62275e97ef5fab22b10c)
+
+### 3. Boas práticas do suporte
 
 [Commit]()
