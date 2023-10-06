@@ -11,6 +11,7 @@
     - [7. Terminais](#7-terminais)
   - [Seção 2: Configuração do ambiente](#seção-2-configuração-do-ambiente)
     - [8. Aviso importante aos usuários Windows](#8-aviso-importante-aos-usuários-windows)
+    - [9. Instalação Node (Windwos / Mac)](#9-instalação-node-windwos--mac)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -101,5 +102,9 @@ O primeiro problema é relacionado a Área de Trabalho, pois em alguns casos ela
 O segundo problema é relacionado ao OneDrive. Nas versões mais recentes do Windows o OneDrive é ativado por padrão e ele acaba deixando todas as pastas e arquivos criados no seu computador como arquivos em nuvem, ao invés de arquivos locais. Isso também acaba gerando erros em alguns ambientes. Para resolver isso é simples, basta desativar o OneDrive para a pasta do seu projeto ou desativar geral mesmo. Você escolhe.
 
 Bons estudos galera!
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/394827cdc69b55d9ce888d18aa2ac79fdee0669c)
+
+### 9. Instalação Node (Windwos / Mac)
 
 [Commit]()
