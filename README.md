@@ -6,6 +6,7 @@
     - [2. Repositório do curso](#2-repositório-do-curso)
     - [3. Boas práticas do suporte](#3-boas-práticas-do-suporte)
     - [4. Importância dos fundamentos](#4-importância-dos-fundamentos)
+    - [5. Por que aprender Javascript?](#5-por-que-aprender-javascript)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -53,5 +54,9 @@ Todos os exercícios e projetos estão em [https://github.com/cod3rcursos/web-mo
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/d767848f25522b40205ccc20c00e96f811785326)
 
 ### 4. Importância dos fundamentos
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/62dc43d2f7db73c4bc8f190ee61225b576a69e32)
+
+### 5. Por que aprender Javascript?
 
 [Commit]()
