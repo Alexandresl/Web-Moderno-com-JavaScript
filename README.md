@@ -9,6 +9,8 @@
     - [5. Por que aprender Javascript?](#5-por-que-aprender-javascript)
     - [6. Usando o terminal](#6-usando-o-terminal)
     - [7. Terminais](#7-terminais)
+  - [Seção 2: Configuração do ambiente](#seção-2-configuração-do-ambiente)
+    - [8. Aviso importante aos usuários Windows](#8-aviso-importante-aos-usuários-windows)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -69,8 +71,6 @@ Todos os exercícios e projetos estão em [https://github.com/cod3rcursos/web-mo
 
 ### 7. Terminais
 
-Fala galera! Tranquilo?
-
 Venho passar uma dica rápida e super importante pra quem tá iniciando na área de programação agora. Essa dica serve para qualquer ambiente ou curso que você vá fazer.
 
 
@@ -82,6 +82,24 @@ Windows -> https://blog.cod3r.com.br/terminal-no-windows/
 
 Linux/Mac -> https://blog.cod3r.com.br/terminal-no-macos-e-linux/
 
-Bons estudos, galera!
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/73e3bba113544c1a4ec62388d1fdae310e56dda2)
+
+## Seção 2: Configuração do ambiente
+
+### 8. Aviso importante aos usuários Windows
+
+Fala galera! Tranquilo?
+
+Antes de mais nada, recomendamos que vocês utilizem sempre a versão mais atualizada possível do Windows, ou seja, o Windows 10. Pois diversas tecnologias não dão mais suporte aos Windows 7, 8 ou 8.1, então caso vocês utilizem alguma dessas versões, vocês vão acabar tendo problemas em algum ponto do curso. A recomendação é utilizar o Windows 10.
+
+Venho também dar uma outra dica super rápida porém super importante para todos que irão dar início às atividades do curso no ambiente Windows. O que acontece é que existem duas configurações padrão que vêm ativadas e acabam dificultando ou gerando erros na hora de programar em qualquer ambiente. Vou explicar rapidinho sobre elas e sobre como lidar com isso.
+
+Na programação é super normal utilizar os caminhos absolutos de localizações na sua máquina em diversos momentos. Às vezes você mesmo utiliza, mas em geral as linguagens utilizam ali por debaixo do panos para que possam ser executadas. Esses caminhos são literalmente "c/users/seuNome/pasta" e tudo mais.
+
+O primeiro problema é relacionado a Área de Trabalho, pois em alguns casos ela entra nesse caminho absoluto com seu nome em português, ou seja, com espaços e acentos. E isso acaba gerando erro em diversos ambientes. A forma de se lidar com isso é bem simples, basta criar seu projeto em outra pasta que não seja a Área de Trabalho.
+
+O segundo problema é relacionado ao OneDrive. Nas versões mais recentes do Windows o OneDrive é ativado por padrão e ele acaba deixando todas as pastas e arquivos criados no seu computador como arquivos em nuvem, ao invés de arquivos locais. Isso também acaba gerando erros em alguns ambientes. Para resolver isso é simples, basta desativar o OneDrive para a pasta do seu projeto ou desativar geral mesmo. Você escolhe.
+
+Bons estudos galera!
 
 [Commit]()
