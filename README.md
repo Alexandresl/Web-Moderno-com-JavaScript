@@ -5,6 +5,7 @@
     - [1. Visão geral do Curso Desenvolvimento Web](#1-visão-geral-do-curso-desenvolvimento-web)
     - [2. Repositório do curso](#2-repositório-do-curso)
     - [3. Boas práticas do suporte](#3-boas-práticas-do-suporte)
+    - [4. Importância dos fundamentos](#4-importância-dos-fundamentos)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -48,5 +49,9 @@ Todos os exercícios e projetos estão em [https://github.com/cod3rcursos/web-mo
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/d2fac4c4d18496bdf03d62275e97ef5fab22b10c)
 
 ### 3. Boas práticas do suporte
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/d767848f25522b40205ccc20c00e96f811785326)
+
+### 4. Importância dos fundamentos
 
 [Commit]()
