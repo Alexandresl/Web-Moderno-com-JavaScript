@@ -23,6 +23,7 @@
     - [17. Sentença de código #1](#17-sentença-de-código-1)
     - [18. Sentença de código #02](#18-sentença-de-código-02)
     - [19. Comentários de código](#19-comentários-de-código)
+    - [20. Blocos de código](#20-blocos-de-código)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -210,5 +211,38 @@ console.log("Passo #02");
 ```
 
 [Arquivo](fundamentos/inicio/comentario.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b6437ffff99a628e9a2d8bb99883c899098a2201)
+
+### 20. Blocos de código
+
+```js
+{
+	console.log("Passo #01");
+	console.log("Passo #02");
+	console.log("Passo #03");
+}
+
+{
+	console.log("Passo #04");
+	console.log("Passo #05");
+}
+
+{
+	{
+		{
+			{
+				;
+				;
+				;
+			}
+		}
+	}
+}
+
+console.log("Fim");
+```
+
+[Arquivo](fundamentos/inicio/bloco.js)
 
 [Commit]()
