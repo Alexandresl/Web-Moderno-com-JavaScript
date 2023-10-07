@@ -15,6 +15,7 @@
     - [10. Instalar o Node e o Visual Studio Code no Linux](#10-instalar-o-node-e-o-visual-studio-code-no-linux)
     - [11. Configuração do editor (VSCode)](#11-configuração-do-editor-vscode)
     - [12. Como abrir os terminais nos sistemas operacionais](#12-como-abrir-os-terminais-nos-sistemas-operacionais)
+    - [13. Configuração do comando 'code'](#13-configuração-do-comando-code)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -137,5 +138,9 @@ Espero que essas dicas sejam úteis para vocês, visto que os promps serão usad
 Ah, aproveito para reiterar: o comando code vem por padrão em Windows, então se a opção de editar no VSCode não aparecer para vocês, não se assustem!
 
 Bons estudos e até a próxima!
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/85d0f7765c74db0c3dfed3a13b73c5b66946b85c)
+
+### 13. Configuração do comando 'code'
 
 [Commit]()
