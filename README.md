@@ -20,6 +20,7 @@
   - [Seção 3: Iniciando com programação](#seção-3-iniciando-com-programação)
     - [15. Introdução do módulo](#15-introdução-do-módulo)
     - [16. Conhecendo o Visual Studio Code](#16-conhecendo-o-visual-studio-code)
+    - [17. Sentença de código #1](#17-sentença-de-código-1)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -160,5 +161,14 @@ Bons estudos e até a próxima!
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b3a6e635bc304cf94b3dc436999eb08ba5a7f25b)
 
 ### 16. Conhecendo o Visual Studio Code
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b56a51d201d581b684a09c625fa50aa29579574e)
+
+### 17. Sentença de código #1
+
+```js
+// Sentença de código
+console.log("Legal!!!");
+```
 
 [Commit]()

@@ -1,1 +1,2 @@
-console.log("Teste!!!");
+// Sentença de código
+console.log("Legal!!!");
