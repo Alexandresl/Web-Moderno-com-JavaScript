@@ -14,6 +14,7 @@
     - [9. Instalação Node (Windwos / Mac)](#9-instalação-node-windwos--mac)
     - [10. Instalar o Node e o Visual Studio Code no Linux](#10-instalar-o-node-e-o-visual-studio-code-no-linux)
     - [11. Configuração do editor (VSCode)](#11-configuração-do-editor-vscode)
+    - [12. Como abrir os terminais nos sistemas operacionais](#12-como-abrir-os-terminais-nos-sistemas-operacionais)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -116,5 +117,25 @@ Bons estudos galera!
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/09808acb6c58b1e246904713ce1fa9c08c051fb9)
 
 ### 11. Configuração do editor (VSCode)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/23fd005de373eea2db525be1013ab374ace4d82b)
+
+### 12. Como abrir os terminais nos sistemas operacionais
+
+Fala, galera! Tudo bom?
+
+Recebemos comentários sobre alunos que não sabiam como abrir os terminais usados na aula seguinte, então resolvemos explicar como fazer isso.
+
+A primeira opção para abrir o terminal em qualquer sistema operacional que estejam usando seja MacOS, Windows ou Linux é a de usar a barra de pesquisa e procurar por termos como prompt (para Windows) ou terminal (para Linux ou MacOS).
+
+Outra opção é o uso de atalhos de teclado. Para abrir o Prompt de Comando no Windows, vocês podem usar Tecla Windows + R e digitar cmd; para o Linux, podem abrir o terminal usando Ctrl + Alt + T; no MacOS podem usar COMMAND + ESPAÇO e digitar terminal para abrir.
+
+Para abrir aquela janela de pesquisa no VSCode, o comando é Ctrl + Shift + P.
+
+Espero que essas dicas sejam úteis para vocês, visto que os promps serão usados novamente em aulas futuras.
+
+Ah, aproveito para reiterar: o comando code vem por padrão em Windows, então se a opção de editar no VSCode não aparecer para vocês, não se assustem!
+
+Bons estudos e até a próxima!
 
 [Commit]()
