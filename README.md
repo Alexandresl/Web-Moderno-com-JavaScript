@@ -25,6 +25,7 @@
     - [19. Comentários de código](#19-comentários-de-código)
     - [20. Blocos de código](#20-blocos-de-código)
     - [21. Desafio sentença e bloco](#21-desafio-sentença-e-bloco)
+    - [22. Desafio sentença e bloco - Resposta](#22-desafio-sentença-e-bloco---resposta)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -285,5 +286,11 @@ console.log("Fim");
 ```
 
 [Arquivo](fundamentos/inicio/desafio_sentenca_bloco.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/cb02411fac0188a8bd5cc0d3abf4a1553be5fbee)
+
+### 22. Desafio sentença e bloco - Resposta
+
+[Arquivo](fundamentos/inicio/desafio_sentenca_bloco_resposta.js)
 
 [Commit]()
