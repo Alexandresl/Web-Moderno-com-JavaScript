@@ -19,6 +19,7 @@
     - [14. Instalação do VSCode (Windows)](#14-instalação-do-vscode-windows)
   - [Seção 3: Iniciando com programação](#seção-3-iniciando-com-programação)
     - [15. Introdução do módulo](#15-introdução-do-módulo)
+    - [16. Conhecendo o Visual Studio Code](#16-conhecendo-o-visual-studio-code)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -155,5 +156,9 @@ Bons estudos e até a próxima!
 ## Seção 3: Iniciando com programação
 
 ### 15. Introdução do módulo
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b3a6e635bc304cf94b3dc436999eb08ba5a7f25b)
+
+### 16. Conhecendo o Visual Studio Code
 
 [Commit]()
