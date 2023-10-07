@@ -22,6 +22,7 @@
     - [16. Conhecendo o Visual Studio Code](#16-conhecendo-o-visual-studio-code)
     - [17. Sentença de código #1](#17-sentença-de-código-1)
     - [18. Sentença de código #02](#18-sentença-de-código-02)
+    - [19. Comentários de código](#19-comentários-de-código)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -187,5 +188,27 @@ console.log("Passo #02");
 ```
 
 [Arquivo](fundamentos/inicio/sentenca_2.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/ead1c8cdbacd81c2a946e20335f9fb13678a6dda)
+
+### 19. Comentários de código
+
+```js
+// Console.log é usado para exibir algo na tela do computador!
+console.log("Passo #03");
+console.log("Passo #01"); // mais um exemplo de console.log
+// console.log("Passo #02");
+
+/**
+ * Este é um
+ * comentário
+ * de múltiplas
+ * linhas
+ */
+
+console.log("Passo #02");
+```
+
+[Arquivo](fundamentos/inicio/comentario.js)
 
 [Commit]()
