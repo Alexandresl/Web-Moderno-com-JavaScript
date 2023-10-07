@@ -13,6 +13,7 @@
     - [8. Aviso importante aos usuários Windows](#8-aviso-importante-aos-usuários-windows)
     - [9. Instalação Node (Windwos / Mac)](#9-instalação-node-windwos--mac)
     - [10. Instalar o Node e o Visual Studio Code no Linux](#10-instalar-o-node-e-o-visual-studio-code-no-linux)
+    - [11. Configuração do editor (VSCode)](#11-configuração-do-editor-vscode)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -111,5 +112,9 @@ Bons estudos galera!
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b465fd0dd9c72eb826f9334b8a7ca582a756977d)
 
 ### 10. Instalar o Node e o Visual Studio Code no Linux
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/09808acb6c58b1e246904713ce1fa9c08c051fb9)
+
+### 11. Configuração do editor (VSCode)
 
 [Commit]()
