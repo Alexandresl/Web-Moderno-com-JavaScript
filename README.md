@@ -16,6 +16,7 @@
     - [11. Configuração do editor (VSCode)](#11-configuração-do-editor-vscode)
     - [12. Como abrir os terminais nos sistemas operacionais](#12-como-abrir-os-terminais-nos-sistemas-operacionais)
     - [13. Configuração do comando 'code'](#13-configuração-do-comando-code)
+    - [14. Instalação do VSCode (Windows)](#14-instalação-do-vscode-windows)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -142,5 +143,9 @@ Bons estudos e até a próxima!
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/85d0f7765c74db0c3dfed3a13b73c5b66946b85c)
 
 ### 13. Configuração do comando 'code'
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b8f047ce6e9f42755bced2d54e139b88578663c9)
+
+### 14. Instalação do VSCode (Windows)
 
 [Commit]()
