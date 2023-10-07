@@ -11,7 +11,7 @@
     - [7. Terminais](#7-terminais)
   - [Seção 2: Configuração do ambiente](#seção-2-configuração-do-ambiente)
     - [8. Aviso importante aos usuários Windows](#8-aviso-importante-aos-usuários-windows)
-    - [9. Instalação Node (Windwos / Mac)](#9-instalação-node-windwos--mac)
+    - [9. Instalação Node (Windows / Mac)](#9-instalação-node-windows--mac)
     - [10. Instalar o Node e o Visual Studio Code no Linux](#10-instalar-o-node-e-o-visual-studio-code-no-linux)
     - [11. Configuração do editor (VSCode)](#11-configuração-do-editor-vscode)
     - [12. Como abrir os terminais nos sistemas operacionais](#12-como-abrir-os-terminais-nos-sistemas-operacionais)
@@ -24,6 +24,7 @@
     - [18. Sentença de código #02](#18-sentença-de-código-02)
     - [19. Comentários de código](#19-comentários-de-código)
     - [20. Blocos de código](#20-blocos-de-código)
+    - [21. Desafio sentença e bloco](#21-desafio-sentença-e-bloco)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -117,7 +118,7 @@ Bons estudos galera!
 
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/394827cdc69b55d9ce888d18aa2ac79fdee0669c)
 
-### 9. Instalação Node (Windwos / Mac)
+### 9. Instalação Node (Windows / Mac)
 
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b465fd0dd9c72eb826f9334b8a7ca582a756977d)
 
@@ -141,7 +142,7 @@ Outra opção é o uso de atalhos de teclado. Para abrir o Prompt de Comando no 
 
 Para abrir aquela janela de pesquisa no VSCode, o comando é Ctrl + Shift + P.
 
-Espero que essas dicas sejam úteis para vocês, visto que os promps serão usados novamente em aulas futuras.
+Espero que essas dicas sejam úteis para vocês, visto que os prompts serão usados novamente em aulas futuras.
 
 Ah, aproveito para reiterar: o comando code vem por padrão em Windows, então se a opção de editar no VSCode não aparecer para vocês, não se assustem!
 
@@ -244,5 +245,45 @@ console.log("Fim");
 ```
 
 [Arquivo](fundamentos/inicio/bloco.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/306a8b36e624741e15e009546f6985c89c2e2d54)
+
+### 21. Desafio sentença e bloco
+
+```js
+/**
+ * // bloco do números ímpares
+ * 1
+ * 3
+ * 5
+ * 7
+ * 9
+ * 
+ * // Bloco dos números pares
+ * 2
+ * 4
+ * 6
+ * 8
+ * 
+ */
+
+{
+	console.log(1);	
+	console.log(3);	
+	console.log(5);	
+	console.log(7);	
+	console.log(9);	
+}
+
+{
+	console.log(2);
+	console.log(4);
+	console.log(6);
+	console.log(8);
+	console.log(10);
+}
+```
+
+[Arquivo](fundamentos/inicio/desafio_sentenca_bloco.js)
 
 [Commit]()
