@@ -21,6 +21,7 @@
     - [15. Introdução do módulo](#15-introdução-do-módulo)
     - [16. Conhecendo o Visual Studio Code](#16-conhecendo-o-visual-studio-code)
     - [17. Sentença de código #1](#17-sentença-de-código-1)
+    - [18. Sentença de código #02](#18-sentença-de-código-02)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -168,7 +169,23 @@ Bons estudos e até a próxima!
 
 ```js
 // Sentença de código
-console.log("Legal!!!");
+console.log("Bom dia!");
+console.log("Boa tarde!");
+console.log("Boa noite!");
 ```
+
+[Arquivo](fundamentos/inicio/sentenca_1.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/aaa528632d1337ec9afb728152d44186f7014e0b)
+
+### 18. Sentença de código #02
+
+```js
+console.log("Passo #03");
+console.log("Passo #01");
+console.log("Passo #02");
+```
+
+[Arquivo](fundamentos/inicio/sentenca_2.js)
 
 [Commit]()
