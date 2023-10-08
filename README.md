@@ -30,6 +30,7 @@
     - [24. Trabalhando com dados 02](#24-trabalhando-com-dados-02)
     - [25. Trabalhando com dados 03](#25-trabalhando-com-dados-03)
     - [26. Trabalhando com dados 04](#26-trabalhando-com-dados-04)
+    - [27. Desafio Área da Circunferência](#27-desafio-área-da-circunferência)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -230,5 +231,11 @@ Bons estudos e até a próxima!
 ### 26. Trabalhando com dados 04
 
 [Arquivo](fundamentos/inicio/dados_4.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b1d8de2de230fd6e32f6e9c7a9374fdccb4fd145)
+
+### 27. Desafio Área da Circunferência
+
+[Arquivo](fundamentos/inicio/desafio_area.js)
 
 [Commit]()
