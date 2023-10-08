@@ -29,6 +29,7 @@
     - [23. Trabalhando com dados 01](#23-trabalhando-com-dados-01)
     - [24. Trabalhando com dados 02](#24-trabalhando-com-dados-02)
     - [25. Trabalhando com dados 03](#25-trabalhando-com-dados-03)
+    - [26. Trabalhando com dados 04](#26-trabalhando-com-dados-04)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -174,24 +175,11 @@ Bons estudos e até a próxima!
 
 ### 17. Sentença de código 01
 
-```js
-// Sentença de código
-console.log("Bom dia!");
-console.log("Boa tarde!");
-console.log("Boa noite!");
-```
-
 [Arquivo](fundamentos/inicio/sentenca_1.js)
 
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/aaa528632d1337ec9afb728152d44186f7014e0b)
 
 ### 18. Sentença de código 02
-
-```js
-console.log("Passo #03");
-console.log("Passo #01");
-console.log("Passo #02");
-```
 
 [Arquivo](fundamentos/inicio/sentenca_2.js)
 
@@ -199,94 +187,17 @@ console.log("Passo #02");
 
 ### 19. Comentários de código
 
-```js
-// Console.log é usado para exibir algo na tela do computador!
-console.log("Passo #03");
-console.log("Passo #01"); // mais um exemplo de console.log
-// console.log("Passo #02");
-
-/**
- * Este é um
- * comentário
- * de múltiplas
- * linhas
- */
-
-console.log("Passo #02");
-```
-
 [Arquivo](fundamentos/inicio/comentario.js)
 
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b6437ffff99a628e9a2d8bb99883c899098a2201)
 
 ### 20. Blocos de código
 
-```js
-{
-	console.log("Passo #01");
-	console.log("Passo #02");
-	console.log("Passo #03");
-}
-
-{
-	console.log("Passo #04");
-	console.log("Passo #05");
-}
-
-{
-	{
-		{
-			{
-				;
-				;
-				;
-			}
-		}
-	}
-}
-
-console.log("Fim");
-```
-
 [Arquivo](fundamentos/inicio/bloco.js)
 
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/306a8b36e624741e15e009546f6985c89c2e2d54)
 
 ### 21. Desafio sentença e bloco
-
-```js
-/**
- * // bloco do números ímpares
- * 1
- * 3
- * 5
- * 7
- * 9
- * 
- * // Bloco dos números pares
- * 2
- * 4
- * 6
- * 8
- * 
- */
-
-{
-	console.log(1);	
-	console.log(3);	
-	console.log(5);	
-	console.log(7);	
-	console.log(9);	
-}
-
-{
-	console.log(2);
-	console.log(4);
-	console.log(6);
-	console.log(8);
-	console.log(10);
-}
-```
 
 [Arquivo](fundamentos/inicio/desafio_sentenca_bloco.js)
 
@@ -313,5 +224,11 @@ console.log("Fim");
 ### 25. Trabalhando com dados 03
 
 [Arquivo](fundamentos/inicio/dados_3.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/9e166019ffc0ecede31608c6f23da408ab691f30)
+
+### 26. Trabalhando com dados 04
+
+[Arquivo](fundamentos/inicio/dados_4.js)
 
 [Commit]()
