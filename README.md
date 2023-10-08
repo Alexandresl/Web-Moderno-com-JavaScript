@@ -20,12 +20,13 @@
   - [Seção 3: Iniciando com programação](#seção-3-iniciando-com-programação)
     - [15. Introdução do módulo](#15-introdução-do-módulo)
     - [16. Conhecendo o Visual Studio Code](#16-conhecendo-o-visual-studio-code)
-    - [17. Sentença de código #1](#17-sentença-de-código-1)
-    - [18. Sentença de código #02](#18-sentença-de-código-02)
+    - [17. Sentença de código 01](#17-sentença-de-código-01)
+    - [18. Sentença de código 02](#18-sentença-de-código-02)
     - [19. Comentários de código](#19-comentários-de-código)
     - [20. Blocos de código](#20-blocos-de-código)
     - [21. Desafio sentença e bloco](#21-desafio-sentença-e-bloco)
     - [22. Desafio sentença e bloco - Resposta](#22-desafio-sentença-e-bloco---resposta)
+    - [23. Trabalhando com dados 01](#23-trabalhando-com-dados-01)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -169,7 +170,7 @@ Bons estudos e até a próxima!
 
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b56a51d201d581b684a09c625fa50aa29579574e)
 
-### 17. Sentença de código #1
+### 17. Sentença de código 01
 
 ```js
 // Sentença de código
@@ -182,7 +183,7 @@ console.log("Boa noite!");
 
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/aaa528632d1337ec9afb728152d44186f7014e0b)
 
-### 18. Sentença de código #02
+### 18. Sentença de código 02
 
 ```js
 console.log("Passo #03");
@@ -292,5 +293,11 @@ console.log("Fim");
 ### 22. Desafio sentença e bloco - Resposta
 
 [Arquivo](fundamentos/inicio/desafio_sentenca_bloco_resposta.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/347d17079cbd85897522ed0f8caa2b83d4c8a24c)
+
+### 23. Trabalhando com dados 01
+
+[Arquivo](fundamentos/inicio/dados_1.js)
 
 [Commit]()
