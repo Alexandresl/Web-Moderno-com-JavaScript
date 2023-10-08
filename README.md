@@ -32,6 +32,7 @@
     - [26. Trabalhando com dados 04](#26-trabalhando-com-dados-04)
     - [27. Desafio Área da Circunferência](#27-desafio-área-da-circunferência)
     - [28. Desafio área da circunferência - Resposta](#28-desafio-área-da-circunferência---resposta)
+    - [29. Desafio troca de valores](#29-desafio-troca-de-valores)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -244,5 +245,11 @@ Bons estudos e até a próxima!
 ### 28. Desafio área da circunferência - Resposta
 
 [Arquivo](fundamentos/inicio/desafio_area_resposta.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/25972dcdd50fdaaa185120b26c42dd0b6690fa32)
+
+### 29. Desafio troca de valores
+
+[Arquivo](fundamentos/inicio/desafio_troca.js)
 
 [Commit]()
