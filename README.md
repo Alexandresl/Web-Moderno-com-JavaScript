@@ -33,6 +33,7 @@
     - [27. Desafio Área da Circunferência](#27-desafio-área-da-circunferência)
     - [28. Desafio área da circunferência - Resposta](#28-desafio-área-da-circunferência---resposta)
     - [29. Desafio troca de valores](#29-desafio-troca-de-valores)
+    - [30. Desafio troca de valores - Resposta](#30-desafio-troca-de-valores---resposta)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -251,5 +252,11 @@ Bons estudos e até a próxima!
 ### 29. Desafio troca de valores
 
 [Arquivo](fundamentos/inicio/desafio_troca.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/a5e7a49b0aa6069e37bc6782fefb75861ad00cbb)
+
+### 30. Desafio troca de valores - Resposta
+
+[Arquivo](fundamentos/inicio/desafio_troca_resposta.js)
 
 [Commit]()
