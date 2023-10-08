@@ -28,6 +28,7 @@
     - [22. Desafio sentença e bloco - Resposta](#22-desafio-sentença-e-bloco---resposta)
     - [23. Trabalhando com dados 01](#23-trabalhando-com-dados-01)
     - [24. Trabalhando com dados 02](#24-trabalhando-com-dados-02)
+    - [25. Trabalhando com dados 03](#25-trabalhando-com-dados-03)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -306,5 +307,11 @@ console.log("Fim");
 ### 24. Trabalhando com dados 02
 
 [Arquivo](fundamentos/inicio/dados_2.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b2b46c6b9d3015c8f77d8c4b7bc9038383aa121d)
+
+### 25. Trabalhando com dados 03
+
+[Arquivo](fundamentos/inicio/dados_3.js)
 
 [Commit]()
