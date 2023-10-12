@@ -34,6 +34,9 @@
     - [28. Desafio área da circunferência - Resposta](#28-desafio-área-da-circunferência---resposta)
     - [29. Desafio troca de valores](#29-desafio-troca-de-valores)
     - [30. Desafio troca de valores - Resposta](#30-desafio-troca-de-valores---resposta)
+  - [Seção 4: Javascript: Fundamentos](#seção-4-javascript-fundamentos)
+    - [31. Visão geral de algoritmo](#31-visão-geral-de-algoritmo)
+      - [Características dos algoritmos](#características-dos-algoritmos)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -258,5 +261,34 @@ Bons estudos e até a próxima!
 ### 30. Desafio troca de valores - Resposta
 
 [Arquivo](fundamentos/inicio/desafio_troca_resposta.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/4ec7819c8ce7428b8eecd012648af3a607ad61c8)
+
+## Seção 4: Javascript: Fundamentos
+
+### 31. Visão geral de algoritmo
+
+#### Características dos algoritmos
+
+* Algoritmos não estão presentes apenas em programação (ex. Receita de bolo)
+* Os algoritmos podem ser considerados o verbo dentro da programação
+* Sequência de passos
+* Suporta o conceito de repetição
+  * A repetição pode ser por um número *n* de vezes
+  * A repetição pode ser *até* que um determinado evento ocorra
+* Suporta o conceito de tomada de decisão
+  * Você pode seguir um "caminho" a partir de determinada condição
+  * Você pode "pular" uma sequência de passos a partir de determinada condição
+* A ordem de execução dos passos importa e pode gerar resultados incorretos (Bugs)
+* Os algoritmos podem ter comportamentos diferentes:
+  * Receber um número *n* de entradas e devolver um número *n* de saídas (na maioria das linguagens haverá um retorno)
+  * Apenas receber uma entrada
+  * Apenas retornar uma saída
+  * Não receber nem retornar uma saída
+* Os Algoritmos podem ser representados:
+  * Fluxograma
+  * Linguagem natural (problema ambiguidade)
+  * Pseudo-linguagens (ex.: Portugol)
+  * Linguagem artificial (linguagens de programação)
 
 [Commit]()
