@@ -43,6 +43,7 @@
     - [34. Configuração do projeto](#34-configuração-do-projeto)
     - [35. Organização básica de um código JS](#35-organização-básica-de-um-código-js)
     - [36. Executando JavaScript](#36-executando-javascript)
+    - [37. Comentários de código](#37-comentários-de-código)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -333,5 +334,11 @@ Bons Estudos!
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/2cd233f24a78d2da0c49b5dcdc010cb736e13979)
 
 ### 36. Executando JavaScript
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/e815331d375cb0188aff18d6584a2d03f9cf58f5)
+
+### 37. Comentários de código
+
+[Arquivo](fundamentos/comentario.js)
 
 [Commit]()
