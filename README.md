@@ -40,6 +40,7 @@
     - [32. Visão geral de estruturas de dados](#32-visão-geral-de-estruturas-de-dados)
       - [Características das estruturas de dados](#características-das-estruturas-de-dados)
     - [33. Lembrem-se sempre de salvar o código!](#33-lembrem-se-sempre-de-salvar-o-código)
+    - [34. Configuração do projeto](#34-configuração-do-projeto)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -316,5 +317,9 @@ Lembrem sempre de salvar o código antes de tentar executar o mesmo. Essa ação
 No VSCode, você pode salvar com o comando CTRL + S ou COMMAND + S, no MacOS.
 
 Bons Estudos!
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/3695390890a7d1c8b1eb25ce062024d13c2b6c21)
+
+### 34. Configuração do projeto
 
 [Commit]()
