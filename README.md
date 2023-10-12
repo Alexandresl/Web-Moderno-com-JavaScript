@@ -42,6 +42,7 @@
     - [33. Lembrem-se sempre de salvar o código!](#33-lembrem-se-sempre-de-salvar-o-código)
     - [34. Configuração do projeto](#34-configuração-do-projeto)
     - [35. Organização básica de um código JS](#35-organização-básica-de-um-código-js)
+    - [36. Executando JavaScript](#36-executando-javascript)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -328,5 +329,9 @@ Bons Estudos!
 ### 35. Organização básica de um código JS
 
 [Arquivo](fundamentos/organizacao.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/2cd233f24a78d2da0c49b5dcdc010cb736e13979)
+
+### 36. Executando JavaScript
 
 [Commit]()
