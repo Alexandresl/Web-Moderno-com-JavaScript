@@ -39,6 +39,7 @@
       - [Características dos algoritmos](#características-dos-algoritmos)
     - [32. Visão geral de estruturas de dados](#32-visão-geral-de-estruturas-de-dados)
       - [Características das estruturas de dados](#características-das-estruturas-de-dados)
+    - [33. Lembrem-se sempre de salvar o código!](#33-lembrem-se-sempre-de-salvar-o-código)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -303,5 +304,17 @@ Bons estudos e até a próxima!
 * As estruturas de dados podem ser básicas (ex.: inteira, real, letra, booleana, etc)
 * As estruturas de dados podem ser personalizadas (ex.: cliente, produto, etc)
 * Os dados que serão utilizados nas estruturas são armazenados em **Variáveis** e **Constantes**
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/13bab2cefd6450eb6f377c1bf542e8b76dd8c99f)
+
+### 33. Lembrem-se sempre de salvar o código!
+
+Fala pessoal!
+
+Lembrem sempre de salvar o código antes de tentar executar o mesmo. Essa ação é necessária para que o código seja de fato executado.
+
+No VSCode, você pode salvar com o comando CTRL + S ou COMMAND + S, no MacOS.
+
+Bons Estudos!
 
 [Commit]()
