@@ -41,6 +41,7 @@
       - [Características das estruturas de dados](#características-das-estruturas-de-dados)
     - [33. Lembrem-se sempre de salvar o código!](#33-lembrem-se-sempre-de-salvar-o-código)
     - [34. Configuração do projeto](#34-configuração-do-projeto)
+    - [35. Organização básica de um código JS](#35-organização-básica-de-um-código-js)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -321,5 +322,11 @@ Bons Estudos!
 [Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/3695390890a7d1c8b1eb25ce062024d13c2b6c21)
 
 ### 34. Configuração do projeto
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/12f255d4df9bb615318a001cfdcd32ccc82143fc)
+
+### 35. Organização básica de um código JS
+
+[Arquivo](fundamentos/organizacao.js)
 
 [Commit]()
