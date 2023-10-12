@@ -37,6 +37,8 @@
   - [Seção 4: Javascript: Fundamentos](#seção-4-javascript-fundamentos)
     - [31. Visão geral de algoritmo](#31-visão-geral-de-algoritmo)
       - [Características dos algoritmos](#características-dos-algoritmos)
+    - [32. Visão geral de estruturas de dados](#32-visão-geral-de-estruturas-de-dados)
+      - [Características das estruturas de dados](#características-das-estruturas-de-dados)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -290,5 +292,16 @@ Bons estudos e até a próxima!
   * Linguagem natural (problema ambiguidade)
   * Pseudo-linguagens (ex.: Portugol)
   * Linguagem artificial (linguagens de programação)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/97c666df0c002408ec600ee810fd409efa30b74b)
+
+### 32. Visão geral de estruturas de dados
+
+#### Características das estruturas de dados
+
+* As estruturas de dados permitem organizar e administrar os dados de uma aplicação
+* As estruturas de dados podem ser básicas (ex.: inteira, real, letra, booleana, etc)
+* As estruturas de dados podem ser personalizadas (ex.: cliente, produto, etc)
+* Os dados que serão utilizados nas estruturas são armazenados em **Variáveis** e **Constantes**
 
 [Commit]()
