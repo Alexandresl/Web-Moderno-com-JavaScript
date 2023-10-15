@@ -45,6 +45,7 @@
     - [36. Executando JavaScript](#36-executando-javascript)
     - [37. Comentários de código](#37-comentários-de-código)
     - [38. O básico de Var, Let e Const](#38-o-básico-de-var-let-e-const)
+    - [39. Tipagem fraca](#39-tipagem-fraca)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -347,5 +348,11 @@ Bons Estudos!
 ### 38. O básico de Var, Let e Const
 
 [Arquivo](fundamentos/variaveisEConstantes.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/945957bc604afbaec48dfce147236e0d2089098d)
+
+### 39. Tipagem fraca
+
+[Arquivo](fundamentos/tipagemFraca.js)
 
 [Commit]()
