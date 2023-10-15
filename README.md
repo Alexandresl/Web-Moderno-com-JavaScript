@@ -44,6 +44,7 @@
     - [35. Organização básica de um código JS](#35-organização-básica-de-um-código-js)
     - [36. Executando JavaScript](#36-executando-javascript)
     - [37. Comentários de código](#37-comentários-de-código)
+    - [38. O básico de Var, Let e Const](#38-o-básico-de-var-let-e-const)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -340,5 +341,11 @@ Bons Estudos!
 ### 37. Comentários de código
 
 [Arquivo](fundamentos/comentario.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/1897fa25f9fc4b44b3e45940d63532b89c451c00)
+
+### 38. O básico de Var, Let e Const
+
+[Arquivo](fundamentos/variaveisEConstantes.js)
 
 [Commit]()
