@@ -47,6 +47,7 @@
     - [38. O básico de Var, Let e Const](#38-o-básico-de-var-let-e-const)
     - [39. Tipagem fraca](#39-tipagem-fraca)
     - [40. Tipos em JavaScript: Number](#40-tipos-em-javascript-number)
+    - [41. Number: Alguns cuidados](#41-number-alguns-cuidados)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -392,5 +393,11 @@ console.log(Number);
 ```
 
 [Arquivo](fundamentos/numeros.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/1e4e228d1b65ad8713d28ab5faeb8a4840268934)
+
+### 41. Number: Alguns cuidados
+
+[Arquivo](fundamentos/numerosAlgunsCuidados.js)
 
 [Commit]()
