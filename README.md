@@ -51,6 +51,7 @@
     - [42. Usando Math](#42-usando-math)
     - [43. Tipos em JavaScript: String](#43-tipos-em-javascript-string)
     - [44. Usando Template Strings](#44-usando-template-strings)
+    - [45. Tipos em JavaScript: Boolean](#45-tipos-em-javascript-boolean)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -420,5 +421,11 @@ console.log(Number);
 ### 44. Usando Template Strings
 
 [Arquivo](fundamentos/templateString.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/e289cdcd23067130db4f5725aa1293e67504e912)
+
+### 45. Tipos em JavaScript: Boolean
+
+[Arquivo](fundamentos/booleanos.js)
 
 [Commit]()
