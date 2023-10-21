@@ -49,6 +49,7 @@
     - [40. Tipos em JavaScript: Number](#40-tipos-em-javascript-number)
     - [41. Number: Alguns cuidados](#41-number-alguns-cuidados)
     - [42. Usando Math](#42-usando-math)
+    - [43. Tipos em JavaScript: String](#43-tipos-em-javascript-string)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -406,5 +407,11 @@ console.log(Number);
 ### 42. Usando Math
 
 [Arquivo](fundamentos/math.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/385d2e2976191d4fa39ce03a3a71c3c11dc2f877)
+
+### 43. Tipos em JavaScript: String
+
+[Arquivo](fundamentos/strings.js)
 
 [Commit]()
