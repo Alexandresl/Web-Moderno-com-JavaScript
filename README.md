@@ -54,6 +54,7 @@
     - [45. Tipos em JavaScript: Boolean](#45-tipos-em-javascript-boolean)
     - [46. Tipos em JavaScript: Array](#46-tipos-em-javascript-array)
     - [47. Tipos em JavaScript: Object](#47-tipos-em-javascript-object)
+    - [48. Entendendo o Null e o Undefined](#48-entendendo-o-null-e-o-undefined)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -441,5 +442,11 @@ console.log(Number);
 ### 47. Tipos em JavaScript: Object
 
 [Arquivo](fundamentos/objeto.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/c5082bfec5c3eab06358629807f3ec4e3bf9ef90)
+
+### 48. Entendendo o Null e o Undefined
+
+[Arquivo](fundamentos/nullUndefined.js)
 
 [Commit]()
