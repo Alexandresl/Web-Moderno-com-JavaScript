@@ -52,6 +52,7 @@
     - [43. Tipos em JavaScript: String](#43-tipos-em-javascript-string)
     - [44. Usando Template Strings](#44-usando-template-strings)
     - [45. Tipos em JavaScript: Boolean](#45-tipos-em-javascript-boolean)
+    - [46. Tipos em JavaScript: Array](#46-tipos-em-javascript-array)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -427,5 +428,11 @@ console.log(Number);
 ### 45. Tipos em JavaScript: Boolean
 
 [Arquivo](fundamentos/booleanos.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/ce51e090158307b4e73a297df92e09f67f54225e)
+
+### 46. Tipos em JavaScript: Array
+
+[Arquivo](fundamentos/arrays.js)
 
 [Commit]()
