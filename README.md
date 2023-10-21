@@ -48,6 +48,7 @@
     - [39. Tipagem fraca](#39-tipagem-fraca)
     - [40. Tipos em JavaScript: Number](#40-tipos-em-javascript-number)
     - [41. Number: Alguns cuidados](#41-number-alguns-cuidados)
+    - [42. Usando Math](#42-usando-math)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -399,5 +400,11 @@ console.log(Number);
 ### 41. Number: Alguns cuidados
 
 [Arquivo](fundamentos/numerosAlgunsCuidados.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/9275bd889e4aa5d182ce01a0ddb6498a90a6bb85)
+
+### 42. Usando Math
+
+[Arquivo](fundamentos/math.js)
 
 [Commit]()
