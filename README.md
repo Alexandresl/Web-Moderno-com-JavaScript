@@ -50,6 +50,7 @@
     - [41. Number: Alguns cuidados](#41-number-alguns-cuidados)
     - [42. Usando Math](#42-usando-math)
     - [43. Tipos em JavaScript: String](#43-tipos-em-javascript-string)
+    - [44. Usando Template Strings](#44-usando-template-strings)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -413,5 +414,11 @@ console.log(Number);
 ### 43. Tipos em JavaScript: String
 
 [Arquivo](fundamentos/strings.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/d50fba156202536db58c2c63790eeee3aaa907af)
+
+### 44. Usando Template Strings
+
+[Arquivo](fundamentos/templateString.js)
 
 [Commit]()
