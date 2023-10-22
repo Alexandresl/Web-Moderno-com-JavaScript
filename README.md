@@ -55,6 +55,7 @@
     - [46. Tipos em JavaScript: Array](#46-tipos-em-javascript-array)
     - [47. Tipos em JavaScript: Object](#47-tipos-em-javascript-object)
     - [48. Entendendo o Null e o Undefined](#48-entendendo-o-null-e-o-undefined)
+    - [49. Quase tudo é função!](#49-quase-tudo-é-função)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -448,5 +449,11 @@ console.log(Number);
 ### 48. Entendendo o Null e o Undefined
 
 [Arquivo](fundamentos/nullUndefined.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/9c784ede8ba653e6ec01909495a9dafcb84a7b03)
+
+### 49. Quase tudo é função!
+
+[Arquivo](fundamentos/funcaoEmQuaseTudo.js)
 
 [Commit]()
