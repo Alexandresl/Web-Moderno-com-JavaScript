@@ -58,6 +58,7 @@
     - [49. Quase tudo é função!](#49-quase-tudo-é-função)
     - [50. Exemplos básicos de funções 01](#50-exemplos-básicos-de-funções-01)
     - [51. Exemplos básicos de funções 02](#51-exemplos-básicos-de-funções-02)
+    - [52. Declaração de variáveis com var 01](#52-declaração-de-variáveis-com-var-01)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -469,5 +470,11 @@ console.log(Number);
 ### 51. Exemplos básicos de funções 02
 
 [Arquivo](fundamentos/funcao2.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/a6f382c00a083d35d24392cd83d72e7b62cb3360)
+
+### 52. Declaração de variáveis com var 01
+
+[Arquivo](fundamentos/usandoVar1.js)
 
 [Commit]()
