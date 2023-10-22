@@ -56,6 +56,7 @@
     - [47. Tipos em JavaScript: Object](#47-tipos-em-javascript-object)
     - [48. Entendendo o Null e o Undefined](#48-entendendo-o-null-e-o-undefined)
     - [49. Quase tudo é função!](#49-quase-tudo-é-função)
+    - [50. Exemplos básicos de funções 01](#50-exemplos-básicos-de-funções-01)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -455,5 +456,11 @@ console.log(Number);
 ### 49. Quase tudo é função!
 
 [Arquivo](fundamentos/funcaoEmQuaseTudo.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/1d389f6510334a167f05fb3f361acc5512913415)
+
+### 50. Exemplos básicos de funções 01
+
+[Arquivo](fundamentos/funcao1.js)
 
 [Commit]()
