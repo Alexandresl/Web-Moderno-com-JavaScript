@@ -60,6 +60,7 @@
     - [51. Exemplos básicos de funções 02](#51-exemplos-básicos-de-funções-02)
     - [52. Declaração de variáveis com var 01](#52-declaração-de-variáveis-com-var-01)
     - [53. Declaração de variáveis com var 02](#53-declaração-de-variáveis-com-var-02)
+    - [54. Declaração de variáveis com Let](#54-declaração-de-variáveis-com-let)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -483,5 +484,11 @@ console.log(Number);
 ### 53. Declaração de variáveis com var 02
 
 [Arquivo](fundamentos/usandoVar2.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/b62981eb165b18edda98158fe31954878392b128)
+
+### 54. Declaração de variáveis com Let
+
+[Arquivo](fundamentos/usandoLet1.js)
 
 [Commit]()
