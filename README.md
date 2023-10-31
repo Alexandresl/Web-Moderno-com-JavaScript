@@ -64,6 +64,7 @@
     - [55. Usando Var em Loop 01](#55-usando-var-em-loop-01)
     - [56. Usando Let em Loop 01](#56-usando-let-em-loop-01)
     - [57. Usando Var em Loop 02](#57-usando-var-em-loop-02)
+    - [58. Usando Let em Loop 02](#58-usando-let-em-loop-02)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -511,5 +512,11 @@ console.log(Number);
 ### 57. Usando Var em Loop 02
 
 [Arquivo](fundamentos/usandoVarEmLoop2.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/f725607b2b68fe3c70557b0422023f5a2e30765e)
+
+### 58. Usando Let em Loop 02
+
+[Arquivo](fundamentos/usandoLetEmLoop2.js)
 
 [Commit]()
