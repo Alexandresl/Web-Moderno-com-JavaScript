@@ -62,6 +62,7 @@
     - [53. Declaração de variáveis com var 02](#53-declaração-de-variáveis-com-var-02)
     - [54. Declaração de variáveis com Let](#54-declaração-de-variáveis-com-let)
     - [55. Usando Var em Loop 01](#55-usando-var-em-loop-01)
+    - [56. Usando Let em Loop #02](#56-usando-let-em-loop-02)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -497,5 +498,11 @@ console.log(Number);
 ### 55. Usando Var em Loop 01
 
 [Arquivo](fundamentos/usandoVarEmLoop.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/e705e4753f8f43328e61e96dd308b829c2c62103)
+
+### 56. Usando Let em Loop #02
+
+[Arquivo](fundamentos/usandoLetEmLoop1.js)
 
 [Commit]()
