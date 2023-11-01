@@ -67,6 +67,7 @@
     - [58. Usando Let em Loop 02](#58-usando-let-em-loop-02)
     - [59. Entendendo o Hoisting](#59-entendendo-o-hoisting)
     - [60. Função vs Objeto](#60-função-vs-objeto)
+    - [61. Par Nome/Valor](#61-par-nomevalor)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -532,5 +533,11 @@ console.log(Number);
 ### 60. Função vs Objeto
 
 [Arquivo](fundamentos/objeto2.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/0ead0d49eee0ea4134256601dd9e3df866b1bb56)
+
+### 61. Par Nome/Valor
+
+[Arquivo](fundamentos/parNomeValor.js)
 
 [Commit]()
