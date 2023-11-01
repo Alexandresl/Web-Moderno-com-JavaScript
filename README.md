@@ -65,6 +65,7 @@
     - [56. Usando Let em Loop 01](#56-usando-let-em-loop-01)
     - [57. Usando Var em Loop 02](#57-usando-var-em-loop-02)
     - [58. Usando Let em Loop 02](#58-usando-let-em-loop-02)
+    - [59. Entendendo o Hoisting](#59-entendendo-o-hoisting)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -518,5 +519,11 @@ console.log(Number);
 ### 58. Usando Let em Loop 02
 
 [Arquivo](fundamentos/usandoLetEmLoop2.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/5e88db5b65be6b06143ce70d4f3951c889a3cd21)
+
+### 59. Entendendo o Hoisting
+
+[Arquivo](fundamentos/hoisting.js)
 
 [Commit]()
