@@ -66,6 +66,7 @@
     - [57. Usando Var em Loop 02](#57-usando-var-em-loop-02)
     - [58. Usando Let em Loop 02](#58-usando-let-em-loop-02)
     - [59. Entendendo o Hoisting](#59-entendendo-o-hoisting)
+    - [60. Função vs Objeto](#60-função-vs-objeto)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -525,5 +526,11 @@ console.log(Number);
 ### 59. Entendendo o Hoisting
 
 [Arquivo](fundamentos/hoisting.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/852505731571a040b985ebd0fe4df9cd907d6406)
+
+### 60. Função vs Objeto
+
+[Arquivo](fundamentos/objeto2.js)
 
 [Commit]()
