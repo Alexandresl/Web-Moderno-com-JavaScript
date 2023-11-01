@@ -68,6 +68,7 @@
     - [59. Entendendo o Hoisting](#59-entendendo-o-hoisting)
     - [60. Função vs Objeto](#60-função-vs-objeto)
     - [61. Par Nome/Valor](#61-par-nomevalor)
+    - [62. Notação ponto](#62-notação-ponto)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -539,5 +540,11 @@ console.log(Number);
 ### 61. Par Nome/Valor
 
 [Arquivo](fundamentos/parNomeValor.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/e9fc4eaed559d1ae20c74b626ec4d45ba880bca2)
+
+### 62. Notação ponto
+
+[Arquivo](fundamentos/notacaoPonto.js)
 
 [Commit]()
