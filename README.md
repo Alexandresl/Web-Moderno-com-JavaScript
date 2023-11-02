@@ -69,6 +69,7 @@
     - [60. Função vs Objeto](#60-função-vs-objeto)
     - [61. Par Nome/Valor](#61-par-nomevalor)
     - [62. Notação ponto](#62-notação-ponto)
+    - [63. Operadores: Atribuição](#63-operadores-atribuição)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -546,5 +547,11 @@ console.log(Number);
 ### 62. Notação ponto
 
 [Arquivo](fundamentos/notacaoPonto.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/81a4ff0f03c99faee51de7d22b252adb20882804)
+
+### 63. Operadores: Atribuição
+
+[Arquivo](fundamentos/atribuicao.js)
 
 [Commit]()
