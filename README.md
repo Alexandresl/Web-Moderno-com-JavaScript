@@ -70,6 +70,7 @@
     - [61. Par Nome/Valor](#61-par-nomevalor)
     - [62. Notação ponto](#62-notação-ponto)
     - [63. Operadores: Atribuição](#63-operadores-atribuição)
+    - [64. Operadores: Destructuring 01](#64-operadores-destructuring-01)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -553,5 +554,11 @@ console.log(Number);
 ### 63. Operadores: Atribuição
 
 [Arquivo](fundamentos/atribuicao.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/0e1ae671539d30cc4548ec3c03494122b45da206)
+
+### 64. Operadores: Destructuring 01
+
+[Arquivo]()
 
 [Commit]()
