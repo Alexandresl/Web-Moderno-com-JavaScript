@@ -71,6 +71,7 @@
     - [62. Notação ponto](#62-notação-ponto)
     - [63. Operadores: Atribuição](#63-operadores-atribuição)
     - [64. Operadores: Destructuring 01](#64-operadores-destructuring-01)
+    - [65. Operadores: Destructuring 02](#65-operadores-destructuring-02)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -559,6 +560,12 @@ console.log(Number);
 
 ### 64. Operadores: Destructuring 01
 
-[Arquivo]()
+[Arquivo](fundamentos/destructuring1.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/c0a1efefd93de3cff15e65d6a334dcacae45adf2)
+
+### 65. Operadores: Destructuring 02
+
+[Arquivo](fundamentos/destructuring2.js)
 
 [Commit]()
