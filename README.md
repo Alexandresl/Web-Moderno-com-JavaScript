@@ -73,6 +73,7 @@
     - [64. Operadores: Destructuring 01](#64-operadores-destructuring-01)
     - [65. Operadores: Destructuring 02](#65-operadores-destructuring-02)
     - [66. Operadores: Destructuring 03](#66-operadores-destructuring-03)
+    - [67. Operadores: Destructuring 03](#67-operadores-destructuring-03)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -574,5 +575,11 @@ console.log(Number);
 ### 66. Operadores: Destructuring 03
 
 [Arquivo](fundamentos/destructuring3.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/f02e53c69cfa43c3750e4cef05a8e56fc6b06272)
+
+### 67. Operadores: Destructuring 03
+
+[Arquivo](fundamentos/destructuring4.js)
 
 [Commit]()
