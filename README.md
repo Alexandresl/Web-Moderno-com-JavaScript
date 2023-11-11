@@ -75,6 +75,7 @@
     - [66. Operadores: Destructuring 03](#66-operadores-destructuring-03)
     - [67. Operadores: Destructuring 03](#67-operadores-destructuring-03)
     - [68. Operadores aritméticos](#68-operadores-aritméticos)
+    - [69. Operadores: relacionais](#69-operadores-relacionais)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -588,5 +589,11 @@ console.log(Number);
 ### 68. Operadores aritméticos
 
 [Arquivo](fundamentos/aritmeticos.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/5b2377b4a4b5ec091b6271f1484c9f04ce0e98ba)
+
+### 69. Operadores: relacionais
+
+[Arquivo](fundamentos/relacionais.js)
 
 [Commit]()
