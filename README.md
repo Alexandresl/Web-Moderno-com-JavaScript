@@ -82,6 +82,8 @@
     - [73. Contexto de execução: Browser vs Node](#73-contexto-de-execução-browser-vs-node)
     - [74. Tratamento de Erro (Try/Catch/Throw)](#74-tratamento-de-erro-trycatchthrow)
     - [75. Recursos](#75-recursos)
+  - [Seção 5: Javascript: Estruturas de controle](#seção-5-javascript-estruturas-de-controle)
+    - [76. Visão geral do capítulo](#76-visão-geral-do-capítulo)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -637,5 +639,11 @@ console.log(Number);
 ### 75. Recursos
 
 [Arquivo pdf](assets/75-Recursos.pdf)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/76445d736d33ad0b7dcd63143479513004bbc05d)
+
+## Seção 5: Javascript: Estruturas de controle
+
+### 76. Visão geral do capítulo
 
 [Commit]()
