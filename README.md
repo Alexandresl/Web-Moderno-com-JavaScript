@@ -80,6 +80,7 @@
     - [71. Operadores unários](#71-operadores-unários)
     - [72. Operadores ternários](#72-operadores-ternários)
     - [73. Contexto de execução: Browser vs Node](#73-contexto-de-execução-browser-vs-node)
+    - [74. Tratamento de Erro (Try/Catch/Throw)](#74-tratamento-de-erro-trycatchthrow)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -623,5 +624,11 @@ console.log(Number);
 ### 73. Contexto de execução: Browser vs Node
 
 [Arquivo](fundamentos/experimentos.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/7f659176fb969f2bbf4c1884efd2501774f16e1e)
+
+### 74. Tratamento de Erro (Try/Catch/Throw)
+
+[Arquivo](fundamentos/erro.js)
 
 [Commit]()
