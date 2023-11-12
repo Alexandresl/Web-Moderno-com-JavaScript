@@ -78,6 +78,7 @@
     - [69. Operadores: relacionais](#69-operadores-relacionais)
     - [70. Operadores lógicos](#70-operadores-lógicos)
     - [71. Operadores unários](#71-operadores-unários)
+    - [72. Operadores ternários](#72-operadores-ternários)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -609,5 +610,11 @@ console.log(Number);
 ### 71. Operadores unários
 
 [Arquivo](fundamentos/unarios.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/452aa725b1333dcfc8b03e19001be583ee3f36bd)
+
+### 72. Operadores ternários
+
+[Arquivo](fundamentos/ternario.js)
 
 [Commit]()
