@@ -77,6 +77,7 @@
     - [68. Operadores aritméticos](#68-operadores-aritméticos)
     - [69. Operadores: relacionais](#69-operadores-relacionais)
     - [70. Operadores lógicos](#70-operadores-lógicos)
+    - [71. Operadores unários](#71-operadores-unários)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -602,5 +603,11 @@ console.log(Number);
 ### 70. Operadores lógicos
 
 [Arquivo](fundamentos/logicos.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/23abac9dfffd3d74bc719b14b09b7d916194de5a)
+
+### 71. Operadores unários
+
+[Arquivo](fundamentos/unarios.js)
 
 [Commit]()
