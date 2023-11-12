@@ -85,6 +85,7 @@
   - [Seção 5: Javascript: Estruturas de controle](#seção-5-javascript-estruturas-de-controle)
     - [76. Visão geral do capítulo](#76-visão-geral-do-capítulo)
     - [77. Usando a estrutura if 01](#77-usando-a-estrutura-if-01)
+    - [78. Usando a estrutura if 02](#78-usando-a-estrutura-if-02)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -652,5 +653,11 @@ console.log(Number);
 ### 77. Usando a estrutura if 01
 
 [Arquivo](controle/if1.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/9dff514111bfb4c15397b71ea572e4499bd05a6d)
+
+### 78. Usando a estrutura if 02
+
+[Arquivo](controle/if2.js)
 
 [Commit]()
