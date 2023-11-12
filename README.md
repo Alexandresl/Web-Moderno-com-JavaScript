@@ -81,6 +81,7 @@
     - [72. Operadores ternários](#72-operadores-ternários)
     - [73. Contexto de execução: Browser vs Node](#73-contexto-de-execução-browser-vs-node)
     - [74. Tratamento de Erro (Try/Catch/Throw)](#74-tratamento-de-erro-trycatchthrow)
+    - [75. Recursos](#75-recursos)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -630,5 +631,11 @@ console.log(Number);
 ### 74. Tratamento de Erro (Try/Catch/Throw)
 
 [Arquivo](fundamentos/erro.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/24e4508d2ed4e794c1f1b6fb7697d97736d815d9)
+
+### 75. Recursos
+
+[Arquivo pdf](assets/75-Recursos.pdf)
 
 [Commit]()
