@@ -79,6 +79,7 @@
     - [70. Operadores lógicos](#70-operadores-lógicos)
     - [71. Operadores unários](#71-operadores-unários)
     - [72. Operadores ternários](#72-operadores-ternários)
+    - [73. Contexto de execução: Browser vs Node](#73-contexto-de-execução-browser-vs-node)
 
 ## Seção 1: Introdução Curso Desenvolvimento Web
 
@@ -616,5 +617,11 @@ console.log(Number);
 ### 72. Operadores ternários
 
 [Arquivo](fundamentos/ternario.js)
+
+[Commit](https://github.com/Alexandresl/Web-Moderno-com-JavaScript/commit/1f4e75dfcd814d94f6490deb23fab2f77b3d1b91)
+
+### 73. Contexto de execução: Browser vs Node
+
+[Arquivo](fundamentos/experimentos.js)
 
 [Commit]()
